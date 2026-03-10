@@ -1,0 +1,84 @@
+<div class="bck-module bck-media-news el-show-desktop-only " data-page-id="1314538" style=" display:block;" data-track-zone-name="B1">
+    	<div class="media-news__content is-paddingless">
+             <div class="media">
+                                <figure class="media-left image has-media" style="display: block;">
+                    <div style="display: block;"> 
+                        <a class="image is-310x230 has-media" href="https://milano.corriere.it/notizie/cronaca/26_gennaio_09/urbanistica-a-milano-stefano-boeri-e-altre-sei-persone-rinviati-a-giudizio-per-il-bosconavigli-l-accusa-e-abusi-edilizi-362c5a8e-8199-4627-8468-219b08b9exlk.shtml">  
+                              
+                                <img alt-type="nazionale" loading="lazy" width="310" height="230" alt="Urbanistica a Milano, Stefano Boeri e altre sei persone rinviati a giudizio per il Bosconavigli: l'accusa è abusi edilizi. La difesa: «Il fatto non sussiste»" src="https://dimages2.corriereobjects.it/files/image_620_460/uploads/2026/01/09/696146ee6c70f.jpeg" data-full-src="https://dimages2.corriereobjects.it/uploads/2026/01/09/696146ee6c70f.jpeg" pinger-seen="true">
+                                <span class="icon-shadow has-text-white" player-icon="false" is-mobile="false" overlay-desc="false" style="visibility: hidden;">
+    
+</span>                            
+                        </a>
+                        
+                    </div>
+                </figure>
+                 
+        
+                <div class="media-content">
+                    
+                        
+    
+     
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    <span class="overtitle-art is-small-black is-mr-b-8 has-text-grey-dusty" data-is-scheduled-supratitle-active="">
+        
+        <a class="lead-category" style="display: none;" href="https://milano.corriere.it/notizie/cronaca/26_gennaio_09/urbanistica-a-milano-stefano-boeri-e-altre-sei-persone-rinviati-a-giudizio-per-il-bosconavigli-l-accusa-e-abusi-edilizi-362c5a8e-8199-4627-8468-219b08b9exlk.shtml"></a>
+    <span class="" id="m7876-7875-7877">
+
+            
+
+            
+
+        
+
+            
+
+            
+
+            
+
+            <div>
+                
+            <span class="overtitle-art is-small-black is-mr-b-8 has-text-grey-dusty">milano</span></div>
+        </span></span>
+
+
+                    
+                                            <h4 class="title-art-hp is-line-h-106 is-medium" rcs-mobile-allow-br="">
+                            
+
+                        <a class="has-text-black " id="m7884-7883-7885" href="https://milano.corriere.it/notizie/cronaca/26_gennaio_09/urbanistica-a-milano-stefano-boeri-e-altre-sei-persone-rinviati-a-giudizio-per-il-bosconavigli-l-accusa-e-abusi-edilizi-362c5a8e-8199-4627-8468-219b08b9exlk.shtml">Stefano Boeri e altre sei persone rinviati a giudizio per il Bosconavigli: l'accusa è abusi edilizi. La difesa: «Il fatto non sussiste»</a></h4>
+                    
+                    
+                        
+                    <span class="author-art is-xsmall-it is-mr-t-15 " id="m7890-7889-7891">di Redazione Milano</span>
+                    <p class="subtitle-art is-mr-t-8">
+                        
+                    <a class="has-text-grey-dove " id="m7896-7895-7897" href="https://milano.corriere.it/notizie/cronaca/26_gennaio_09/urbanistica-a-milano-stefano-boeri-e-altre-sei-persone-rinviati-a-giudizio-per-il-bosconavigli-l-accusa-e-abusi-edilizi-362c5a8e-8199-4627-8468-219b08b9exlk.shtml">Sei fra costruttori, architetti e funzionari del Comune di Milano: processo per il progetto di lusso di Scalo San Cristoforo</a></p>
+                    
+                    
+                        
+
+                    
+                </div>
+             </div>         </div>
+    </div>
+

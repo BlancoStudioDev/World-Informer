@@ -1,0 +1,91 @@
+[
+    {
+        "name": "Extreme Pizza",
+        "lat": 38.8624,
+        "lng": -77.0601,
+        "activity": 85,
+        "status": "OPEN",
+        "description": "Pentagon City location. Unusually high volume of orders."
+    },
+    {
+        "name": "District Pizza Palace",
+        "lat": 38.8751,
+        "lng": -77.0512,
+        "activity": 40,
+        "status": "OPEN",
+        "description": "Normal order volume."
+    },
+    {
+        "name": "We, The Pizza (Crystal City)",
+        "lat": 38.8586,
+        "lng": -77.0496,
+        "activity": 92,
+        "status": "OPEN",
+        "description": "Crystal City location. Massive surge in late-night deliveries."
+    },
+    {
+        "name": "We, The Pizza (Ballston)",
+        "lat": 38.8814,
+        "lng": -77.1118,
+        "activity": 35,
+        "status": "OPEN",
+        "description": "Normal operations."
+    },
+    {
+        "name": "Papa Johns Pizza",
+        "lat": 38.8682,
+        "lng": -77.0851,
+        "activity": 78,
+        "status": "OPEN",
+        "description": "High volume of bulk orders."
+    },
+    {
+        "name": "Pizzato Pizza",
+        "lat": 38.8601,
+        "lng": -77.0612,
+        "activity": 10,
+        "status": "CLOSED",
+        "description": "Currently closed."
+    },
+    {
+        "name": "Domino's Pizza (Pentagon Closest)",
+        "lat": 38.8615,
+        "lng": -77.0523,
+        "activity": 98,
+        "status": "OPEN",
+        "description": "Operating at max capacity. Wait times > 2 hours."
+    },
+    {
+        "name": "Freddie's Beach Bar & Restaurant",
+        "lat": 38.8553,
+        "lng": -77.0501,
+        "activity": 65,
+        "status": "OPEN",
+        "description": "Higher than average late-night crowd."
+    },
+    {
+        "name": "The Little Gay Pub",
+        "lat": 38.9082,
+        "lng": -77.0221,
+        "activity": 50,
+        "status": "OPEN",
+        "description": "Steady activity, downtown location."
+    },
+    {
+        "name": "Double Dippers Ice Cream",
+        "lat": 38.8550,
+        "lng": -77.0505,
+        "activity": 20,
+        "status": "CLOSED",
+        "description": "Usually closed at this hour."
+    },
+    {
+        "name": "The Pentagon",
+        "lat": 38.8719,
+        "lng": -77.0563,
+        "activity": 100,
+        "status": "ALERT",
+        "description": "Department of Defense Headquarters. Center of the Pizza Index.",
+        "isPentagon": true
+    }
+]

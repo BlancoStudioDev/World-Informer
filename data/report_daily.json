@@ -1,0 +1,188 @@
+{
+    "generated_at": 1773081216,
+    "total_count": 728,
+    "day_at_glance": {
+        "total_articles": 728,
+        "peak_hour": {
+            "slot": "18:00-20:59",
+            "count": 728
+        },
+        "timeline": [
+            {
+                "slot": "18:00-20:59",
+                "count": 728
+            }
+        ],
+        "geo_focus": [
+            {
+                "region": "Europa",
+                "mentions": 746
+            },
+            {
+                "region": "Italia",
+                "mentions": 416
+            },
+            {
+                "region": "Medio Oriente",
+                "mentions": 333
+            },
+            {
+                "region": "USA",
+                "mentions": 222
+            },
+            {
+                "region": "Russia",
+                "mentions": 90
+            },
+            {
+                "region": "Cina",
+                "mentions": 72
+            }
+        ],
+        "categories": [
+            {
+                "name": "Tecnologia",
+                "score": 411
+            },
+            {
+                "name": "Economia",
+                "score": 284
+            },
+            {
+                "name": "Geopolitica",
+                "score": 283
+            },
+            {
+                "name": "Politica",
+                "score": 253
+            },
+            {
+                "name": "Emergenze",
+                "score": 60
+            }
+        ],
+        "domestic_vs_international": {
+            "italia": 416,
+            "international": 1520
+        }
+    },
+    "major_stories": [
+        {
+            "headline": "++ Borsa: l'Europa chiude in calo, in fumo altri 116 miliardi ++",
+            "count": 7,
+            "source": "ansa",
+            "related": [
+                "Borsa Europa in calo, Milano -0,29%. Brucati 116 miliardi di capitalizzazione",
+                "Borsa: l'Europa riduce il calo con il petrolio sotto i 100 dollari",
+                "Borsa: l'Europa riduce il calo con Wall Street, Milano -1%"
+            ],
+            "link": "https://www.ansa.it/sito/notizie/topnews/2026/03/09/-borsa-leuropa-chiude-in-calo-in-fumo-altri-116-miliardi-_aa16e52f-16d1-444f-93f5-892e271527b0.html"
+        },
+        {
+            "headline": "Raggiunta una intesa sul successore di Khamenei. Torre in fiamme a Kuwait City, pioggia acida a Teheran",
+            "count": 5,
+            "source": "ansa",
+            "related": [
+                "Pioggia acida e fumo nero, 'a Teheran sembra il giorno del giudizio' IL REPORTAGE",
+                "Protezione civile Teheran, 'pioggia acida, rimanere in casa'",
+                "Torre in fiamme a Kuwait City dopo attacco droni"
+            ],
+            "link": "https://www.ansa.it/sito/notizie/mondo/2026/03/08/la-guerra-in-medio-oriente-la-giornata-dell8-marzo-liveblog_64e619a7-d13d-49ab-8c86-0ca1d65a9ea9.html"
+        },
+        {
+            "headline": "Lo spread tra Btp e Bund chiude in lieve calo a 75 punti",
+            "count": 5,
+            "source": "ansa",
+            "related": [
+                "Rendimenti dei titoli di stato in rialzo, spread Btp Bund a 84 punti",
+                "Lo spread tra Btp e Bund tedeschi apre in rialzo a 83,2 punti",
+                "Lo spread tra Btp e Bund tedeschi chiude in rialzo a 76,1 punti"
+            ],
+            "link": "https://www.ansa.it/sito/notizie/topnews/2026/03/09/lo-spread-tra-btp-e-bund-chiude-in-lieve-calo-a-75-punti_dd33ce92-39fc-4b62-8c82-ad1efa355cef.html"
+        },
+        {
+            "headline": "As Khamenei son takes over, Nigerian Shias mourn Iran’s old supreme leader",
+            "count": 5,
+            "source": "aljazeera",
+            "related": [
+                "Iranians celebrate as Mojtaba Khamenei named new supreme leader",
+                "Who is Mojtaba Khamenei, Iran's new supreme leader? ",
+                "US and Israel launch strikes across Iran as crowds celebrate new supreme leader"
+            ],
+            "link": "https://www.aljazeera.com/features/2026/3/9/as-khamenei-son-takes-over-nigerian-shias-mourn-irans-old-supreme-leader?traffic_source=rss"
+        },
+        {
+            "headline": "Borsa: Europa in rosso in attesa di Wall Street, Milano -1,6%",
+            "count": 4,
+            "source": "ansa",
+            "related": [
+                "Borsa: Europa debole, effetto Iran e rialzi Bce, Milano -1,5%",
+                "Borsa: Europa sotto pressione, future in rosso, Milano -2,25%",
+                "Borsa: Milano pesante (-2,58%), in rosso Prysmian e banche"
+            ],
+            "link": "https://www.ansa.it/sito/notizie/economia/criptovalute/2026/03/09/borsa-europa-in-rosso-in-attesa-di-wall-street-milano-16_8b8ba3e2-1b1a-4d3c-be36-a6768eeca58d.html"
+        }
+    ],
+    "sources_volume": {
+        "ansa": 327,
+        "ansa_ultima_ora": 16,
+        "aljazeera": 25,
+        "bbc": 32,
+        "cnn": 29,
+        "corriere": 139,
+        "guardian": 45,
+        "telegram": 115
+    },
+    "latest_headlines": [
+        {
+            "title": "⚡#BREAKINGTrump to NBC: We can't rule out taking control of Iranian oil - but it's too early to talk",
+            "link": "https://t.me/warmonitors/41592",
+            "source": "telegram"
+        },
+        {
+            "title": "⚡#BREAKINGTurkish Foreign Ministry sources: Iranian ambassador summoned following today's Iranian mi",
+            "link": "https://t.me/warmonitors/41591",
+            "source": "telegram"
+        },
+        {
+            "title": "⚡️Explosions rock Victoria base in BaghdadC-RAM activated",
+            "link": "https://t.me/warmonitors/41590",
+            "source": "telegram"
+        },
+        {
+            "title": "⚡#BREAKINGHezbollah in an official statement: \"We attacked the satellite communications station belo",
+            "link": "https://t.me/warmonitors/41588",
+            "source": "telegram"
+        },
+        {
+            "title": "⚡️Commander of the Revolutionary Guard Aerospace Force: From now on, we will not launch any missile ",
+            "link": "https://t.me/warmonitors/41587",
+            "source": "telegram"
+        },
+        {
+            "title": "⚡Putin: Russia is ready to supply Europe with energy resources",
+            "link": "https://t.me/warmonitors/41586",
+            "source": "telegram"
+        },
+        {
+            "title": "⚡Al-Araby TV correspondent: Explosions heard in the Iranian capital, Tehran",
+            "link": "https://t.me/warmonitors/41585",
+            "source": "telegram"
+        },
+        {
+            "title": "⚡Republican Senator Lindsey Graham: \"Why does the US need a military alliance with Saudi Arabia if i",
+            "link": "https://t.me/warmonitors/41583",
+            "source": "telegram"
+        },
+        {
+            "title": "⚡️#BREAKINGNATO Downs Second Iranian Missile Over Eastern Mediterranean; Debris Falls in Turkey",
+            "link": "https://t.me/warmonitors/41582",
+            "source": "telegram"
+        },
+        {
+            "title": "⚡️Airstrikes reported in Tehran and Ahvaz, Iran.",
+            "link": "https://t.me/warmonitors/41581",
+            "source": "telegram"
+        }
+    ]
+}

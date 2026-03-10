@@ -1,0 +1,136 @@
+[
+    {
+        "name": "Ukraine - Russia War",
+        "countries": [
+            "Ukraine",
+            "Russia"
+        ],
+        "intensity": "high",
+        "description": "Full-scale armed conflict since February 2022"
+    },
+    {
+        "name": "Gaza - Israel Conflict",
+        "countries": [
+            "Israel",
+            "Palestine"
+        ],
+        "intensity": "high",
+        "description": "Intense military operations since October 2023"
+    },
+    {
+        "name": "Iran - Regional Tensions",
+        "countries": [
+            "Iran"
+        ],
+        "intensity": "high",
+        "description": "Current regional conflict and military operations"
+    },
+    {
+        "name": "Sudan Civil War",
+        "countries": [
+            "Sudan",
+            "South Sudan"
+        ],
+        "intensity": "high",
+        "description": "Civil war between SAF and RSF since April 2023"
+    },
+    {
+        "name": "Myanmar Civil War",
+        "countries": [
+            "Myanmar"
+        ],
+        "intensity": "high",
+        "description": "Armed resistance against military junta since 2021"
+    },
+    {
+        "name": "Eastern DRC Conflict",
+        "countries": [
+            "Democratic Republic of the Congo",
+            "Republic of the Congo"
+        ],
+        "intensity": "high",
+        "description": "M23 and armed groups in North/South Kivu"
+    },
+    {
+        "name": "Somalia - Al-Shabaab",
+        "countries": [
+            "Somalia"
+        ],
+        "intensity": "medium",
+        "description": "Ongoing counterinsurgency against Al-Shabaab"
+    },
+    {
+        "name": "Syria Conflict",
+        "countries": [
+            "Syria"
+        ],
+        "intensity": "medium",
+        "description": "Post-civil war instability and territorial disputes"
+    },
+    {
+        "name": "Yemen Civil War",
+        "countries": [
+            "Yemen"
+        ],
+        "intensity": "medium",
+        "description": "Houthi insurgency and Red Sea tensions"
+    },
+    {
+        "name": "Sahel Crisis",
+        "countries": [
+            "Mali",
+            "Burkina Faso",
+            "Niger"
+        ],
+        "intensity": "medium",
+        "description": "Jihadist insurgency across the Sahel region"
+    },
+    {
+        "name": "Ethiopia - Regional Conflicts",
+        "countries": [
+            "Ethiopia"
+        ],
+        "intensity": "medium",
+        "description": "Post-Tigray instability, Amhara and Oromia tensions"
+    },
+    {
+        "name": "Haiti Gang Violence",
+        "countries": [
+            "Haiti"
+        ],
+        "intensity": "medium",
+        "description": "Armed gang control and humanitarian crisis"
+    },
+    {
+        "name": "Lebanon - South Border",
+        "countries": [
+            "Lebanon"
+        ],
+        "intensity": "medium",
+        "description": "Cross-border exchanges and instability"
+    },
+    {
+        "name": "Colombia - Armed Groups",
+        "countries": [
+            "Colombia"
+        ],
+        "intensity": "low",
+        "description": "ELN and FARC dissident activity"
+    },
+    {
+        "name": "Afghanistan - Taliban vs ISIS-K",
+        "countries": [
+            "Afghanistan"
+        ],
+        "intensity": "low",
+        "description": "ISIS-Khorasan attacks and resistance pockets"
+    },
+    {
+        "name": "Pakistan Insurgency",
+        "countries": [
+            "Pakistan"
+        ],
+        "intensity": "low",
+        "description": "TTP and Baloch separatist insurgency"
+    }
+]

@@ -1,0 +1,1292 @@
+[
+  {
+    "name": "Indústrias Nucleares do Brasil",
+    "lat": -22.5045682,
+    "lng": -44.6413994,
+    "output": ""
+  },
+  {
+    "name": "RHF de l'Institut Laue Langevin",
+    "lat": 45.2060995,
+    "lng": 5.6928449,
+    "output": "57 MW"
+  },
+  {
+    "name": "Hartlepool Nuclear Power Station",
+    "lat": 54.6351559,
+    "lng": -1.1812918,
+    "output": "1180 MW"
+  },
+  {
+    "name": "Centrale nucléaire de Tihange",
+    "lat": 50.5335384,
+    "lng": 5.2739027,
+    "output": "3008 MW"
+  },
+  {
+    "name": "Atómové elektrárne Bohunice",
+    "lat": 48.4934733,
+    "lng": 17.6842698,
+    "output": "1010 MW"
+  },
+  {
+    "name": "Kerncentrale Doel",
+    "lat": 51.3247584,
+    "lng": 4.2560282,
+    "output": "2935 MW"
+  },
+  {
+    "name": "Чорнобильська Атомна Електростанція",
+    "lat": 51.389778,
+    "lng": 30.1042742,
+    "output": "0"
+  },
+  {
+    "name": "Centre Nucléaire de Production d'Electricité de Cattenom",
+    "lat": 49.4170589,
+    "lng": 6.2196706,
+    "output": "5200 MW"
+  },
+  {
+    "name": "Diablo Canyon Power Plant",
+    "lat": 35.2118732,
+    "lng": -120.8501459,
+    "output": "2323 MW"
+  },
+  {
+    "name": "Pickering Nuclear Generating Station",
+    "lat": 43.8111636,
+    "lng": -79.0632238,
+    "output": "2086 MW"
+  },
+  {
+    "name": "TR épület",
+    "lat": 47.4789816,
+    "lng": 19.0583503,
+    "output": "yes"
+  },
+  {
+    "name": "Arkansas Nuclear One",
+    "lat": 35.3130923,
+    "lng": -93.2316973,
+    "output": "1824 MW"
+  },
+  {
+    "name": "Braidwood Nuclear Generating Station",
+    "lat": 41.2437027,
+    "lng": -88.2291965,
+    "output": "2449.8 MW"
+  },
+  {
+    "name": "Olkiluodon ydinvoimalaitos",
+    "lat": 61.2373515,
+    "lng": 21.4385319,
+    "output": "3380 MW"
+  },
+  {
+    "name": "Sizewell B Nuclear Power Station",
+    "lat": 52.2143975,
+    "lng": 1.6188936,
+    "output": "1195 MW"
+  },
+  {
+    "name": "Palo Verde Nuclear Generating Station",
+    "lat": 33.386522,
+    "lng": -112.8647563,
+    "output": "3937 MW"
+  },
+  {
+    "name": "Запорізька АЕС",
+    "lat": 47.5104452,
+    "lng": 34.5878505,
+    "output": "5700 MW"
+  },
+  {
+    "name": "Хмельницька атомна електростанція",
+    "lat": 50.3019805,
+    "lng": 26.647958,
+    "output": "2000 MW"
+  },
+  {
+    "name": "Рівненська АЕС",
+    "lat": 51.3252634,
+    "lng": 25.8968651,
+    "output": "2.835 GW"
+  },
+  {
+    "name": "田湾核电站",
+    "lat": 34.6881306,
+    "lng": 119.4544862,
+    "output": "5890 MW"
+  },
+  {
+    "name": "Lemoizko zentral nuklearra",
+    "lat": 43.4326295,
+    "lng": -2.8728296,
+    "output": "yes"
+  },
+  {
+    "name": "South Texas Project Electric Generating Station",
+    "lat": 28.7953553,
+    "lng": -96.0479122,
+    "output": "2708.6 MW"
+  },
+  {
+    "name": "Ростовская АЭС",
+    "lat": 47.6010898,
+    "lng": 42.3783658,
+    "output": "4000 MW"
+  },
+  {
+    "name": "Centre Nucléaire de Production d'Electricité de Civaux",
+    "lat": 46.4534996,
+    "lng": 0.6522588,
+    "output": "2900 MW"
+  },
+  {
+    "name": "Centre Nucléaire de Production d'Electricité de Golfech",
+    "lat": 44.1075423,
+    "lng": 0.8469585,
+    "output": "2620 MW"
+  },
+  {
+    "name": "Centrale nucléaire de Saint-Laurent des Eaux",
+    "lat": 47.7196371,
+    "lng": 1.5811841,
+    "output": "1800 MW"
+  },
+  {
+    "name": "Centre Nucléaire de Production d'Electricité du Bugey",
+    "lat": 45.799453,
+    "lng": 5.2688623,
+    "output": "3580 MW"
+  },
+  {
+    "name": "Millstone Nuclear Power Plant",
+    "lat": 41.3124968,
+    "lng": -72.1679764,
+    "output": "2162.9 MW"
+  },
+  {
+    "name": "Dresden Generating Station",
+    "lat": 41.3897171,
+    "lng": -88.2683493,
+    "output": "1700 MW"
+  },
+  {
+    "name": "Балаковская АЭС",
+    "lat": 52.0909993,
+    "lng": 47.9565336,
+    "output": "4 GW"
+  },
+  {
+    "name": "Centre Nucléaire de Production d'Electricité de Saint-Alban",
+    "lat": 45.4074841,
+    "lng": 4.7538521,
+    "output": "2670 MW"
+  },
+  {
+    "name": "Centre Nucléaire d'Electricité de Belleville sur Loire",
+    "lat": 47.508829,
+    "lng": 2.8765706,
+    "output": "2620 MW"
+  },
+  {
+    "name": "Central Nuclear de Trillo",
+    "lat": 40.7005446,
+    "lng": -2.6246575,
+    "output": "1003 MW"
+  },
+  {
+    "name": "Centre Nucléaire de Production d'Electricité de Cruas-Meysse",
+    "lat": 44.6323924,
+    "lng": 4.7552896,
+    "output": "3660 MW"
+  },
+  {
+    "name": "Forsmarks Kärnkraftverk",
+    "lat": 60.4037809,
+    "lng": 18.1675322,
+    "output": "3271 MW"
+  },
+  {
+    "name": "Columbia Generating Station",
+    "lat": 46.4720244,
+    "lng": -119.3332294,
+    "output": "1200 MW"
+  },
+  {
+    "name": "PSEG Salem and Hope Creek Nuclear Generating Stations",
+    "lat": 39.4660793,
+    "lng": -75.5300247,
+    "output": "3470 MW"
+  },
+  {
+    "name": "Kernenergiecentrale Borssele",
+    "lat": 51.4317955,
+    "lng": 3.7191785,
+    "output": "485 MW"
+  },
+  {
+    "name": "D.C. Cook Nuclear Power Plant",
+    "lat": 41.9758132,
+    "lng": -86.5654647,
+    "output": "2285.3 MW"
+  },
+  {
+    "name": "NE Krško",
+    "lat": 45.9376648,
+    "lng": 15.5159575,
+    "output": "688 MW"
+  },
+  {
+    "name": "Torness Nuclear Power Station",
+    "lat": 55.9683842,
+    "lng": -2.4088084,
+    "output": "1364 MW"
+  },
+  {
+    "name": "Central Nuclear Laguna Verde",
+    "lat": 19.7216547,
+    "lng": -96.4104272,
+    "output": "1552 MW"
+  },
+  {
+    "name": "Madras Atomic Power Station",
+    "lat": 12.5570495,
+    "lng": 80.1723948,
+    "output": "440 MW"
+  },
+  {
+    "name": "Ленинградская АЭС-2",
+    "lat": 59.829343,
+    "lng": 29.0587627,
+    "output": "2167 MW"
+  },
+  {
+    "name": "旧福島第一原子力発電所",
+    "lat": 37.4227248,
+    "lng": 141.029742,
+    "output": "yes"
+  },
+  {
+    "name": "福島第二原子力発電所",
+    "lat": 37.3161165,
+    "lng": 141.0221696,
+    "output": "4400 MW"
+  },
+  {
+    "name": "Narora Atomic Power Station",
+    "lat": 28.1553228,
+    "lng": 78.4079725,
+    "output": "440 MW"
+  },
+  {
+    "name": "Смоленская АЭС",
+    "lat": 54.1634839,
+    "lng": 33.2349097,
+    "output": "3000 MW"
+  },
+  {
+    "name": "Limerick Nuclear Power Plant",
+    "lat": 40.2265374,
+    "lng": -75.5868425,
+    "output": "2277 MW"
+  },
+  {
+    "name": "泊発電所",
+    "lat": 43.0362169,
+    "lng": 140.512148,
+    "output": "2070 MW"
+  },
+  {
+    "name": "Byron Nuclear Power Plant",
+    "lat": 42.075349,
+    "lng": -89.2826666,
+    "output": "2449.8 MW"
+  },
+  {
+    "name": "Wolf Creek Generating Station",
+    "lat": 38.2391422,
+    "lng": -95.6874244,
+    "output": "1267.7 MW"
+  },
+  {
+    "name": "Catawba Nuclear Station",
+    "lat": 35.053466,
+    "lng": -81.0716461,
+    "output": "2410.2 MW"
+  },
+  {
+    "name": "Seabrook Station",
+    "lat": 42.8978448,
+    "lng": -70.8550479,
+    "output": "1242 MW"
+  },
+  {
+    "name": "Centro de Estudios Nucleares La Reina",
+    "lat": -33.4286113,
+    "lng": -70.5245094,
+    "output": "yes"
+  },
+  {
+    "name": "Central nuclear de Almaraz",
+    "lat": 39.8076303,
+    "lng": -5.6960831,
+    "output": "1957 MW"
+  },
+  {
+    "name": "Central Nuclear de Cofrentes",
+    "lat": 39.214621,
+    "lng": -1.0547093,
+    "output": "1092 MW"
+  },
+  {
+    "name": "Centrala Nucleară de la Cernavodă",
+    "lat": 44.3209608,
+    "lng": 28.0558447,
+    "output": "1274 MW"
+  },
+  {
+    "name": "Clinton Clean Energy Center",
+    "lat": 40.1739405,
+    "lng": -88.8361963,
+    "output": "1138.3 MW"
+  },
+  {
+    "name": "Kakrapar Atomic Power Station",
+    "lat": 21.234989,
+    "lng": 73.3535557,
+    "output": "1140 MW"
+  },
+  {
+    "name": "Курская АЭС",
+    "lat": 51.6775878,
+    "lng": 35.6040337,
+    "output": "2000 MW"
+  },
+  {
+    "name": "Kaiga Atomic Power Station",
+    "lat": 14.8661137,
+    "lng": 74.4383179,
+    "output": "880 MW"
+  },
+  {
+    "name": "Palisades Nuclear Generating Station",
+    "lat": 42.3222624,
+    "lng": -86.3144626,
+    "output": "811.8 MW"
+  },
+  {
+    "name": "АЕЦ Козлодуй",
+    "lat": 43.7426713,
+    "lng": 23.7750929,
+    "output": "2000 MW"
+  },
+  {
+    "name": "Nine Mile Point Nuclear Generating Station",
+    "lat": 43.5206241,
+    "lng": -76.4081855,
+    "output": "2019 MW"
+  },
+  {
+    "name": "Peach Bottom Power Plant",
+    "lat": 39.7590394,
+    "lng": -76.2683135,
+    "output": "2658 MW"
+  },
+  {
+    "name": "玄海原子力発電所",
+    "lat": 33.5151599,
+    "lng": 129.8354273,
+    "output": "3.478 GW"
+  },
+  {
+    "name": "Central Nuclear Almirante Álvaro Alberto",
+    "lat": -23.0101477,
+    "lng": -44.4624772,
+    "output": "1884 MW"
+  },
+  {
+    "name": "Rhode Island Nuclear Science Center",
+    "lat": 41.4905254,
+    "lng": -71.4226518,
+    "output": "yes"
+  },
+  {
+    "name": "LaSalle Generating Station",
+    "lat": 41.2447727,
+    "lng": -88.6673138,
+    "output": "2340 MW"
+  },
+  {
+    "name": "Heavy Water Production Plant",
+    "lat": 31.9927085,
+    "lng": 72.1989163,
+    "output": "50 MW"
+  },
+  {
+    "name": "Khushab Nuclear Complex",
+    "lat": 32.0203627,
+    "lng": 72.2063032,
+    "output": ""
+  },
+  {
+    "name": "Centrale nucléaire de Nogent-sur-Seine",
+    "lat": 48.5180798,
+    "lng": 3.5175884,
+    "output": "2620 MW"
+  },
+  {
+    "name": "Centre Nucléaire de Production d'Electricité de Dampierre en Burly",
+    "lat": 47.7332883,
+    "lng": 2.5172845,
+    "output": "3560 MW"
+  },
+  {
+    "name": "Central Nuclear de Atucha I",
+    "lat": -33.9690025,
+    "lng": -59.2072596,
+    "output": "1100 MW"
+  },
+  {
+    "name": "Monticello Nuclear Generating Plant",
+    "lat": 45.3309409,
+    "lng": -93.8425956,
+    "output": "685 MW"
+  },
+  {
+    "name": "Bruce Nuclear Generating Station",
+    "lat": 44.3239502,
+    "lng": -81.581625,
+    "output": "6232 MW"
+  },
+  {
+    "name": "第二核能發電廠",
+    "lat": 25.2025462,
+    "lng": 121.6626555,
+    "output": "1896 MW"
+  },
+  {
+    "name": "Oskarshamns kärnkraftverk",
+    "lat": 57.414802,
+    "lng": 16.6715866,
+    "output": "1450 MW"
+  },
+  {
+    "name": "第一核能發電廠",
+    "lat": 25.2854775,
+    "lng": 121.5883283,
+    "output": "1208 MW"
+  },
+  {
+    "name": "Central Nuclear Embalse",
+    "lat": -32.2380707,
+    "lng": -64.4685313,
+    "output": "600 MW"
+  },
+  {
+    "name": "영변 50MW 원자로",
+    "lat": 39.7891507,
+    "lng": 125.7627141,
+    "output": "50 MW"
+  },
+  {
+    "name": "영변 5MW 원자로 부지",
+    "lat": 39.7976578,
+    "lng": 125.7547482,
+    "output": "5 MW"
+  },
+  {
+    "name": "川内原子力発電所",
+    "lat": 31.8333272,
+    "lng": 130.1893986,
+    "output": "1692 MW"
+  },
+  {
+    "name": "柏崎刈羽原子力発電所",
+    "lat": 37.4308633,
+    "lng": 138.599161,
+    "output": "7965 MW"
+  },
+  {
+    "name": "Unit 3",
+    "lat": 33.3685693,
+    "lng": -117.5542927,
+    "output": "yes"
+  },
+  {
+    "name": "Unit 2",
+    "lat": 33.369207,
+    "lng": -117.555484,
+    "output": "yes"
+  },
+  {
+    "name": "Loviisan ydinvoimalaitos",
+    "lat": 60.3707738,
+    "lng": 26.346335,
+    "output": "1014 MW"
+  },
+  {
+    "name": "Saint Lucie Nuclear Power Plant",
+    "lat": 27.3473682,
+    "lng": -80.2446247,
+    "output": "2160 MW"
+  },
+  {
+    "name": "Centre Nucléaire de Production d'Electricité du Blayais",
+    "lat": 45.2553217,
+    "lng": -0.6884174,
+    "output": "3804 MW"
+  },
+  {
+    "name": "Centre Nucléaire de Production d'Electricité de Chinon",
+    "lat": 47.2282946,
+    "lng": 0.1714546,
+    "output": "3820 MW"
+  },
+  {
+    "name": "Centre Nucléaire de Production d'Electricité de Paluel",
+    "lat": 49.8583874,
+    "lng": 0.6351711,
+    "output": "5320 MW"
+  },
+  {
+    "name": "三门核电站",
+    "lat": 29.0996638,
+    "lng": 121.6383495,
+    "output": "2314 MW"
+  },
+  {
+    "name": "昌江核电站",
+    "lat": 19.4603166,
+    "lng": 108.8968674,
+    "output": "1300 MW"
+  },
+  {
+    "name": "Koeberg Nuclear Power Station",
+    "lat": -33.676663,
+    "lng": 18.4334608,
+    "output": "1940 MW"
+  },
+  {
+    "name": "Нововоронежская АЭС-2",
+    "lat": 51.2656626,
+    "lng": 39.2129356,
+    "output": "2361 MW"
+  },
+  {
+    "name": "Davis-Besse Nuclear Power Station",
+    "lat": 41.5935231,
+    "lng": -83.0793559,
+    "output": "925.2 MW"
+  },
+  {
+    "name": "志賀原子力発電所",
+    "lat": 37.0609722,
+    "lng": 136.7292488,
+    "output": "1898 MW"
+  },
+  {
+    "name": "寧德核電站",
+    "lat": 27.0454921,
+    "lng": 120.2829699,
+    "output": "4072 MW"
+  },
+  {
+    "name": "Հայկական ատոմային էլեկտրակայան",
+    "lat": 40.1829738,
+    "lng": 44.1478767,
+    "output": "408 MW"
+  },
+  {
+    "name": "Darlington Nuclear Generating Station",
+    "lat": 43.8705928,
+    "lng": -78.719938,
+    "output": "3512 MW"
+  },
+  {
+    "name": "阳江核电站",
+    "lat": 21.7095228,
+    "lng": 112.2611581,
+    "output": "6000 MW"
+  },
+  {
+    "name": "한울원자력발전소",
+    "lat": 37.0879427,
+    "lng": 129.3863156,
+    "output": "5881 MW"
+  },
+  {
+    "name": "大亚湾核电站",
+    "lat": 22.5971098,
+    "lng": 114.5443023,
+    "output": "1888 MW"
+  },
+  {
+    "name": "方家山核电站",
+    "lat": 30.4410495,
+    "lng": 120.9411488,
+    "output": "2024 MW"
+  },
+  {
+    "name": "海阳核电站",
+    "lat": 36.7110118,
+    "lng": 121.385146,
+    "output": "2340 MW"
+  },
+  {
+    "name": "红沿河核电站",
+    "lat": 39.7916086,
+    "lng": 121.4805771,
+    "output": "5305 MW"
+  },
+  {
+    "name": "岭澳核电站",
+    "lat": 22.6056279,
+    "lng": 114.5530489,
+    "output": "3914 MW"
+  },
+  {
+    "name": "台山核电站",
+    "lat": 21.917149,
+    "lng": 112.9818951,
+    "output": "3320 MW"
+  },
+  {
+    "name": "福清核电站",
+    "lat": 25.4427763,
+    "lng": 119.4426936,
+    "output": "6678 MW"
+  },
+  {
+    "name": "محطة براكة للطاقة النووية",
+    "lat": 23.9622453,
+    "lng": 52.2310182,
+    "output": "5600 MW"
+  },
+  {
+    "name": "Centro de Estudios Nucleares Lo Aguirre - Comisión Chilena de Energía Nuclear",
+    "lat": -33.4507168,
+    "lng": -70.9328637,
+    "output": "yes"
+  },
+  {
+    "name": "James A. FitzPatrick Nuclear Power Plant",
+    "lat": 43.5222847,
+    "lng": -76.3976138,
+    "output": "838 MW"
+  },
+  {
+    "name": "Heysham Nuclear Power Station",
+    "lat": 54.0287139,
+    "lng": -2.9170944,
+    "output": "2433 MW"
+  },
+  {
+    "name": "Beaver Valley Nuclear Generating Station",
+    "lat": 40.6217756,
+    "lng": -80.4323647,
+    "output": "1846.8 MW"
+  },
+  {
+    "name": "Rajasthan Atomic Power Station",
+    "lat": 24.8766056,
+    "lng": 75.6235709,
+    "output": "1085 MW"
+  },
+  {
+    "name": "中国实验快堆",
+    "lat": 39.7407614,
+    "lng": 116.0305905,
+    "output": "20 MW"
+  },
+  {
+    "name": "Tarapur Atomic Power Station",
+    "lat": 19.8325926,
+    "lng": 72.6691512,
+    "output": "1400 MW"
+  },
+  {
+    "name": "Virgil C. Summer Nuclear Generating Station",
+    "lat": 34.2959838,
+    "lng": -81.3145493,
+    "output": "1029.6 MW"
+  },
+  {
+    "name": "Ōma Nuclear Power Plant",
+    "lat": 41.5119021,
+    "lng": 140.911861,
+    "output": ""
+  },
+  {
+    "name": "Kudankulam Nuclear Power Plant",
+    "lat": 8.1725383,
+    "lng": 77.7055336,
+    "output": "1864 MW"
+  },
+  {
+    "name": "Callaway Energy Center",
+    "lat": 38.7634859,
+    "lng": -91.7803405,
+    "output": "1235.8 MW"
+  },
+  {
+    "name": "Chamsa Nuclear Power Complex",
+    "lat": 32.3870599,
+    "lng": 71.466973,
+    "output": "1228 MW"
+  },
+  {
+    "name": "한빛원자력발전소",
+    "lat": 35.4102172,
+    "lng": 126.4175763,
+    "output": "5913 MW"
+  },
+  {
+    "name": "Нововоронежская АЭС",
+    "lat": 51.2752566,
+    "lng": 39.202547,
+    "output": "1417 MW"
+  },
+  {
+    "name": "R.E. Ginna Nuclear Station",
+    "lat": 43.2774193,
+    "lng": -77.3090798,
+    "output": "614 MW"
+  },
+  {
+    "name": "월성원자력발전소",
+    "lat": 35.7178785,
+    "lng": 129.4756392,
+    "output": "4566 MW"
+  },
+  {
+    "name": "고리원자력발전소",
+    "lat": 35.3284614,
+    "lng": 129.2955077,
+    "output": "7489 MW"
+  },
+  {
+    "name": "KANUPP 2&3",
+    "lat": 24.8518147,
+    "lng": 66.7749905,
+    "output": "2034 MW"
+  },
+  {
+    "name": "Susquehanna Steam Electric Station",
+    "lat": 41.0923897,
+    "lng": -76.1479475,
+    "output": "2600 MW"
+  },
+  {
+    "name": "Perry Nuclear Power Plant",
+    "lat": 41.7979077,
+    "lng": -81.1449885,
+    "output": "1230 MW"
+  },
+  {
+    "name": "Unknown Nuclear Plant",
+    "lat": 19.0077866,
+    "lng": 72.9194658,
+    "output": "yes"
+  },
+  {
+    "name": "台山核电站",
+    "lat": 21.9123436,
+    "lng": 112.9775396,
+    "output": "yes"
+  },
+  {
+    "name": "Centrale nucléaire de Flamanville",
+    "lat": 49.5381089,
+    "lng": -1.8802068,
+    "output": "4290 MW"
+  },
+  {
+    "name": "敦賀原子力発電所",
+    "lat": 35.7519833,
+    "lng": 136.0199672,
+    "output": "1160 MW"
+  },
+  {
+    "name": "伊方原子力発電所",
+    "lat": 33.489017,
+    "lng": 132.3089369,
+    "output": "1456 MW"
+  },
+  {
+    "name": "高浜原子力発電所",
+    "lat": 35.5229718,
+    "lng": 135.5039781,
+    "output": "3392 MW"
+  },
+  {
+    "name": "石岛湾核电站",
+    "lat": 36.9731365,
+    "lng": 122.5247407,
+    "output": "200 MW"
+  },
+  {
+    "name": "Исследовательские ядерные установки НИИАР",
+    "lat": 54.1905628,
+    "lng": 49.4725728,
+    "output": "72 MW"
+  },
+  {
+    "name": "রূপপুর পারমাণবিক বিদ্যুৎ কেন্দ্র",
+    "lat": 24.0636074,
+    "lng": 89.0444318,
+    "output": "yes"
+  },
+  {
+    "name": "Prairie Island Nuclear Generating Plant",
+    "lat": 44.6212927,
+    "lng": -92.6353573,
+    "output": "1186.2 MW"
+  },
+  {
+    "name": "Harris Nuclear Plant",
+    "lat": 35.6344096,
+    "lng": -78.9565185,
+    "output": "950.9 MW"
+  },
+  {
+    "name": "Калининская АЭС",
+    "lat": 57.9089021,
+    "lng": 35.0507615,
+    "output": "4000 MW"
+  },
+  {
+    "name": "Kernkraftwerk Gösgen",
+    "lat": 47.3648908,
+    "lng": 7.9680443,
+    "output": "1010 MW"
+  },
+  {
+    "name": "Plutonium Production 2 & 3",
+    "lat": 32.0090601,
+    "lng": 72.1720057,
+    "output": "yes"
+  },
+  {
+    "name": "Plutonium Production 4",
+    "lat": 32.0013575,
+    "lng": 72.1721557,
+    "output": "50 MW"
+  },
+  {
+    "name": "大飯原子力発電所",
+    "lat": 35.5410868,
+    "lng": 135.6547472,
+    "output": "4494 MW"
+  },
+  {
+    "name": "島根原子力発電所",
+    "lat": 35.5361002,
+    "lng": 132.9981332,
+    "output": "820 MW"
+  },
+  {
+    "name": "美浜原子力発電所",
+    "lat": 35.7036162,
+    "lng": 135.9617058,
+    "output": "826 MW"
+  },
+  {
+    "name": "東通原子力発電所",
+    "lat": 41.1876693,
+    "lng": 141.389571,
+    "output": "1100 MW"
+  },
+  {
+    "name": "ふげん",
+    "lat": 35.7546674,
+    "lng": 136.0168777,
+    "output": "yes"
+  },
+  {
+    "name": "敦賀原子力発電所",
+    "lat": 35.7528964,
+    "lng": 136.0054561,
+    "output": "yes"
+  },
+  {
+    "name": "Saeul Nuclear Plant",
+    "lat": 35.3392227,
+    "lng": 129.3117227,
+    "output": "2834 MW"
+  },
+  {
+    "name": "Joseph M. Farley Nuclear Plant",
+    "lat": 31.2223946,
+    "lng": -85.1127053,
+    "output": "1776.4 MW"
+  },
+  {
+    "name": "Centre Nucléaire de Production d'Electricité du Tricastin",
+    "lat": 44.3311042,
+    "lng": 4.7313536,
+    "output": "3660 MW"
+  },
+  {
+    "name": "Unknown Nuclear Plant",
+    "lat": 37.4279141,
+    "lng": 141.0278433,
+    "output": "yes"
+  },
+  {
+    "name": "CFR-600",
+    "lat": 26.8000231,
+    "lng": 120.1478094,
+    "output": "682 MW"
+  },
+  {
+    "name": "Quad Cities Nuclear Generating Station",
+    "lat": 41.7262357,
+    "lng": -90.3059689,
+    "output": "2018.6 MW"
+  },
+  {
+    "name": "もんじゅ",
+    "lat": 35.7390924,
+    "lng": 135.9852896,
+    "output": "280 MW"
+  },
+  {
+    "name": "漳州核电站",
+    "lat": 23.8332992,
+    "lng": 117.4924357,
+    "output": "6000 MW"
+  },
+  {
+    "name": "Unknown Nuclear Plant",
+    "lat": 38.8385102,
+    "lng": 115.6977696,
+    "output": "yes"
+  },
+  {
+    "name": "浜岡原子力発電所",
+    "lat": 34.6226532,
+    "lng": 138.1467743,
+    "output": "3617 MW"
+  },
+  {
+    "name": "Marble Hill Nuclear Power Plant (Dismantled)",
+    "lat": 38.6018213,
+    "lng": -85.4492247,
+    "output": "no"
+  },
+  {
+    "name": "Hatch Nuclear Power Plant",
+    "lat": 31.9325541,
+    "lng": -82.3430819,
+    "output": "1726 MW"
+  },
+  {
+    "name": "Академик Ломоносов",
+    "lat": 69.7096925,
+    "lng": 170.3060352,
+    "output": "64 MW"
+  },
+  {
+    "name": "McGuire Nuclear Station",
+    "lat": 35.4319054,
+    "lng": -80.947448,
+    "output": "2440.6 MW"
+  },
+  {
+    "name": "Беларуская АЭС",
+    "lat": 54.7624208,
+    "lng": 26.091923,
+    "output": "2400 MW"
+  },
+  {
+    "name": "Akkuyu Nükleer Enerji Santrali",
+    "lat": 36.144809,
+    "lng": 33.5348668,
+    "output": "4800 MW"
+  },
+  {
+    "name": "Grand Gulf Nuclear Generating Station",
+    "lat": 32.0083112,
+    "lng": -91.0496504,
+    "output": "1440 MW"
+  },
+  {
+    "name": "River Bend Nuclear Generating Station",
+    "lat": 30.7554773,
+    "lng": -91.3326449,
+    "output": "1035.9 MW"
+  },
+  {
+    "name": "Point Lepreau Nuclear Generating Station",
+    "lat": 45.074361,
+    "lng": -66.4551907,
+    "output": "660 MW"
+  },
+  {
+    "name": "Vogtle Electric Generating Plant",
+    "lat": 33.1394164,
+    "lng": -81.7694568,
+    "output": "4536 MW"
+  },
+  {
+    "name": "Shearon Harris Nuclear Power Plant",
+    "lat": 35.6336878,
+    "lng": -78.956125,
+    "output": "928 MW"
+  },
+  {
+    "name": "Билибинская АТЭЦ",
+    "lat": 68.0510977,
+    "lng": 166.539216,
+    "output": "36 MW"
+  },
+  {
+    "name": "Unknown Nuclear Plant",
+    "lat": 35.3274761,
+    "lng": 129.3008678,
+    "output": "yes"
+  },
+  {
+    "name": "H. B. Robinson Nuclear Generating Station",
+    "lat": 34.4028903,
+    "lng": -80.1592016,
+    "output": "768.6 MW"
+  },
+  {
+    "name": "Oconee Nuclear Station",
+    "lat": 34.7938282,
+    "lng": -82.8971307,
+    "output": "2666.7 MW"
+  },
+  {
+    "name": "Brunswick Nuclear Generating Station",
+    "lat": 33.9587213,
+    "lng": -78.0088568,
+    "output": "2003.2 MW"
+  },
+  {
+    "name": "Waterford 3 Nuclear Generating Station",
+    "lat": 29.9933738,
+    "lng": -90.4703638,
+    "output": "1199.8 MW"
+  },
+  {
+    "name": "Watts Bar Nuclear Power Plant",
+    "lat": 35.6011288,
+    "lng": -84.7920661,
+    "output": "2539.8 MW"
+  },
+  {
+    "name": "Sequoyah Nuclear Generating Station",
+    "lat": 35.2251512,
+    "lng": -85.0913962,
+    "output": "2441 MW"
+  },
+  {
+    "name": "Surry Nuclear Power Plant",
+    "lat": 37.1649666,
+    "lng": -76.6965864,
+    "output": "1695 MW"
+  },
+  {
+    "name": "KANUPP-1",
+    "lat": 24.8450032,
+    "lng": 66.7889192,
+    "output": "yes"
+  },
+  {
+    "name": "女川原子力発電所",
+    "lat": 38.398967,
+    "lng": 141.4992037,
+    "output": "2174 MW"
+  },
+  {
+    "name": "国核湛江核电有限公司",
+    "lat": 21.5607626,
+    "lng": 109.8095735,
+    "output": "yes"
+  },
+  {
+    "name": "Pelindaba Research Reactor",
+    "lat": -25.8020507,
+    "lng": 27.9282554,
+    "output": "20 MW"
+  },
+  {
+    "name": "25MW 실험용 경수로 부지",
+    "lat": 39.7946589,
+    "lng": 125.7549946,
+    "output": "25 MW"
+  },
+  {
+    "name": "IRT-2000 Reactor Site",
+    "lat": 39.8073486,
+    "lng": 125.750535,
+    "output": "8 MW"
+  },
+  {
+    "name": "Oregon State University Radiation Center",
+    "lat": 44.5651632,
+    "lng": -123.2891039,
+    "output": ""
+  },
+  {
+    "name": "防城港核电站",
+    "lat": 21.6445225,
+    "lng": 108.5633168,
+    "output": "4547.2 MW"
+  },
+  {
+    "name": "Calvert Cliffs Nuclear Power Plant",
+    "lat": 38.4275332,
+    "lng": -76.441326,
+    "output": "1850.4 MW"
+  },
+  {
+    "name": "東海発電所",
+    "lat": 36.4679417,
+    "lng": 140.6082821,
+    "output": "1100 MW"
+  },
+  {
+    "name": "Ленинградская АЭС",
+    "lat": 59.8457269,
+    "lng": 29.0395805,
+    "output": "1850 MW"
+  },
+  {
+    "name": "秦山核电站",
+    "lat": 30.4284233,
+    "lng": 120.9477089,
+    "output": "4120 MW"
+  },
+  {
+    "name": "Белоярская АЭС",
+    "lat": 56.8509267,
+    "lng": 61.3216706,
+    "output": "1485 MW"
+  },
+  {
+    "name": "Central nuclear d'Ascó",
+    "lat": 41.2011359,
+    "lng": 0.5692685,
+    "output": "1988 MW"
+  },
+  {
+    "name": "Південноукраїнська АЕС",
+    "lat": 47.8107971,
+    "lng": 31.2184387,
+    "output": "3000 MW"
+  },
+  {
+    "name": "Jaderná elektrárna Temelín",
+    "lat": 49.1797463,
+    "lng": 14.3773736,
+    "output": "2056 MW"
+  },
+  {
+    "name": "Jaderná elektrárna Dukovany",
+    "lat": 49.0844731,
+    "lng": 16.1481581,
+    "output": "1880 MW"
+  },
+  {
+    "name": "Jadrová elektráreň Mochovce",
+    "lat": 48.2609719,
+    "lng": 18.4598602,
+    "output": "1471 MW"
+  },
+  {
+    "name": "نیروگاه اتمی بوشهر",
+    "lat": 28.8291476,
+    "lng": 50.88499,
+    "output": "1000 MW"
+  },
+  {
+    "name": "Кольская АЭС",
+    "lat": 67.4655767,
+    "lng": 32.4785639,
+    "output": "1760 MW"
+  },
+  {
+    "name": "Comanche Peak Nuclear Power Plant",
+    "lat": 32.2980073,
+    "lng": -97.7931419,
+    "output": "2400 MW"
+  },
+  {
+    "name": "第三核能發電廠",
+    "lat": 21.958391,
+    "lng": 120.7511501,
+    "output": "1780 MW"
+  },
+  {
+    "name": "Paksi Atomerőmű",
+    "lat": 46.5775522,
+    "lng": 18.855019,
+    "output": "2000 MW"
+  },
+  {
+    "name": "Kernkraftwerk Beznau",
+    "lat": 47.552143,
+    "lng": 8.2287483,
+    "output": "730 MW"
+  },
+  {
+    "name": "Kernkraftwerk Leibstadt",
+    "lat": 47.6012749,
+    "lng": 8.1827939,
+    "output": "1220 MW"
+  },
+  {
+    "name": "Central nuclear de Vandellòs II",
+    "lat": 40.9528933,
+    "lng": 0.8664092,
+    "output": "1087 MW"
+  },
+  {
+    "name": "Ringhals kärnkraftverk",
+    "lat": 57.261483,
+    "lng": 12.1103692,
+    "output": "3550 MW"
+  },
+  {
+    "name": "North Anna Nuclear Generating Station",
+    "lat": 38.0592824,
+    "lng": -77.7927198,
+    "output": "1892 MW"
+  },
+  {
+    "name": "Cooper Nuclear Power Station",
+    "lat": 40.3610702,
+    "lng": -95.6426247,
+    "output": "801 MW"
+  },
+  {
+    "name": "Centre Nucléaire de Production d'Electricité de Penly",
+    "lat": 49.9756205,
+    "lng": 1.2179247,
+    "output": "2660 MW"
+  },
+  {
+    "name": "Browns Ferry Nuclear Power Plant",
+    "lat": 34.7085496,
+    "lng": -87.1156808,
+    "output": "3567.5 MW"
+  },
+  {
+    "name": "Centre Nucléaire de Production d'Electricité de Chooz",
+    "lat": 50.0907857,
+    "lng": 4.7924193,
+    "output": "3000 MW"
+  },
+  {
+    "name": "Centre Nucléaire de Production d'Electricité de Gravelines",
+    "lat": 51.0152756,
+    "lng": 2.1376431,
+    "output": "5460 MW"
+  }
+]

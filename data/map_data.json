@@ -1,0 +1,1650 @@
+[
+    {
+        "location": "Teheran",
+        "lat": 35.6892,
+        "lng": 51.389,
+        "description": "Svolta nei colloqui",
+        "severity": "medium",
+        "url": "https://www.ansa.it/sito/notizie/mondo/2026/02/27/svolta-nei-colloqui-teheran-smantellera-il-suo-uranio-arricchito.-trump-non_bb01626e-eb08-4c0c-b8f9-b86261fb8988.html"
+    },
+    {
+        "location": "Kabul",
+        "lat": 34.5281,
+        "lng": 69.1723,
+        "description": "Pakistan bombarda Kabul",
+        "severity": "high",
+        "url": "https://www.ansa.it/sito/notizie/mondo/asia/2026/02/27/il-pakistan-bombarda-kabul-guerra-aperta-con-i-talebani_10ca897f-53d9-48ed-bb38-9e421a02b8eb.html"
+    },
+    {
+        "location": "Manchester",
+        "lat": 53.4808,
+        "lng": -2.2426,
+        "description": "Disastro del Labour",
+        "severity": "medium",
+        "url": "https://www.ansa.it/sito/notizie/mondo/2026/02/27/e-disastro-del-labour-nella-suppletiva-a-manchester-trionfano-i-verdi_19335f19-da79-44a0-82fd-d77b25451420.html"
+    },
+    {
+        "location": "Israele",
+        "lat": 31.0461,
+        "lng": 34.8516,
+        "description": "Corte Suprema israeliana",
+        "severity": "medium",
+        "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/02/27/corte-suprema-israeliana-mette-in-stand-by-le-restrizioni-per-le-ong_f1da5245-4041-44eb-8f85-3c554291ed16.html"
+    },
+    {
+        "location": "Seul",
+        "lat": 37.5665,
+        "lng": 126.9779,
+        "description": "Svolta per Google Maps",
+        "severity": "low",
+        "url": "https://www.ansa.it/sito/notizie/mondo/2026/02/27/ansa-svolta-per-google-maps-seul-apre-ai-suoi-dati_604c27bc-33ac-48e8-8e07-3689c38490bf.html"
+    },
+    {
+        "location": "Londra",
+        "lat": 51.5074,
+        "lng": -0.1278,
+        "description": "Oxford Street pedonale",
+        "severity": "low",
+        "url": "https://www.ansa.it/sito/notizie/mondo/europa/2026/02/26/oxford-street-diventa-isola-pedonale-stop-ai-veicoli-entro-settembre_5914dad3-8d8d-4959-95b7-4c74aa48470b.html"
+    },
+    {
+        "location": "Brasile",
+        "lat": -14.9038,
+        "lng": -51.9253,
+        "description": "Indigeni lasciano porto amazzonico",
+        "severity": "medium",
+        "url": "https://www.ansa.it/sito/notizie/mondo/americalatina/2026/02/27/brasile-indigeni-lasciano-il-porto-amazzonico-dopo-34-giorni-di-proteste_7967a963-322e-409b-ad93-410f51075bd1.html"
+    },
+    {
+        "location": "Spagna",
+        "lat": 40.4168,
+        "lng": -3.7038,
+        "description": "Morto Antonio Tejero",
+        "severity": "low",
+        "url": "https://www.ansa.it/sito/notizie/mondo/europa/2026/02/25/e-morto-antonio-tejero-il-volto-del-golpe-del-1981-in-spagna_caecb728-d892-46ea-897a-bd2093fc4d75.html"
+    },
+    {
+        "location": "Roma",
+        "lat": 41.9028,
+        "lng": 12.4964,
+        "description": "Giappone presenta Nipponina",
+        "severity": "low",
+        "url": "https://www.ansa.it/sito/notizie/mondo/2026/02/27/giappone-presenta-nipponina-mascotte-per-i-160-anni-di-rapporti-con-litalia_37772f1e-1bfa-4860-bdb7-05d489d59365.html"
+    },
+    {
+        "location": "Olanda",
+        "lat": 52.1326,
+        "lng": 5.2913,
+        "description": "Nasce nuovo governo",
+        "severity": "medium",
+        "url": "https://www.ansa.it/sito/notizie/mondo/2026/02/23/nasce-il-nuovo-governo-in-olanda-jetten-premier-piu-giovane-di-sempre_29f200bd-9b98-4ba9-adbd-8f16bc936387.html"
+    },
+    {
+        "location": "Taranto",
+        "lat": 40.4653,
+        "lng": 17.2414,
+        "description": "Giochi del Mediterraneo",
+        "severity": "low",
+        "url": "https://www.ansa.it/puglia/notizie/speciali/xx_giochi_del_mediterraneo_taranto_2026/2026/02/27/giochi-del-mediterraneo-sindaco-taranto-i-cantieri-vanno-avanti_052a6bbd-6d17-4e34-9100-abd0fb7a3f5a.html"
+    },
+    {
+        "location": "Messico",
+        "lat": 19.4326,
+        "lng": -99.1332,
+        "description": "Ucciso 'El Mencho'",
+        "severity": "high",
+        "url": "https://www.ansa.it/sito/notizie/mondo/2026/02/23/messico-lesercito-uccide-il-boss-dei-narcos-paese-nel-caos_ff5cd2fb-60ad-4eab-94e5-4e9de254b61f.html"
+    },
+    {
+        "location": "Groenlandia",
+        "lat": 64.5167,
+        "lng": -51.7333,
+        "description": "Trump invia nave ospedale",
+        "severity": "medium",
+        "url": "https://www.ansa.it/sito/notizie/mondo/2026/02/22/trump-invia-una-nave-ospedale-in-groenlandia-assisteremo-i-malati.-la-replica-danese_5ec2540d-d7ce-4871-b137-d0970cb2eee3.html"
+    },
+    {
+        "location": "Bruxelles",
+        "lat": 50.8503,
+        "lng": 4.3517,
+        "description": "Italia candida Martina",
+        "severity": "medium",
+        "url": "https://www.ansa.it/sito/notizie/mondo/2026/02/23/tajani-e-lollobrigida-litalia-candida-martina-alla-guida-della-fao_98a05e3f-6552-4988-a6c2-4f372e0f5ee1.html"
+    },
+    {
+        "location": "Teheran",
+        "lat": 35.6892,
+        "lng": 51.389,
+        "description": "Ucciso capo di Stato maggiore",
+        "severity": "high",
+        "url": "https://www.ansa.it/sito/notizie/mondo/2026/03/01/teheran-ucciso-nei-raid-anche-il-capo-di-stato-maggiore_75b45226-5dc0-45ba-9d57-99aa8dac7dfd.html"
+    },
+    {
+        "location": "Dubai",
+        "lat": 25.276987,
+        "lng": 55.296249,
+        "description": "Attacco dell'Iran con droni",
+        "severity": "high",
+        "url": "https://www.ansa.it/sito/notizie/mondo/2026/02/28/media-attacco-delliran-con-droni-allaeroporto-di-dubai_e9b41dac-10d8-4129-8ec5-720a5b8380ff.html"
+    },
+    {
+        "location": "Roma",
+        "lat": 41.902783,
+        "lng": 12.496366,
+        "description": "Giovani iraniani celebrano la fine di Khamenei",
+        "severity": "medium",
+        "url": "https://www.ansa.it/sito/notizie/mondo/2026/02/28/centinaia-di-giovani-iraniani-celebrano-la-fine-di-khamenei-a-roma_942f1043-49e6-4803-91f6-64e8d464d86d.html"
+    },
+    {
+        "location": "New York",
+        "lat": 40.712784,
+        "lng": -74.005941,
+        "description": "Proteste contro l'attacco all'Iran",
+        "severity": "medium",
+        "url": "https://www.ansa.it/sito/notizie/mondo/2026/02/28/proteste-contro-lattacco-alliran-a-new-york-e-davanti-la-casa-bianca_62131bfa-f7d8-45be-9376-8d0ccdce65a7.html"
+    },
+    {
+        "location": "Ucraina",
+        "lat": 49.817892,
+        "lng": 31.309443,
+        "description": "Dimitrian dipinge le macerie",
+        "severity": "high",
+        "url": "https://www.ansa.it/sito/notizie/mondo/2026/01/13/ucraina-dimitrian-dipinge-le-macerie-intorno-pillole-amare-per-il-mondo_77294f99-25e0-4d1a-b01d-a8b00c2a9274.html"
+    },
+    {
+        "location": "Londra",
+        "lat": 51.507351,
+        "lng": -0.127758,
+        "description": "Accuse ad Andrea",
+        "severity": "medium",
+        "url": "https://www.ansa.it/sito/notizie/mondo/2026/02/20/i-media-non-solo-gli-epstein-files-dietro-le-accuse-ad-andrea.-a-londra_c37bca96-bc7c-4a54-8349-916eb1868e97.html"
+    },
+    {
+        "location": "Saint-Tropez",
+        "lat": 43.269669,
+        "lng": 6.638847,
+        "description": "Morta Brigitte Bardot",
+        "severity": "low",
+        "url": "https://www.ansa.it/sito/notizie/cultura/2025/12/28/e-morta-brigitte-bardot-addio-allicona-ribelle-e-indipendente-del-cinema-francese_59d1bd6e-aeb4-4005-b35c-7a3250f33138.html"
+    },
+    {
+        "location": "Bologna",
+        "lat": 44.493629,
+        "lng": 11.342623,
+        "description": "Italia vince la Coppa Davis",
+        "severity": "low",
+        "url": "https://www.ansa.it/sito/notizie/sport/2025/11/23/litalia-vince-la-coppa-davis-e-la-terza-consecutiva_978805eb-c59c-4ab5-a517-d5264441479e.html"
+    },
+    {
+        "location": "Milano",
+        "lat": 45.464203,
+        "lng": 9.189982,
+        "description": "Funerali di Ornella Vanoni",
+        "severity": "low",
+        "url": "https://www.ansa.it/sito/notizie/cultura/musica/2025/11/22/addio-a-ornella-vanoni-i-funerali-lunedi-alle-15-a-milano-nella-chiesa-di-san_2de89f2b-8a9a-440c-9418-af2fae3826c2.html"
+    },
+    {
+        "location": "Torino",
+        "lat": 45.070312,
+        "lng": 7.686856,
+        "description": "Sinner vince a Torino",
+        "severity": "low",
+        "url": "https://www.ansa.it/sito/notizie/sport/tennis/speciali/atp_finals_2025/2025/11/16/atp-finals-sinner-e-il-maestro-batte-alcaraz-7-6-7-5-e-vince-a-torino_8cdc118d-2bbf-4e7d-ba80-434be79e52fe.html"
+    },
+    {
+        "location": "Spagna",
+        "lat": 40.463667,
+        "lng": -3.74922,
+        "description": "50 anni fa moriva Franco",
+        "severity": "low",
+        "url": "https://www.ansa.it/sito/notizie/mondo/2025/11/17/cinquanta-anni-fa-moriva-franco-la-spagna-fra-revisionismo-e-amnesia_501f5131-b2bb-4820-baba-004b2606ca3d.html"
+    },
+    {
+        "location": "Germania",
+        "lat": 51.165691,
+        "lng": 10.451526,
+        "description": "80 anni fa il processo di Norimberga",
+        "severity": "high",
+        "url": "https://www.ansa.it/sito/notizie/mondo/2025/11/19/il-processo-di-norimberga-80-anni-fa-alla-sbarra-i-capi-della-germania-nazista_32824644-464a-4bfe-8f45-8c438934c16f.html"
+    },
+    {
+        "location": "Dubai",
+        "lat": 25.276987,
+        "lng": 55.296249,
+        "description": "Calma apparente dopo le esplosioni",
+        "severity": "high",
+        "url": "https://www.ansa.it/sito/videogallery/mondo/2026/02/28/calma-apparente-a-dubai-il-punto-dopo-le-esplosioni_ee15dc6d-3991-485f-8402-a6ec939c8da8.html"
+    },
+    {
+        "location": "Tel Aviv",
+        "lat": 32.0853,
+        "lng": 34.7818,
+        "description": "Parcheggio sotterraneo diventa ospedale fortificato",
+        "severity": "high",
+        "url": "https://www.ansa.it/sito/videogallery/mondo/2026/02/28/tel-aviv-parcheggio-sotterraneo-diventa-ospedale-fortificato_f3f9a394-f32b-4bb5-8775-f3cdfe148f86.html"
+    },
+    {
+        "location": "Doha",
+        "lat": 25.2861,
+        "lng": 51.5339,
+        "description": "Resti di un missile iraniano cadono su Doha",
+        "severity": "high",
+        "url": "https://www.ansa.it/sito/videogallery/mondo/2026/02/28/i-resti-di-un-missile-iraniano-cadono-su-doha-in-qatar_ff466c1c-1341-457f-aa8f-1dfade5b2cb1.html"
+    },
+    {
+        "location": "Tebi",
+        "lat": 38.3333,
+        "lng": 23.3167,
+        "description": "Incidente ferroviario",
+        "severity": "high",
+        "url": "https://www.ansa.it/nuova_europa/it/notizie/rubriche/altrenews/2026/02/28/la-grecia-ricorda-il-terzo-anniversario-dellincidente-ferroviario-di-tebi_6be37394-0677-48d2-9b25-345d89463182.html"
+    },
+    {
+        "location": "Vienna",
+        "lat": 48.2082,
+        "lng": 16.3738,
+        "description": "Festival letteratura italiana",
+        "severity": "low",
+        "url": "https://www.ansa.it/sito/notizie/mondo/news_dalle_ambasciate/2026/02/28/antonio-albanese-apre-tra-applausi-festival-letteratura-italiana-a-vienna_01a52640-3391-4dd1-a4e3-7e15359d3d34.html"
+    },
+    {
+        "location": "Tokyo",
+        "lat": 35.6895,
+        "lng": 139.767,
+        "description": "Ambasciata d'Italia su energia e clima",
+        "severity": "low",
+        "url": "https://www.ansa.it/sito/notizie/mondo/news_dalle_ambasciate/2026/02/28/tokyo-ambasciata-ditalia-rilancia-su-energia-e-clima_73eb1efc-de2a-492f-868d-7af04b81a3c2.html"
+    },
+    {
+        "location": "Kosovo",
+        "lat": 42.6667,
+        "lng": 21.1667,
+        "description": "Ambasciatore si congratula con ministro",
+        "severity": "low",
+        "url": "https://www.ansa.it/sito/notizie/mondo/news_dalle_ambasciate/2026/02/28/amb.-in-kosovo-antonini-si-congratula-col-nuovo-ministro-degli-esteri_f719fef5-eb5e-471a-90f6-03671c683d9e.html"
+    },
+    {
+        "location": "Zagabria",
+        "lat": 45.815,
+        "lng": 15.9667,
+        "description": "Prima dell'Aida",
+        "severity": "low",
+        "url": "https://www.ansa.it/sito/notizie/mondo/news_dalle_ambasciate/2026/02/28/amb.-in-croazia-trichilo-alla-prima-dellaida-a-zagabria_62c3036c-cb28-4a89-bde8-38e7536871cc.html"
+    },
+    {
+        "location": "Delhi",
+        "lat": 28.7041,
+        "lng": 77.1025,
+        "description": "Dialogo sulla fisica Italia-India",
+        "severity": "low",
+        "url": "https://www.ansa.it/sito/notizie/mondo/news_dagli_istituti_di_cultura/2026/02/28/eventi-culturali-a-delhi-nel-dialogo-sulla-fisica-italia-india_3ddd6294-71eb-4553-8244-ae13cbdab9ca.html"
+    },
+    {
+        "location": "Beirut",
+        "lat": 33.8938,
+        "lng": 35.5018,
+        "description": "Workshop di sceneggiatura",
+        "severity": "low",
+        "url": "https://www.ansa.it/sito/notizie/mondo/news_dagli_istituti_di_cultura/2026/02/27/a-beirut-workshop-di-sceneggiatura-con-docenti-italiani_abae95e9-35a8-4f36-bec7-5895bfd1532a.html"
+    },
+    {
+        "location": "Varsavia",
+        "lat": 52.2333,
+        "lng": 21.0167,
+        "description": "Presentazione libro sulla liuteria cremonese",
+        "severity": "low",
+        "url": "https://www.ansa.it/sito/notizie/mondo/news_dagli_istituti_di_cultura/2026/02/27/a-varsavia-presentato-il-violino-svelato-libro-sulla-liuteria-cremonese_fca713c4-bb0f-4752-ae58-81c08c175b31.html"
+    },
+    {
+        "location": "Lisbona",
+        "lat": 38.7223,
+        "lng": -9.1426,
+        "description": "Incontro sulla memoria della Grande Guerra",
+        "severity": "low",
+        "url": "https://www.ansa.it/sito/notizie/mondo/news_dagli_istituti_di_cultura/2026/02/27/a-lisbona-incontro-con-paolo-malaguti-sulla-memoria-della-grande-guerra_fbee5d3e-6497-4332-8e49-647c0f643c33.html"
+    },
+    {
+        "location": "Ucraina",
+        "lat": 49.0,
+        "lng": 32.0,
+        "description": "Pace e ricostruzione",
+        "severity": "high",
+        "url": "https://www.ansa.it/ansacom/notizie/postit/Ordine_di_Malta/2026/01/10/ordine-di-malta-pace-e-ricostruzione-in-ucraina-e-medio-oriente_fa5f886d-659e-4bdb-a3be-c7d237003f56.html"
+    },
+    {
+        "location": "Donbass",
+        "lat": 48.0,
+        "lng": 38.0,
+        "description": "Nuova guerra",
+        "severity": "high",
+        "url": "https://www.ansa.it/sito/notizie/magazine/numeri/2026/01/28/trappole-dal-cielo-la-nuova-guerra-in-donbass_622dca23-83b9-488f-abb1-c1aefbbc907b.html"
+    },
+    {
+        "location": "Sanremo",
+        "lat": 43.8167,
+        "lng": 7.7833,
+        "description": "Festival di Sanremo",
+        "severity": "low",
+        "url": "https://www.ansa.it/sito/notizie/topnews/2026/03/01/sal-da-vinci-vince-il-festival-di-sanremo-2026_4e5dd1d5-cb6f-43e4-875f-246ab0cf40af.html"
+    },
+    {
+        "location": "Sanremo",
+        "lat": 43.9873,
+        "lng": 7.7833,
+        "description": "Fedez e Masini quinti",
+        "severity": "low",
+        "url": "https://www.ansa.it/sito/notizie/topnews/2026/03/01/fedez-masini-arrivano-quinti-al-festival-di-sanremo-2026_000c8cc9-272f-4276-b67d-9ba3044cbb2d.html"
+    },
+    {
+        "location": "Sanremo",
+        "lat": 43.9873,
+        "lng": 7.7833,
+        "description": "Sal da Vinci vince",
+        "severity": "low",
+        "url": "https://www.ansa.it/sito/notizie/cultura/musica/speciali/sanremo_2026/artisti/2026/03/01/sal-da-vinci-vince-il-festival-di-sanremo-2026_8dd5d946-b5ce-41e6-a660-5a374548b834.html"
+    },
+    {
+        "location": "Sanremo",
+        "lat": 43.9873,
+        "lng": 7.7833,
+        "description": "Sal da Vinci esalta",
+        "severity": "low",
+        "url": "https://www.ansa.it/sito/notizie/cultura/musica/speciali/sanremo_2026/2026/02/28/sal-da-vinci-esalta-lariston-va-in-platea-a-balla-con-mara-venier_0b8a66f6-41cf-4dea-9a5d-eebf7088f1e9.html"
+    },
+    {
+        "location": "Sanremo",
+        "lat": 43.9873,
+        "lng": 7.7833,
+        "description": "Serata finale",
+        "severity": "low",
+        "url": "https://www.ansa.it/sito/notizie/cultura/musica/speciali/sanremo_2026/photogallery/2026/02/28/sanremo-2026-la-serata-finale_e4571c9a-43f3-43bc-ae18-e5601bcd2b8d.html"
+    },
+    {
+        "location": "Sanremo",
+        "lat": 43.9873,
+        "lng": 7.7833,
+        "description": "Premio della Critica",
+        "severity": "low",
+        "url": "https://www.ansa.it/sito/notizie/cultura/musica/speciali/sanremo_2026/artisti/2026/03/01/a-fulminacci-il-premio-della-critica-mia-martini_48006147-de25-4344-8fe5-963e0225b7c3.html"
+    },
+    {
+        "location": "Sanremo",
+        "lat": 43.9873,
+        "lng": 7.7833,
+        "description": "Sayf si emoziona",
+        "severity": "low",
+        "url": "https://www.ansa.it/sito/notizie/cultura/musica/speciali/sanremo_2026/artisti/2026/03/01/sayf-si-emoziona-e-porta-sul-palco-la-mamma-samia_7e73c88e-df14-46cb-b054-3d8404f2a4c8.html"
+    },
+    {
+        "location": "Medio Oriente",
+        "lat": 32.0,
+        "lng": 40.0,
+        "description": "Trump sui raid",
+        "severity": "high",
+        "url": "https://www.ansa.it/sito/notizie/mondo/nordamerica/2026/02/28/trump-i-raid-contro-liran-dureranno-fino-alla-pace-in-medio-oriente_7c5fd1a2-562e-45af-87f3-b1244a107ab1.html"
+    },
+    {
+        "location": "Iran",
+        "lat": 32.0,
+        "lng": 53.0,
+        "description": "Trump sui leader",
+        "severity": "high",
+        "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/02/28/trump-i-leader-iraniani-collaborino-o-moriranno_309578d5-eccc-4aa7-b92d-703a1ed7f3b9.html"
+    },
+    {
+        "location": "Iran",
+        "lat": 32.0,
+        "lng": 53.0,
+        "description": "Morte di Khamenei",
+        "severity": "high",
+        "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/02/28/trump-khamenei-e-morto-una-delle-persone-piu-malvagie-al-mondo_6ae1d222-0585-47f6-8065-764bed69b9d7.html"
+    },
+    {
+        "location": "Iran",
+        "lat": 32.0,
+        "lng": 53.0,
+        "description": "Trump sarcastico",
+        "severity": "high",
+        "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/02/28/trump-sarcastico-iran-mi-chiedera-chi-voglio-al-posto-di-khamenei_a000e568-7943-4793-99b5-07879fffbdae.html"
+    },
+    {
+        "location": "Iran",
+        "lat": 32.0,
+        "lng": 53.0,
+        "description": "Operazione in Iran",
+        "severity": "high",
+        "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/02/28/trump-operazione-in-iran-un-successo-danni-enormi_9428a417-5d8c-4479-b9b2-1e5cd65f33b4.html"
+    },
+    {
+        "location": "Iran",
+        "lat": 32.0,
+        "lng": 53.0,
+        "description": "Morte di Khamenei",
+        "severity": "high",
+        "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/02/28/trump-pare-che-la-notizia-della-morte-di-khamenei-sia-corretta_ba353e96-98a6-433a-b4a5-8a2dffa1bfbc.html"
+    },
+    {
+        "location": "Teheran",
+        "lat": 35.6892,
+        "lng": 51.389,
+        "description": "Applausi per la morte",
+        "severity": "high",
+        "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/02/28/media-riportano-che-khamenei-e-morto-a-teheran-applausi-alle-finestre_48588f89-5c7b-4239-98d1-4bcd7ad54354.html"
+    },
+    {
+        "location": "Israele",
+        "lat": 31.0,
+        "lng": 34.0,
+        "description": "Alto funzionario israeliano",
+        "severity": "high",
+        "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/02/28/alto-funzionario-israeliano-ai-media-khamenei-e-stato-eliminato_271b3538-ea08-4649-b7c9-e85f811fe40c.html"
+    },
+    {
+        "location": "Iran",
+        "lat": 32.0,
+        "lng": 53.0,
+        "description": "Opzioni per Trump",
+        "severity": "high",
+        "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/02/28/trump-ho-opzioni-epic-fury-puo-andare-avanti-o-finire-in-2-3-giorni_96d77015-82ca-4670-9ab7-49a70c98fdbc.html"
+    },
+    {
+        "location": "Israele",
+        "lat": 31.0,
+        "lng": 34.0,
+        "description": "Netanyahu sulla morte",
+        "severity": "high",
+        "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/02/28/netanyahu-ci-sono-segnali-che-khamenei-sia-morto_1e1d3d0f-36da-459f-9099-28d9038fc75b.html"
+    },
+    {
+        "location": "Iran",
+        "lat": 32.0,
+        "lng": 53.0,
+        "description": "Morti in Iran",
+        "severity": "high",
+        "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/02/28/mezzaluna-rossa-oltre-200-i-morti-in-iran-in-seguito-allattacco_354b8e98-dd8f-428e-a2fb-671e7094cff9.html"
+    },
+    {
+        "location": "Iran",
+        "lat": 32.0,
+        "lng": 53.0,
+        "description": "Danni minimi per Usa",
+        "severity": "high",
+        "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/02/28/usa-danni-minimi-dalliran-alle-nostre-installazione-difesa-di-successo_4a88e8ab-a41d-4752-a610-17c28face2fc.html"
+    },
+    {
+        "location": "Iran",
+        "lat": 32.0,
+        "lng": 53.0,
+        "description": "Morti in famiglia",
+        "severity": "high",
+        "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/02/28/media-uccisi-il-genero-e-la-nuora-di-khamenei_3d89cffa-98f1-4dd4-89a1-109c56939168.html"
+    },
+    {
+        "location": "Europa",
+        "lat": 50.0,
+        "lng": 10.0,
+        "description": "Riunione dei ministri",
+        "severity": "medium",
+        "url": "https://www.ansa.it/sito/notizie/mondo/europa/2026/02/28/kallas-domani-riunione-straordinaria-dei-ministri-degli-esteri-dei-27_9b27bcea-354f-41a6-9a88-1954b0faef75.html"
+    },
+    {
+        "location": "Napoli",
+        "lat": 40.85,
+        "lng": 14.27,
+        "description": "Sal da Vinci dedica",
+        "severity": "low",
+        "url": "https://www.ansa.it/sito/notizie/cultura/musica/speciali/sanremo_2026/artisti/2026/03/01/sal-da-vinci-vince-il-festival-di-sanremo-2026_8dd5d946-b5ce-41e6-a660-5a374548b834.html"
+    },
+    {
+        "location": "Iran",
+        "lat": 32.0,
+        "lng": 53.0,
+        "description": "Attacchi aerei israeliani",
+        "severity": "high",
+        "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/02/28/israele-circa-200-caccia-impiegati-in-attacchi-su-500-obiettivi-in-iran_ed77d39d-3207-454e-995c-a191ccfa218d.html"
+    },
+    {
+        "location": "Iran",
+        "lat": 32.0,
+        "lng": 53.0,
+        "description": "Morti in attacco a scuola",
+        "severity": "high",
+        "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/02/28/iran-sale-a-85-il-numero-dei-morti-nellattacco-a-una-scuola_9277914f-0333-4cc3-a2bf-350bd59424f2.html"
+    },
+    {
+        "location": "Stati Uniti",
+        "lat": 38.0,
+        "lng": -97.0,
+        "description": "Avvertimento di Rubio",
+        "severity": "medium",
+        "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/02/28/casa-bianca-rubio-ha-avvertito-i-leader-del-congresso-dellattacco_77a34bb6-3218-4902-93d9-9fa837ed11e8.html"
+    },
+    {
+        "location": "Dubai",
+        "lat": 25.0,
+        "lng": 55.0,
+        "description": "Esplosioni sull'isola artificiale",
+        "severity": "high",
+        "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/02/28/testimoni-esplosioni-sullisola-artificiale-palm-a-dubai_e51d9bdb-c094-4dd0-9ed5-e4bce6b43933.html"
+    },
+    {
+        "location": "Tel Aviv",
+        "lat": 32.0,
+        "lng": 34.0,
+        "description": "Esplosioni nel centro",
+        "severity": "high",
+        "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/02/28/esplosioni-nel-centro-di-tel-aviv-sirene-suonano-incessantemente_a3ba50ba-fc58-4f74-8e53-70382f128555.html"
+    },
+    {
+        "location": "Unione Europea",
+        "lat": 50.0,
+        "lng": 10.0,
+        "description": "Riunione d'urgenza",
+        "severity": "medium",
+        "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/02/28/domani-riunione-durgenza-dei-rappresentanti-dei-27-in-ue-sulliran_971547d3-819b-48f8-bb1c-0b13c7bdf837.html"
+    },
+    {
+        "location": "Iran occidentale",
+        "lat": 32.0,
+        "lng": 48.0,
+        "description": "Attacco contro difese",
+        "severity": "high",
+        "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/02/28/israele-completato-un-ampio-attacco-contro-le-difese-iraniane_f6001023-61e5-4566-af56-9c3e90d0e14d.html"
+    },
+    {
+        "location": "New York",
+        "lat": 40.0,
+        "lng": -74.0,
+        "description": "Consiglio di Sicurezza Onu",
+        "severity": "medium",
+        "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/02/28/il-consiglio-di-sicurezza-onu-convocato-alle-22_c7a29aaa-5682-460b-b50b-0c3791e5c063.html"
+    },
+    {
+        "location": "Iran",
+        "lat": 32.0,
+        "lng": 53.0,
+        "description": "Araghchi su Khamenei",
+        "severity": "medium",
+        "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/02/28/araghchi-per-quanto-ne-sappia-khamenei-e-ancora-vivo_e5f910df-0491-4b06-8f55-8bbfb05d85fa.html"
+    },
+    {
+        "location": "Arabia Saudita",
+        "lat": 24.0,
+        "lng": 45.0,
+        "description": "Attacchi a Riad",
+        "severity": "high",
+        "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/02/28/arabia-saudita-colpita-riad-ci-riserviamo-diritto-di-rispondere_f1eedf21-73e3-4ad6-bccf-2ea217467125.html"
+    },
+    {
+        "location": "Cuba",
+        "lat": 22.0,
+        "lng": -79.0,
+        "description": "Grazie a intellettuali",
+        "severity": "low",
+        "url": "https://www.ansa.it/sito/notizie/mondo/americalatina/2026/02/28/cuba-agli-intellettuali-brasiliani-grazie-per-il-sostegno-contro-il-blocco-usa_35e11930-aebb-4449-b6a1-fd25d0ef76c1.html"
+    },
+    {
+        "location": "Mosca",
+        "lat": 55.0,
+        "lng": 37.0,
+        "description": "Lavrov parla con Araghchi",
+        "severity": "medium",
+        "url": "https://www.ansa.it/sito/notizie/mondo/asia/2026/02/28/lavrov-parla-con-araghchi-pronti-a-cercare-soluzioni-pacifiche_390e92d1-1fbc-43f9-8742-b3b4853835a8.html"
+    },
+    {
+        "location": "Oman",
+        "lat": 21.0,
+        "lng": 57.0,
+        "description": "Mediatore agli Usa",
+        "severity": "medium",
+        "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/02/28/mediatore-oman-agli-usa-questa-non-e-la-vostra-guerra_13b7c2f0-00db-4478-a62c-f00008fbd72b.html"
+    },
+    {
+        "location": "Stati Uniti",
+        "lat": 38.0,
+        "lng": -97.0,
+        "description": "Trump su Iran",
+        "severity": "medium",
+        "url": "https://www.ansa.it/sito/notizie/mondo/nordamerica/2026/02/28/trump-voglio-solo-la-liberta-per-il-popolo-iraniano_f0f3ab90-d01f-4615-bee9-1782975abb39.html"
+    },
+    {
+        "location": "Bolivia",
+        "lat": -16.0,
+        "lng": -64.0,
+        "description": "Incidente aereo",
+        "severity": "high",
+        "url": "https://www.ansa.it/sito/notizie/mondo/americalatina/2026/02/28/bolivia-il-presidente-vola-a-la-paz-dopo-incidente-aereo-a-el-alto_dd529731-cf23-4fee-9be5-15a866a13e84.html"
+    },
+    {
+        "location": "Iran occidentale",
+        "lat": 32.0,
+        "lng": 48.0,
+        "description": "Centinaia di obiettivi colpiti",
+        "severity": "high",
+        "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/02/28/idf-colpiti-centinaia-di-obiettivi-nelliran-occidentale_75fe58d0-c4ae-44d2-a8ac-4490651562c6.html"
+    },
+    {
+        "location": "Teheran",
+        "lat": 35.0,
+        "lng": 51.0,
+        "description": "Raid israeliano su scuola",
+        "severity": "high",
+        "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/02/28/teheran-raid-israeliano-su-una-scuola-nel-sud-delliran-24-morti_353f39bb-697e-49d9-8a9d-d2a89ecaedd5.html"
+    },
+    {
+        "location": "Mosca",
+        "lat": 55.0,
+        "lng": 37.0,
+        "description": "Condanna aggressione",
+        "severity": "medium",
+        "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/02/28/mosca-contro-liran-unaggressione-immotivata_493a605a-0e7d-4d35-924d-c40ee9ccfd20.html"
+    },
+    {
+        "location": "Kuwait",
+        "lat": 29.0,
+        "lng": 47.0,
+        "description": "Base colpita",
+        "severity": "high",
+        "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/02/28/tajani-nessun-italiano-coinvolto-negli-attacchi-in-iran-e-nel-golfo_315a4bca-c90a-450d-acb4-7dc86e57b14e.html"
+    },
+    {
+        "location": "Iran",
+        "lat": 32.0,
+        "lng": 53.0,
+        "description": "Comandante Pasdaran ucciso",
+        "severity": "high",
+        "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/02/28/comandante-pasdaran-e-ministro-difesa-sarebbero-stati-uccisi_0f3df336-259a-453f-88fe-72326d42b471.html"
+    },
+    {
+        "location": "Mar Rosso",
+        "lat": 22.0,
+        "lng": 38.0,
+        "description": "Missione navale in stato di allerta",
+        "severity": "high",
+        "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/02/28/ue-aspides-pronta-a-contribuire-a-mantenere-aperto-corridoio-marittimo_9cec069e-30c5-41d6-b76e-076078d8fd7a.html"
+    },
+    {
+        "location": "Abu Dhabi",
+        "lat": 24.4667,
+        "lng": 54.3667,
+        "description": "Attacco dell'Iran ad Abu Dhabi",
+        "severity": "high",
+        "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/02/28/emirati-una-vittima-nellattacco-delliran-a-abu-dhabi_89c2756d-1a83-414a-bf4d-8b2cc95c28b6.html"
+    },
+    {
+        "location": "Bahrein",
+        "lat": 26.0333,
+        "lng": 50.55,
+        "description": "Attacco missilistico alla base Usa",
+        "severity": "high",
+        "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/02/28/base-della-quinta-flotta-usa-in-bahrein-colpita-da-attacco-missilistico_81b66fc9-62f9-4c0b-a5fb-2ede17e3b3ca.html"
+    },
+    {
+        "location": "Doha",
+        "lat": 25.2833,
+        "lng": 51.5333,
+        "description": "Esplosioni sentite a Doha",
+        "severity": "high",
+        "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/02/28/media-esplosioni-sentite-anche-a-doha_95e642de-6eef-4b08-8d68-c4bf85dc5d8e.html"
+    },
+    {
+        "location": "Iran",
+        "lat": 32.0,
+        "lng": 53.0,
+        "description": "Evacuazione degli italiani",
+        "severity": "medium",
+        "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/02/28/tajani-pronti-ad-evacuare-gli-italiani-rimasti-in-iran_8e0ad285-2b93-4ae5-b137-6a375fc43990.html"
+    },
+    {
+        "location": "Tel Aviv",
+        "lat": 32.0667,
+        "lng": 34.7667,
+        "description": "Esplosioni e allarmi a Tel Aviv",
+        "severity": "high",
+        "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/02/28/esplosioni-a-tel-aviv-suonano-gli-allarmi_f8a5fe96-8813-47a8-8a23-be590e25f0de.html"
+    },
+    {
+        "location": "Israele",
+        "lat": 31.0,
+        "lng": 34.0,
+        "description": "Nessun missile ha colpito il suolo israeliano",
+        "severity": "high",
+        "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/02/28/soccorsi-israele-nessun-missile-ha-colpito-il-suolo-israeliano_071eac35-5f4b-4ede-87a6-0ef9d8788626.html"
+    },
+    {
+        "location": "Golfo",
+        "lat": 26.0,
+        "lng": 52.0,
+        "description": "Allarme nel Golfo",
+        "severity": "high",
+        "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/02/28/il-punto-alle-11-usa-e-israele-attaccano-liran.-allarme-in-tutto-il-golfo_0aba07a1-8369-4efb-a23e-93b93557d4c7.html"
+    },
+    {
+        "location": "Giordania",
+        "lat": 31.0,
+        "lng": 36.0,
+        "description": "Sirene suonate anche in Giordania",
+        "severity": "high",
+        "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/02/28/idf-lanciati-missili-dalliran-verso-israele_b8f018d6-397b-44a5-94ef-87525544a8e5.html"
+    },
+    {
+        "location": "Tel Aviv",
+        "lat": 32.0667,
+        "lng": 34.7667,
+        "description": "Un morto a Tel Aviv",
+        "severity": "high",
+        "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/02/28/media-un-morto-a-tel-aviv-per-gli-attacchi-missilistici-delliran_33cee8c5-1c65-4de1-b211-e090ff095ce5.html"
+    },
+    {
+        "location": "Iran",
+        "lat": 32.0,
+        "lng": 53.0,
+        "description": "Trump alle Guardie Rivoluzionarie",
+        "severity": "high",
+        "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/02/28/trump-alle-guardie-rivoluzionarie-deponete-armi-o-morte-certa_3ad365f8-71e2-44cb-85f2-f28e7e927a5d.html"
+    },
+    {
+        "location": "Iran",
+        "lat": 32.0,
+        "lng": 53.0,
+        "description": "Trump distruggeremo i missili",
+        "severity": "high",
+        "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/02/28/trump-distruggeremo-i-missili-delliran-non-avra-il-nucleare_487c122d-2c21-46d7-8131-feb94fc991a0.html"
+    },
+    {
+        "location": "Iran",
+        "lat": 32.0,
+        "lng": 53.0,
+        "description": "Decine di morti tra i pasdaran",
+        "severity": "high",
+        "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/02/28/tv-israele-decine-di-morti-tra-i-pasdaran-in-iran-anche-figure-chiave_31568e52-fbfa-4677-a734-4c780b36c32f.html"
+    },
+    {
+        "location": "Iran",
+        "lat": 32.0,
+        "lng": 53.0,
+        "description": "Operazione in Iran",
+        "severity": "high",
+        "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/02/28/trump-avviata-operazione-in-iran-difendiamo-gli-americani-dalle-minacce_e9edbfee-fd99-4878-918e-cfe1895a502d.html"
+    },
+    {
+        "location": "Iran",
+        "lat": 32.0,
+        "lng": 53.0,
+        "description": "Apparato militare dell'Iran",
+        "severity": "high",
+        "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/02/28/nel-mirino-degli-attacchi-usa-lapparato-militare-delliran_5e9bc3fb-3df5-49ed-8ad5-7a939b204d36.html"
+    },
+    {
+        "location": "Iran",
+        "lat": 32.0,
+        "lng": 53.0,
+        "description": "Struttura presidenziale iraniana",
+        "severity": "high",
+        "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/02/28/media-struttura-presidenziale-iraniana-tra-gli-obiettivi-dellattacco_f57e738e-e1c2-4d4b-ade8-e0f22f5a8fd0.html"
+    },
+    {
+        "location": "Israele",
+        "lat": 31.0,
+        "lng": 34.0,
+        "description": "Israele ha lanciato un attacco",
+        "severity": "high",
+        "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/02/28/katz-israele-ha-lanciato-un-attacco-preventivo-contro-liran_68efb0d0-51a3-41c8-864d-75ae43ec5e33.html"
+    },
+    {
+        "location": "Argentina",
+        "lat": -34.0,
+        "lng": -64.0,
+        "description": "Riforma del lavoro approvata",
+        "severity": "medium",
+        "url": "https://www.ansa.it/sito/notizie/mondo/americalatina/2026/02/28/argentina-approvata-la-controversa-riforma-del-lavoro-di-milei_c20e7ea7-7495-4fba-9ae6-f57da8352e46.html"
+    },
+    {
+        "location": "Venezuela",
+        "lat": 7.0,
+        "lng": -67.0,
+        "description": "Scarcerati prigionieri politici",
+        "severity": "medium",
+        "url": "https://www.ansa.it/sito/notizie/mondo/americalatina/2026/02/28/venezuela-scarcerati-almeno-otto-prigionieri-politici_f22e19af-b77c-43f5-a247-404acdbfbc66.html"
+    },
+    {
+        "location": "Bolivia",
+        "lat": -16.5236,
+        "lng": -68.1193,
+        "description": "Aereo militare si schianta",
+        "severity": "high",
+        "url": "https://www.ansa.it/sito/notizie/mondo/americalatina/2026/02/28/bolivia-aereo-militare-si-schianta-a-el-alto-vicino-la-paz_6685b763-ffbc-4881-8ef9-51a6e28b07c9.html"
+    },
+    {
+        "location": "Venezuela",
+        "lat": 7.0655,
+        "lng": -69.0114,
+        "description": "Migranti rimpatriati",
+        "severity": "medium",
+        "url": "https://www.ansa.it/sito/notizie/mondo/americalatina/2026/02/28/venezuela-altri-133-migranti-rimpatriati-dagli-usa-atterrano-a-maiquetia_c7c73386-096d-44f7-9463-ef4fe792dd02.html"
+    },
+    {
+        "location": "Maiquetía",
+        "lat": 10.5964,
+        "lng": -66.9778,
+        "description": "Migranti atterrano",
+        "severity": "medium",
+        "url": "https://www.ansa.it/sito/notizie/mondo/americalatina/2026/02/28/venezuela-altri-133-migranti-rimpatriati-dagli-usa-atterrano-a-maiquetia_c7c73386-096d-44f7-9463-ef4fe792dd02.html"
+    },
+    {
+        "location": "Messico",
+        "lat": 19.4326,
+        "lng": -99.1332,
+        "description": "Pemex perde 2,22 miliardi",
+        "severity": "low",
+        "url": "https://www.ansa.it/sito/notizie/mondo/americalatina/2026/02/28/messico-pemex-perde-222-miliardi-di-euro-nel-2025_9d40fa5d-9437-41d9-a608-4eea4bac93e2.html"
+    },
+    {
+        "location": "Cile",
+        "lat": -33.4478,
+        "lng": -70.6734,
+        "description": "Vertice su cavo sottomarino",
+        "severity": "medium",
+        "url": "https://www.ansa.it/sito/notizie/mondo/americalatina/2026/02/27/boric-kast-vertice-su-cavo-sottomarino-cile-cina-il-3-marzo_9ec9348b-5ca0-4461-86ee-ef3391429cfa.html"
+    },
+    {
+        "location": "La Moneda",
+        "lat": -33.4433,
+        "lng": -70.6693,
+        "description": "Passaggio di consegne",
+        "severity": "medium",
+        "url": "https://www.ansa.it/sito/notizie/mondo/americalatina/2026/02/27/boric-kast-vertice-su-cavo-sottomarino-cile-cina-il-3-marzo_9ec9348b-5ca0-4461-86ee-ef3391429cfa.html"
+    },
+    {
+        "location": "Oman",
+        "lat": 23.6145,
+        "lng": 58.5453,
+        "description": "Iran accetta di smantellare",
+        "severity": "medium",
+        "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/02/27/oman-iran-ha-accettato-di-smantellare-le-scorte-di-uranio-arricchito_6b1b755d-8818-4a12-a5ae-d8cfaa48375a.html"
+    },
+    {
+        "location": "Iran",
+        "lat": 32.4279,
+        "lng": 53.688,
+        "description": "Accetta di smantellare",
+        "severity": "medium",
+        "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/02/27/oman-iran-ha-accettato-di-smantellare-le-scorte-di-uranio-arricchito_6b1b755d-8818-4a12-a5ae-d8cfaa48375a.html"
+    },
+    {
+        "location": "Stati Uniti",
+        "lat": 37.0902,
+        "lng": -95.7129,
+        "description": "Trump chiede giudizio",
+        "severity": "medium",
+        "url": "https://www.ansa.it/sito/notizie/mondo/nordamerica/2026/02/27/trump-chiede-alla-corte-suprema-un-nuovo-giudizio-sui-dazi_1b7eece1-c51b-4f25-a1f6-f636bb8edd40.html"
+    },
+    {
+        "location": "Messico",
+        "lat": 19.4326,
+        "lng": -99.1332,
+        "description": "Trofeo Fifa arriva",
+        "severity": "low",
+        "url": "https://www.ansa.it/sito/notizie/mondo/americalatina/2026/02/27/il-trofeo-fifa-e-arrivato-in-messico-a-100-giorni-dal-mondiale_77a9fc6c-bada-4320-ad91-8dd1fc4352cb.html"
+    },
+    {
+        "location": "Francia",
+        "lat": 46.227638,
+        "lng": 2.213749,
+        "description": "Pil del 2025 confermato a +0,9%",
+        "severity": "low",
+        "url": "https://www.ansa.it/sito/notizie/economia/2026/02/27/in-francia-il-pil-del-2025-confermato-a-09_55cce6a6-ed45-42fa-ba65-3b701efd5d03.html"
+    },
+    {
+        "location": "Milano",
+        "lat": 45.464271,
+        "lng": 9.18951,
+        "description": "Mps-Mediobanca, pm di Milano indagano",
+        "severity": "medium",
+        "url": "https://www.ansa.it/sito/notizie/economia/aziende/2026/02/26/mps-mediobanca-per-i-pm-di-milano-ci-fu-concerto-dal-2019_0baf1771-9f85-4ca3-8bb3-74614b410bab.html"
+    },
+    {
+        "location": "Italia",
+        "lat": 43.171855,
+        "lng": 12.515312,
+        "description": "Vacanze sulla neve per 9 milioni di italiani",
+        "severity": "low",
+        "url": "https://www.ansa.it/sito/videogallery/economia/2026/02/27/vacanze-sulla-neve-per-9-milioni-di-italiani-le-alpi-ne-attirano-il-75_cf4f1059-08f6-4285-9009-9f61ae719fdc.html"
+    },
+    {
+        "location": "Alpi",
+        "lat": 46.033333,
+        "lng": 7.65,
+        "description": "Le Alpi attirano il 75% dei vacanzieri",
+        "severity": "low",
+        "url": "https://www.ansa.it/sito/videogallery/economia/2026/02/27/vacanze-sulla-neve-per-9-milioni-di-italiani-le-alpi-ne-attirano-il-75_cf4f1059-08f6-4285-9009-9f61ae719fdc.html"
+    },
+    {
+        "location": "Parigi",
+        "lat": 48.856613,
+        "lng": 2.352222,
+        "description": "Borsa: Parigi chiude -0,47%",
+        "severity": "low",
+        "url": "https://www.ansa.it/sito/notizie/economia/2026/02/27/borsa-leuropa-chiude-in-ordine-sparso-parigi-047-londra-07_d058be61-33cf-4766-911f-4b468baae7ac.html"
+    },
+    {
+        "location": "Londra",
+        "lat": 51.507351,
+        "lng": -0.127758,
+        "description": "Borsa: Londra chiude +0,7%",
+        "severity": "low",
+        "url": "https://www.ansa.it/sito/notizie/economia/2026/02/27/borsa-leuropa-chiude-in-ordine-sparso-parigi-047-londra-07_d058be61-33cf-4766-911f-4b468baae7ac.html"
+    },
+    {
+        "location": "Roma",
+        "lat": 41.902783,
+        "lng": 12.496366,
+        "description": "Meloni: costi energia sono priorità",
+        "severity": "medium",
+        "url": "https://www.ansa.it/sito/notizie/economia/2026/02/26/meloni-costi-dellenergia-priorita-lue-non-perda-tempo_02d40209-c4f5-46a1-9de2-6969388b9e4a.html"
+    },
+    {
+        "location": "Stati Uniti",
+        "lat": 39.739236,
+        "lng": -98.303061,
+        "description": "Tassi dei mutui Usa sotto il 6%",
+        "severity": "low",
+        "url": "https://www.ansa.it/sito/notizie/economia/2026/02/26/i-tassi-dei-mutui-usa-sotto-il-6-per-la-prima-volta-dal-2022_bb03b266-1f83-4d1b-8ff4-375b8443fa98.html"
+    },
+    {
+        "location": "Fiumicino",
+        "lat": 41.7833,
+        "lng": 12.2333,
+        "description": "Sciopero del trasporto aereo",
+        "severity": "medium",
+        "url": "https://www.ansa.it/sito/videogallery/economia/2026/02/26/presidi-a-fiumicino-e-linate-per-lo-sciopero-del-trasporto-aereo_c3a651ab-c9b6-4ae3-a596-eac60bb050a8.html"
+    },
+    {
+        "location": "Linate",
+        "lat": 45.4333,
+        "lng": 9.2833,
+        "description": "Sciopero del trasporto aereo",
+        "severity": "medium",
+        "url": "https://www.ansa.it/sito/videogallery/economia/2026/02/26/presidi-a-fiumicino-e-linate-per-lo-sciopero-del-trasporto-aereo_c3a651ab-c9b6-4ae3-a596-eac60bb050a8.html"
+    },
+    {
+        "location": "Padova",
+        "lat": 45.4167,
+        "lng": 11.8833,
+        "description": "Programma per le eccellenze imprenditoriali",
+        "severity": "low",
+        "url": "https://www.ansa.it/sito/videogallery/economia/2026/02/26/a-padova-terza-tappa-del-programma-per-le-eccellenze-imprenditoriali-di-intesa-sanpaolo_53783c1b-d228-42b9-85aa-73068c301b1c.html"
+    },
+    {
+        "location": "Bellunese",
+        "lat": 46.1333,
+        "lng": 12.2167,
+        "description": "Sviluppo innovativo",
+        "severity": "low",
+        "url": "https://www.ansa.it/ansacom/notizie/transito/2026/02/26/leredita-olimpica-volano-per-lo-sviluppo-innovativo-del-bellunese_83a33c58-8e8d-438d-9af9-4e2a6bdb4f9b.html"
+    },
+    {
+        "location": "Veneto",
+        "lat": 45.6667,
+        "lng": 12.3333,
+        "description": "Imprese vincenti",
+        "severity": "low",
+        "url": "https://www.ansa.it/ansacom/notizie/economia/intesa-sanpaolo/2026/02/25/intesa-sanpaolo-premiate-10-imprese-vincenti-di-veneto-e-trentino-alto-adige_ab11a0d4-f2df-4380-b8e4-1850c9fd03e0.html"
+    },
+    {
+        "location": "Trentino-Alto Adige",
+        "lat": 46.0667,
+        "lng": 11.1333,
+        "description": "Imprese vincenti",
+        "severity": "low",
+        "url": "https://www.ansa.it/ansacom/notizie/economia/intesa-sanpaolo/2026/02/25/intesa-sanpaolo-premiate-10-imprese-vincenti-di-veneto-e-trentino-alto-adige_ab11a0d4-f2df-4380-b8e4-1850c9fd03e0.html"
+    },
+    {
+        "location": "Milano",
+        "lat": 45.4667,
+        "lng": 9.1833,
+        "description": "Giochi Milano Cortina",
+        "severity": "low",
+        "url": "https://www.ansa.it/ansacom/notizie/economia/visa/2026/02/19/visa-con-i-giochi-milano-cortina-volano-gli-acquisti_db728f53-fe7f-480c-939f-8c71a2fa2c12.html"
+    },
+    {
+        "location": "Cortina",
+        "lat": 46.5333,
+        "lng": 12.1333,
+        "description": "Giochi Milano Cortina",
+        "severity": "low",
+        "url": "https://www.ansa.it/ansacom/notizie/economia/visa/2026/02/19/visa-con-i-giochi-milano-cortina-volano-gli-acquisti_db728f53-fe7f-480c-939f-8c71a2fa2c12.html"
+    },
+    {
+        "location": "Toscana",
+        "lat": 43.7667,
+        "lng": 11.25,
+        "description": "Imprese vincenti",
+        "severity": "low",
+        "url": "https://www.ansa.it/ansacom/notizie/economia/intesa-sanpaolo-2/2026/02/20/imprese-vincenti-intesa-sanpaolo-premia-10-pmi-di-toscana-e-umbria_ac1e2819-f966-41d2-96a3-c2d52ec02e9d.html"
+    },
+    {
+        "location": "Umbria",
+        "lat": 42.95,
+        "lng": 12.35,
+        "description": "Imprese vincenti",
+        "severity": "low",
+        "url": "https://www.ansa.it/ansacom/notizie/economia/intesa-sanpaolo-2/2026/02/20/imprese-vincenti-intesa-sanpaolo-premia-10-pmi-di-toscana-e-umbria_ac1e2819-f966-41d2-96a3-c2d52ec02e9d.html"
+    },
+    {
+        "location": "Rimini",
+        "lat": 44.0667,
+        "lng": 12.5667,
+        "description": "Fiera di Rimini",
+        "severity": "low",
+        "url": "https://www.ansa.it/ansacom/notizie/canale_terraegusto/assobirra/2026/02/17/assobirra-alla-fiera-di-rimini-presenta-la-protagonista-della-convivialita-italiana_bd16c34d-17fa-43bc-a8dd-7d76eac61ce3.html"
+    },
+    {
+        "location": "Emilia-Romagna",
+        "lat": 44.75,
+        "lng": 11.25,
+        "description": "Educazione finanziaria",
+        "severity": "low",
+        "url": "https://www.ansa.it/ansacom/notizie/economia/alleanza-assicurazioni/2026/02/17/bene-leducazione-finanziaria-in-emilia-romagna-meno-donne-e-giovani_3bc044cc-b6bb-456b-8d0a-8bf9fc44d937.html"
+    },
+    {
+        "location": "Malpensa",
+        "lat": 45.6333,
+        "lng": 8.7167,
+        "description": "Investimenti e lungo raggio",
+        "severity": "low",
+        "url": "https://www.ansa.it/ansacom/notizie/economia/sea/2025/12/16/malpensa-accelera-su-investimenti-e-lungo-raggio-record-passeggeri-nel-2025_ba16dbbe-f49e-4b9d-a652-ab5ebc3f28e0.html"
+    },
+    {
+        "location": "Italia",
+        "lat": 43.171855,
+        "lng": 12.515312,
+        "description": "Italia primo esportatore di mele",
+        "severity": "low",
+        "url": "https://www.ansa.it/sito/notizie/economia/agrimercati/2026/02/04/ismea-italia-primo-esportatore-mondiale-di-mele-superati-usa-e-cina-in-valore_c75342de-1a36-4ade-ac7c-97b280ef7f25.html"
+    },
+    {
+        "location": "Italia",
+        "lat": 43.171855,
+        "lng": 12.515312,
+        "description": "Ismea borsino 2025 dei campioni della dieta mediterranea",
+        "severity": "low",
+        "url": "https://www.ansa.it/sito/notizie/economia/agrimercati/2026/01/22/ismea-borsino-2025-dei-campioni-della-dieta-mediterranea-dai-cerali_7f7d6440-2e47-485f-93b0-6a2c52bd20bc.html"
+    },
+    {
+        "location": "Italia",
+        "lat": 43.171855,
+        "lng": 12.515312,
+        "description": "Export agroalimentare verso record nel 2025",
+        "severity": "low",
+        "url": "https://www.ansa.it/sito/notizie/economia/agrimercati/2026/01/22/ismea-export-agroalimentare-verso-record-nel-2025-a-73-miliardi_d3093f51-9851-45f2-9a41-b9a8680fe499.html"
+    },
+    {
+        "location": "Italia",
+        "lat": 43.171855,
+        "lng": 12.515312,
+        "description": "Boom della frutta a guscio",
+        "severity": "low",
+        "url": "https://www.ansa.it/sito/notizie/economia/agrimercati/2026/01/16/ismea-boom-della-frutta-a-guscio-acquisti-oltre-11-miliardi_842837bd-cae7-48cf-b151-0921a4f08e72.html"
+    },
+    {
+        "location": "Italia",
+        "lat": 43.171855,
+        "lng": 12.515312,
+        "description": "Ismea Investe, al via la misura per società di capitali",
+        "severity": "low",
+        "url": "https://www.ansa.it/sito/notizie/economia/agrimercati/2026/01/08/ismea-investe-al-via-la-misura-per-societa-di-capitali-della-filiera-agroalimentare_bb1ee0cb-6743-498d-893c-12142736eea9.html"
+    },
+    {
+        "location": "Italia",
+        "lat": 43.171855,
+        "lng": 12.515312,
+        "description": "Export delle mele vale 1,2 miliardi",
+        "severity": "low",
+        "url": "https://www.ansa.it/sito/notizie/economia/agrimercati/2025/12/22/ismea-lexport-delle-mele-vale-12-miliardi-19-rispetto-alla-campagna-precedente_cece19ff-405e-4a1b-bcdd-29d4c9853c96.html"
+    },
+    {
+        "location": "Belluno",
+        "lat": 46.139722,
+        "lng": 12.216111,
+        "description": "La montagna come spazio di sviluppo",
+        "severity": "low",
+        "url": "https://www.ansa.it/veneto/notizie/dolomiti_innovation_valley_intelligenza_territorio/2026/02/24/la-montagna-come-spazio-di-sviluppo-prospettive-da-belluno-al-piemonte_5d590a0f-f966-4289-b462-ef9a7c733011.html"
+    },
+    {
+        "location": "Milano",
+        "lat": 45.464211,
+        "lng": 9.189982,
+        "description": "Esposizione diffusa per la fotografia di Stefano Zardini",
+        "severity": "low",
+        "url": "https://www.ansa.it/veneto/notizie/dolomiti_innovation_valley_intelligenza_territorio/2026/02/24/milano-cortina-esposizione-diffusa-per-la-fotografia-di-stefano-zardini_25114af6-7e8d-4c3a-aa10-f5644d4e6e18.html"
+    },
+    {
+        "location": "Cortina",
+        "lat": 46.536111,
+        "lng": 12.136111,
+        "description": "Successo straordinario per la nostra montagna",
+        "severity": "low",
+        "url": "https://www.ansa.it/veneto/notizie/dolomiti_innovation_valley_intelligenza_territorio/2026/02/21/milano-cortina-berton-successo-straordinariom-per-la-nostra-montagna_b2c49199-ab28-4365-b655-95820b0bb879.html"
+    },
+    {
+        "location": "Nord Italia",
+        "lat": 45.464211,
+        "lng": 9.189982,
+        "description": "Ottica Demenego supera 53 milioni ricavi",
+        "severity": "low",
+        "url": "https://www.ansa.it/veneto/notizie/dolomiti_innovation_valley_intelligenza_territorio/2026/02/17/ottica-demenego-supera-53-milioni-ricavi-46-negozi-nel-nord-italia_aec0adf3-18a0-4df9-b973-28d5b132a932.html"
+    },
+    {
+        "location": "Sanremo",
+        "lat": 43.816667,
+        "lng": 7.783333,
+        "description": "Poste, il progetto Polis porta il co-working",
+        "severity": "low",
+        "url": "https://www.ansa.it/sito/notizie/economia/poste_news/2026/02/25/poste-il-progetto-polis-porta-il-co-working-a-sanremo_2d72ea87-0ad8-4ddd-99e4-a6302ca4b145.html"
+    },
+    {
+        "location": "Milano Cortina",
+        "lat": 45.464211,
+        "lng": 9.189982,
+        "description": "Poste, 30 mila metri quadri di magazzini e 1.000 tecnici",
+        "severity": "low",
+        "url": "https://www.ansa.it/sito/notizie/economia/poste_news/2026/02/21/poste-30-mila-metri-quadri-di-magazzini-e-1.000-tecnici-a-milano-cortina-2026_3035b8e0-ce9e-440a-b8ec-57ce1d937a9f.html"
+    },
+    {
+        "location": "Milano Cortina",
+        "lat": 45.464211,
+        "lng": 9.189982,
+        "description": "Una medaglia d'oro a Milano Cortina 2026",
+        "severity": "low",
+        "url": "https://www.ansa.it/sito/notizie/economia/poste_news/2026/02/19/una-medaglia-doro-a-milano-cortina-2026-in-casa-poste-italiane_e9a10b7a-6010-4580-8c7b-bbe3a1cbe941.html"
+    },
+    {
+        "location": "Valle d'Aosta",
+        "lat": 45.716667,
+        "lng": 7.366667,
+        "description": "Poste, attività in Valle d'Aosta",
+        "severity": "low",
+        "url": "https://www.ansa.it/sito/notizie/economia/poste_news/2026/02/12/poste-attivita-in-valle-daosta-tra-quotidianita-e-imprese-di-federica-brignone_0434d7dd-459d-4d5d-8c35-28fafd8256fd.html"
+    },
+    {
+        "location": "Fvg",
+        "lat": 45.6499,
+        "lng": 13.7706,
+        "description": "Fim Cisl, meno ore di cig",
+        "severity": "medium",
+        "url": "https://www.ansa.it/sito/notizie/economia/pmi/2026/02/28/fim-cisl-meno-ore-di-cig-nel-metalmeccanico-in-fvg-ma-ancora-criticita_6f1480af-dd32-4a23-8a60-84fe89840618.html"
+    },
+    {
+        "location": "Sicilia",
+        "lat": 37.6173,
+        "lng": 15.0878,
+        "description": "Ex Sicilvetro, rischio stop produzione",
+        "severity": "medium",
+        "url": "https://www.ansa.it/sito/notizie/economia/pmi/2026/02/28/ex-sicilvetro-rischio-stop-produzione-e-cig-per-oltre-100-dipendenti_a33fc001-2e67-440e-85f5-1d555cf7b3ee.html"
+    },
+    {
+        "location": "Veneto",
+        "lat": 45.4349,
+        "lng": 12.3385,
+        "description": "Confartigianato, 10mila edifici storici pronti",
+        "severity": "low",
+        "url": "https://www.ansa.it/sito/notizie/economia/pmi/2026/02/28/confartigianato-in-veneto-10mila-edifici-storici-pronti-al-restauro_4473eee6-7d7b-45ae-9bf2-e42910e98dd7.html"
+    },
+    {
+        "location": "Maremma",
+        "lat": 42.7833,
+        "lng": 11.0333,
+        "description": "Cciaa Maremma e Tirreno, bando per imprese",
+        "severity": "low",
+        "url": "https://www.ansa.it/sito/notizie/economia/unioncamere/2026/02/28/cciaa-maremma-e-tirrenobando-per-imprese-costa-per-progetti-ambito-sport_e7a72368-6133-4e4b-8f76-e0f0d9414d84.html"
+    },
+    {
+        "location": "Umbria",
+        "lat": 42.9833,
+        "lng": 12.3667,
+        "description": "I giovani ridisegnano l'innovazione digitale",
+        "severity": "low",
+        "url": "https://www.ansa.it/sito/notizie/economia/unioncamere/2026/02/28/i-giovani-ridisegnano-linnovazione-digitale-in-umbria_8c4264ef-b4ba-4cb2-aaf8-ad63ef53e873.html"
+    },
+    {
+        "location": "Marche",
+        "lat": 43.6167,
+        "lng": 13.5167,
+        "description": "Sfida di due imprese nelle Marche",
+        "severity": "low",
+        "url": "https://www.ansa.it/sito/notizie/economia/unioncamere/2026/02/28/sfida-di-due-imprese-nelle-marche-quotazione-ha-accelerato-la-crescita_71382998-85c0-404d-ad11-07645406bd77.html"
+    },
+    {
+        "location": "Ancona",
+        "lat": 43.6167,
+        "lng": 13.5167,
+        "description": "Opportunità per pmi marchigiane con quotazione",
+        "severity": "low",
+        "url": "https://www.ansa.it/sito/notizie/economia/unioncamere/2026/02/28/opportunita-per-pmi-marchigiane-con-quotazione-in-borsa-convegno-ad-ancona_c2754c4c-a2d9-4d7d-b532-a8d858016de8.html"
+    },
+    {
+        "location": "Torino",
+        "lat": 45.0667,
+        "lng": 7.6667,
+        "description": "Camera di commercio Torino, Pil Piemonte +0,55%",
+        "severity": "low",
+        "url": "https://www.ansa.it/sito/notizie/economia/unioncamere/2026/02/28/camera-di-commercio-torino-pil-piemonte-055-nel-2025_90fe664d-a8d5-434c-991a-315d2cafb77f.html"
+    },
+    {
+        "location": "Iran",
+        "lat": 32.4279,
+        "lng": 53.688,
+        "description": "Bitcoin -4% dopo l'attacco all'Iran",
+        "severity": "high",
+        "url": "https://www.ansa.it/sito/notizie/economia/criptovalute/2026/02/28/bitcoin-4-dopo-lattacco-alliran-asset-digitali-bruciano-128-miliardi_39d550e8-89df-474a-a441-841f05a9a396.html"
+    },
+    {
+        "location": "Milano",
+        "lat": 45.4642,
+        "lng": 9.1895,
+        "description": "Inarcassa 99 posti in studentato",
+        "severity": "low",
+        "url": "https://www.ansa.it/sito/notizie/economia/real_estate/2026/02/23/inarcassa-99-posti-in-studentato-di-milano-per-figli-di-iscritti_c6c5206c-853c-49f8-9958-7c3788da6b68.html"
+    },
+    {
+        "location": "Milano",
+        "lat": 45.4642,
+        "lng": 9.1895,
+        "description": "Ente medici 85 posti in studentato",
+        "severity": "low",
+        "url": "https://www.ansa.it/sito/notizie/economia/real_estate/2026/02/19/ente-medici-85-posti-in-studentato-a-milano-per-figli-iscritti_260e24d8-fcb7-4705-aa7e-c82d6ac4d147.html"
+    },
+    {
+        "location": "Milano",
+        "lat": 45.4642,
+        "lng": 9.1895,
+        "description": "A Project Value mandato per locazione",
+        "severity": "low",
+        "url": "https://www.ansa.it/sito/notizie/economia/real_estate/2026/02/19/a-project-value-mandato-per-locazione-di-uno-storico-immobile-di-milano_b4eace13-8c3e-4f63-a807-aeee4c19d8bf.html"
+    },
+    {
+        "location": "Svezia",
+        "lat": 60.1282,
+        "lng": 18.6435,
+        "description": "Lyten completa acquisizione di Northvolt",
+        "severity": "low",
+        "url": "https://www.ansa.it/sito/notizie/economia/business_wire/2026/02/27/lyten-completa-lacquisizione-di-northvolt-sweden-e-stabilisce-il-suo-primo-lyten-industrial_6a6bf6fe-3a4f-49ab-823b-e27d0935563a.html"
+    },
+    {
+        "location": "Italia",
+        "lat": 43.1719,
+        "lng": 12.5153,
+        "description": "Dati Experian sui giovani e credito",
+        "severity": "low",
+        "url": "https://www.ansa.it/pressrelease/economia/2026/02/10/dati-experian-i-giovani-ridefiniscono-il-credito-in-italia-con-unesplosione-del-bnpl_e6fc2f53-acea-4e53-b2b5-b250fcf6d886.html"
+    },
+    {
+        "location": "Canada",
+        "lat": 56.1304,
+        "lng": -106.3468,
+        "description": "Gruenenthal licenza Nebido",
+        "severity": "low",
+        "url": "https://www.ansa.it/pressrelease/economia/2026/02/05/gruenenthal-licenses-exclusive-canadian-rights-to-testosterone-replacement-therapy-nebido-to-apotex_422fd49d-cd34-4370-a99c-89b21def2108.html"
+    },
+    {
+        "location": "Heidelberg",
+        "lat": 49.3989,
+        "lng": 8.6725,
+        "description": "Heidelberg migliora profitto",
+        "severity": "low",
+        "url": "https://www.ansa.it/pressrelease/economia/2026/02/05/heidelberg-achieves-significant-improvement-in-profitability-after-nine-months-of-fy-202526_aa3d65e7-b569-4e5c-ab02-87253f5d212b.html"
+    },
+    {
+        "location": "Milano",
+        "lat": 45.4642,
+        "lng": 9.1895,
+        "description": "Borsa Milano chiude in calo",
+        "severity": "medium",
+        "url": "https://www.ansa.it/sito/notizie/economia/2026/02/27/borsa-milano-chiude-in-calo-ftse-mib-04_eb57e6b7-b74e-4343-87d3-a82ea66ac44e.html"
+    },
+    {
+        "location": "Milano",
+        "lat": 45.4642,
+        "lng": 9.1895,
+        "description": "Mps tonfo in Borsa",
+        "severity": "medium",
+        "url": "https://www.ansa.it/sito/notizie/economia/2026/02/27/mps-tonfo-in-borsa-chiude-sui-minimi-a-67_b2652a7a-5d03-4657-86e0-982f0c0cc9ed.html"
+    },
+    {
+        "location": "Italia",
+        "lat": 43.1719,
+        "lng": 12.5153,
+        "description": "Vacanze sulla neve",
+        "severity": "low",
+        "url": "https://www.ansa.it/sito/notizie/economia/2026/02/27/vacanze-sulla-neve-per-91-milioni-di-italiani-giro-daffari-da-67-miliardi_fa170d80-8228-4ec3-b72a-941664878b4b.html"
+    },
+    {
+        "location": "Italia settentrionale",
+        "lat": 45.4642,
+        "lng": 9.1895,
+        "description": "Vacanze sulla neve",
+        "severity": "low",
+        "url": "https://www.ansa.it/sito/notizie/economia/2026/02/27/vacanze-sulla-neve-per-91-milioni-di-italiani-giro-daffari-da-67-miliardi_fa170d80-8228-4ec3-b72a-941664878b4b.html"
+    },
+    {
+        "location": "Roma",
+        "lat": 41.8725,
+        "lng": 12.4964,
+        "description": "Meloni a Bloomberg",
+        "severity": "medium",
+        "url": "https://www.ansa.it/sito/notizie/economia/2026/02/27/meloni-a-bloomberg-il-ruolo-del-governo-in-mps-e-finito_ad5cc9ff-22a6-4bc5-bfa6-a27d4c41a553.html"
+    },
+    {
+        "location": "Roma",
+        "lat": 41.8729,
+        "lng": 12.4964,
+        "description": "Angelini dg Bankitalia",
+        "severity": "low",
+        "url": "https://www.ansa.it/sito/notizie/economia/2026/02/27/ivass-dal-1-aprile-angelini-dg-bankitalia-e-presidente-istituto_9e17a8b9-fa88-4fe3-91b3-eaadbe1934fa.html"
+    },
+    {
+        "location": "Sanremo",
+        "lat": 43.8167,
+        "lng": 7.7833,
+        "description": "Blue economy",
+        "severity": "low",
+        "url": "https://www.ansa.it/sito/notizie/economia/2026/02/27/sanremo-regione-liguria-su-costa-toscana-celebra-la-blue-economy_34d060a2-4f03-41ed-a54a-598b6579363c.html"
+    },
+    {
+        "location": "Milano",
+        "lat": 45.4642,
+        "lng": 9.1895,
+        "description": "Borsa in rialzo",
+        "severity": "low",
+        "url": "https://www.ansa.it/sito/notizie/economia/2026/02/27/borsa-milano-prosegue-in-rialzo-giu-mps-e-mediobanca_a2af0348-f2fb-40f7-8f5c-fff386df6557.html"
+    },
+    {
+        "location": "Liguria",
+        "lat": 44.2478,
+        "lng": 9.0833,
+        "description": "Blue economy",
+        "severity": "low",
+        "url": "https://www.ansa.it/sito/notizie/economia/2026/02/27/sanremo-regione-liguria-su-costa-toscana-celebra-la-blue-economy_34d060a2-4f03-41ed-a54a-598b6579363c.html"
+    },
+    {
+        "location": "Parigi",
+        "lat": 48.8566,
+        "lng": 2.3522,
+        "description": "Borsa apre fiacca",
+        "severity": "low",
+        "url": "https://www.ansa.it/sito/notizie/economia/2026/02/27/borsa-leuropa-apre-fiacca-si-guarda-alla-crescita-economica_323acd80-8a36-4f85-9a16-cf5f19bd4d51.html"
+    },
+    {
+        "location": "Londra",
+        "lat": 51.5074,
+        "lng": -0.1278,
+        "description": "Borsa apre fiacca",
+        "severity": "low",
+        "url": "https://www.ansa.it/sito/notizie/economia/2026/02/27/borsa-leuropa-apre-fiacca-si-guarda-alla-crescita-economica_323acd80-8a36-4f85-9a16-cf5f19bd4d51.html"
+    },
+    {
+        "location": "Francoforte",
+        "lat": 50.1155,
+        "lng": 8.6842,
+        "description": "Borsa apre fiacca",
+        "severity": "low",
+        "url": "https://www.ansa.it/sito/notizie/economia/2026/02/27/borsa-leuropa-apre-fiacca-si-guarda-alla-crescita-economica_323acd80-8a36-4f85-9a16-cf5f19bd4d51.html"
+    },
+    {
+        "location": "Amsterdam",
+        "lat": 52.3702,
+        "lng": 4.8952,
+        "description": "Prezzo del gas",
+        "severity": "low",
+        "url": "https://www.ansa.it/sito/notizie/economia/2026/02/27/il-prezzo-del-gas-apre-in-calo-a-3180-euro-al-megawattora_6c040b5e-a17e-42b0-9b79-9fd353d4ddad.html"
+    },
+    {
+        "location": "Tokyo",
+        "lat": 35.6895,
+        "lng": 139.767,
+        "description": "Borsa chiude positiva",
+        "severity": "low",
+        "url": "https://www.ansa.it/sito/notizie/economia/2026/02/27/borsa-lasia-chiude-positiva-e-guarda-agli-investimenti-per-lia_21f076a7-4ea8-4128-86e4-3788982063db.html"
+    },
+    {
+        "location": "Uruguay",
+        "lat": -32.5228,
+        "lng": -55.7658,
+        "description": "Accordo commerciale",
+        "severity": "low",
+        "url": "https://www.ansa.it/sito/notizie/economia/2026/02/26/uruguay-e-argentina-ratificano-laccordo-commerciale-ue-mercosur_82634765-3513-4ced-bbbf-1ccb4f05f5bf.html"
+    },
+    {
+        "location": "Argentina",
+        "lat": -38.4161,
+        "lng": -63.6167,
+        "description": "Accordo commerciale",
+        "severity": "low",
+        "url": "https://www.ansa.it/sito/notizie/economia/2026/02/26/uruguay-e-argentina-ratificano-laccordo-commerciale-ue-mercosur_82634765-3513-4ced-bbbf-1ccb4f05f5bf.html"
+    },
+    {
+        "location": "Perù",
+        "lat": -10.4678,
+        "lng": -75.0142,
+        "description": "Gruppo Terna cede attività",
+        "severity": "low",
+        "url": "https://www.ansa.it/sito/notizie/economia/2026/02/26/il-gruppo-terna-cede-attivita-in-peru-per-15-milioni-di-dollari_7d0d68c0-6b14-497b-bcdc-6f04c70dfc24.html"
+    },
+    {
+        "location": "Londra",
+        "lat": 51.5074,
+        "lng": -0.1278,
+        "description": "Borsa europea in tenuta",
+        "severity": "low",
+        "url": "https://www.ansa.it/sito/notizie/economia/2026/02/26/borsa-leuropa-conclude-in-tenuta-londra-03_32c59dcb-333e-4d36-98be-543462efa449.html"
+    },
+    {
+        "location": "Parigi",
+        "lat": 48.8566,
+        "lng": 2.3522,
+        "description": "Borsa europea in tenuta",
+        "severity": "low",
+        "url": "https://www.ansa.it/sito/notizie/economia/2026/02/26/borsa-leuropa-conclude-in-tenuta-londra-03_32c59dcb-333e-4d36-98be-543462efa449.html"
+    },
+    {
+        "location": "Amsterdam",
+        "lat": 52.3702,
+        "lng": 4.8952,
+        "description": "Borsa europea in calo",
+        "severity": "low",
+        "url": "https://www.ansa.it/sito/notizie/economia/2026/02/26/borsa-leuropa-conclude-in-tenuta-londra-03_32c59dcb-333e-4d36-98be-543462efa449.html"
+    },
+    {
+        "location": "Milano",
+        "lat": 45.4642,
+        "lng": 9.1895,
+        "description": "Borsa italiana in rialzo",
+        "severity": "low",
+        "url": "https://www.ansa.it/sito/notizie/economia/2026/02/26/borsa-milano-chiude-in-rialzo-ftse-mib-054_6062eb8e-2030-4350-b48c-a87e3fce3627.html"
+    },
+    {
+        "location": "Firenze",
+        "lat": 43.769,
+        "lng": 11.2558,
+        "description": "Morto Piero Barucci",
+        "severity": "low",
+        "url": "https://www.ansa.it/sito/notizie/economia/2026/02/26/morto-leconomista-ed-ex-ministro-piero-barucci_32c388af-4362-492f-9a68-b3eb44fadfd2.html"
+    },
+    {
+        "location": "Wall Street",
+        "lat": 40.7064,
+        "lng": -74.0089,
+        "description": "Borsa americana in calo",
+        "severity": "low",
+        "url": "https://www.ansa.it/sito/notizie/economia/2026/02/26/wall-street-e-in-calo-dj-032-nasdaq-194_1b6834ab-b14c-4d73-a4c6-12d1d3ddd593.html"
+    },
+    {
+        "location": "Taranto",
+        "lat": 40.4667,
+        "lng": 17.2333,
+        "description": "Tribunale sospende attività Ilva",
+        "severity": "medium",
+        "url": "https://www.ansa.it/sito/notizie/economia/2026/02/26/tribunale-sospendere-attivita-stabilimento-ilva-per-rischi-su-salute_2fdf3238-2f3c-4d06-a464-9b53011286d0.html"
+    },
+    {
+        "location": "Dubai",
+        "lat": 25.276987,
+        "lng": 55.296249,
+        "description": "Esplosione all'hotel Palm Jumeirah",
+        "severity": "high",
+        "url": "https://www.ansa.it/sito/videogallery/mondo/2026/02/28/quattro-feriti-nellesplosione-allhotel-palm-jumeirah-a-dubai_24bd998c-f185-49a2-98e6-df9004c96d30.html"
+    },
+    {
+        "location": "Baviera",
+        "lat": 48.7772,
+        "lng": 11.4248,
+        "description": "Costruzione del primo Stellarator",
+        "severity": "low",
+        "url": "https://www.ansa.it/sito/notizie/economia/2026/02/26/proxima-listituto-plank-rwe-e-la-baviera-costruiscono-alpha-il-primo-stellarator_9c2dcf80-694b-42b2-b4e7-159cd488d58d.html"
+    },
+    {
+        "location": "Roma",
+        "lat": 41.8729,
+        "lng": 12.4956,
+        "description": "Corteo contro il ddl Bongiorno",
+        "severity": "medium",
+        "url": "https://www.ansa.it/sito/videogallery/italia/2026/02/28/corteo-a-roma-contro-il-ddl-bongiorno-senza-consenso-e-sempre-stupro_f6f65484-ab7e-40f9-9dc2-38cf3575d95b.html"
+    },
+    {
+        "location": "Tel Aviv",
+        "lat": 32.0853,
+        "lng": 34.7689,
+        "description": "Attacco all'Iran, gente si rifugia",
+        "severity": "high",
+        "url": "https://www.ansa.it/sito/videogallery/mondo/2026/02/28/attacco-alliran-a-tel-aviv-la-gente-si-rifugia-in-un-hotel_f5e65b42-230e-4559-b16b-1995893411e9.html"
+    },
+    {
+        "location": "Manama",
+        "lat": 26.2145,
+        "lng": 50.5833,
+        "description": "Esplosioni udite nella capitale",
+        "severity": "high",
+        "url": "https://www.ansa.it/sito/videogallery/mondo/2026/02/28/esplosioni-udite-nella-capitale-del-bahrein-manama_6b9f0360-c4fd-44ba-96d5-b6c52b7f909c.html"
+    },
+    {
+        "location": "Bahrein",
+        "lat": 25.9304,
+        "lng": 50.5503,
+        "description": "Colpita la base navale Usa",
+        "severity": "high",
+        "url": "https://www.ansa.it/sito/videogallery/mondo/2026/02/28/colpita-la-base-navale-usa-in-bahrein-le-immagini-dellesplosione_fb246723-7bac-4000-9466-ef80e847517a.html"
+    },
+    {
+        "location": "Tel Aviv",
+        "lat": 32.0853,
+        "lng": 34.7689,
+        "description": "Forti esplosioni nel centro",
+        "severity": "high",
+        "url": "https://www.ansa.it/sito/notizie/topnews/2026/02/28/forti-esplosioni-nel-centro-di-tel-aviv-tremano-i-palazzi_d300ad07-70f7-4e02-b067-95e63e368e50.html"
+    },
+    {
+        "location": "Barcellona",
+        "lat": 41.3879,
+        "lng": 2.169,
+        "description": "Spille 'Free Palestine' sul red carpet",
+        "severity": "low",
+        "url": "https://www.ansa.it/sito/notizie/topnews/2026/02/28/spille-free-palestine-sul-red-carpet-premi-goya-del-cinema_a1cdab51-c5bb-4963-9d0a-91e1c83c75e2.html"
+    },
+    {
+        "location": "Niscemi",
+        "lat": 37.1473,
+        "lng": 14.3933,
+        "description": "Ridotta zona rosa, 500 famiglie ritornano",
+        "severity": "low",
+        "url": "https://www.ansa.it/sito/notizie/topnews/2026/02/28/ridotta-zona-rosa-a-niscemi-500-famiglie-possono-ritornare-a-casa_979b3f66-004f-43eb-8842-f15cf2ed33a3.html"
+    },
+    {
+        "location": "Roma",
+        "lat": 41.8729,
+        "lng": 12.4956,
+        "description": "Meloni a Palazzo Chigi",
+        "severity": "medium",
+        "url": "https://www.ansa.it/sito/notizie/topnews/2026/02/28/meloni-a-palazzo-chigi-a-breve-il-vertice-sulliran_f94e1770-7f52-4fc6-9807-86b3c0b91bb7.html"
+    },
+    {
+        "location": "Iran",
+        "lat": 32.4279,
+        "lng": 53.688,
+        "description": "Netanyahu operazione contro l'Iran",
+        "severity": "high",
+        "url": "https://www.ansa.it/sito/videogallery/mondo/2026/02/28/netanyahu-operazione-contro-liran-per-rimuovere-minaccia-esistenziale_5e41f4e9-a445-4f6a-bd0f-c5a831b630e5.html"
+    },
+    {
+        "location": "Bahrein",
+        "lat": 25.9304,
+        "lng": 50.5503,
+        "description": "Esplosioni udite nella capitale",
+        "severity": "high",
+        "url": "https://www.ansa.it/sito/videogallery/mondo/2026/02/28/esplosioni-udite-nella-capitale-del-bahrein-manama_6b9f0360-c4fd-44ba-96d5-b6c52b7f909c.html"
+    },
+    {
+        "location": "P.Chigi",
+        "lat": 41.9029,
+        "lng": 12.4954,
+        "description": "Vertice di governo su Iran",
+        "severity": "medium",
+        "url": "https://www.ansa.it/sito/notizie/topnews/2026/02/28/meloni-convoca-nuovo-vertice-di-governo-in-serata-a-p.chigi-su-iran_b440369b-e8ed-41d5-bb18-a9af5dc03889.html"
+    },
+    {
+        "location": "Iran",
+        "lat": 32.4279,
+        "lng": 53.688,
+        "description": "Escalation in Iran",
+        "severity": "high",
+        "url": "https://www.ansa.it/sito/notizie/topnews/2026/02/28/schlein-escalation-in-iran-ha-risvolti-anche-sulla-fragile-tregua-a-gaza_cc5b85ec-c702-4394-81c5-9aaab1137531.html"
+    },
+    {
+        "location": "Gaza",
+        "lat": 31.5122,
+        "lng": 34.4667,
+        "description": "Tregua a Gaza",
+        "severity": "high",
+        "url": "https://www.ansa.it/sito/notizie/topnews/2026/02/28/schlein-escalation-in-iran-ha-risvolti-anche-sulla-fragile-tregua-a-gaza_cc5b85ec-c702-4394-81c5-9aaab1137531.html"
+    },
+    {
+        "location": "Bahrein",
+        "lat": 25.9304,
+        "lng": 50.5465,
+        "description": "Operazione contro basi Usa",
+        "severity": "high",
+        "url": "https://www.ansa.it/sito/notizie/topnews/2026/02/28/pasdaran-lanciata-truth-promise-4-operazione-contro-basi-usa_e6352c4e-b02e-4b24-a4e5-4e5d4b1db861.html"
+    },
+    {
+        "location": "Qatar",
+        "lat": 25.3548,
+        "lng": 51.1839,
+        "description": "Operazione contro basi Usa",
+        "severity": "high",
+        "url": "https://www.ansa.it/sito/notizie/topnews/2026/02/28/pasdaran-lanciata-truth-promise-4-operazione-contro-basi-usa_e6352c4e-b02e-4b24-a4e5-4e5d4b1db861.html"
+    },
+    {
+        "location": "Emirati Arabi",
+        "lat": 23.4241,
+        "lng": 53.8478,
+        "description": "Operazione contro basi Usa",
+        "severity": "high",
+        "url": "https://www.ansa.it/sito/notizie/topnews/2026/02/28/pasdaran-lanciata-truth-promise-4-operazione-contro-basi-usa_e6352c4e-b02e-4b24-a4e5-4e5d4b1db861.html"
+    },
+    {
+        "location": "Roma",
+        "lat": 41.9029,
+        "lng": 12.4954,
+        "description": "Attenzione su sedi ambasciate",
+        "severity": "medium",
+        "url": "https://www.ansa.it/sito/notizie/topnews/2026/02/28/innalzata-a-roma-attenzione-su-sedi-ambasciate-e-ghetto-dopo-attacco-a-iran_06dc9835-d567-4a54-9522-47a0f30d8b39.html"
+    },
+    {
+        "location": "Ghetto",
+        "lat": 41.8955,
+        "lng": 12.4863,
+        "description": "Attenzione su Ghetto",
+        "severity": "medium",
+        "url": "https://www.ansa.it/sito/notizie/topnews/2026/02/28/innalzata-a-roma-attenzione-su-sedi-ambasciate-e-ghetto-dopo-attacco-a-iran_06dc9835-d567-4a54-9522-47a0f30d8b39.html"
+    }
+]

@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global News Tracker</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Leaflet CSS for flat map -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/report.css">
+
+    <!-- Three.js + Globe.gl -->
+    <script src="lib/three.min.js"></script>
+    <script src="lib/globe.gl.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/satellite.js/5.0.0/satellite.min.js"></script>
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+</head>
+
+<body>
+    <div class="app-layout">
+        <main class="main-content">
+
+            <!-- Header Overlay -->
+            <header class="main-header">
+                <div style="display: flex; align-items: center; gap: 12px;">
+                    <div class="header-title">
+                        <svg class="globe-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <line x1="2" y1="12" x2="22" y2="12"></line>
+                            <path
+                                d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z">
+                            </path>
+                        </svg>
+                        <div>
+                            <h1>Global News Tracker</h1>
+                            <p>Real-time world events monitoring</p>
+                        </div>
+                    </div>
+                    <button class="theme-toggle-btn" id="themeToggleBtn" title="Toggle dark/light mode"
+                        style="margin-left: 0;">
+                        <svg id="themeIcon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                        </svg>
+                    </button>
+                </div>
+
+                <!-- Right side empty for now -->
+                <div></div>
+            </header>
+
+            <!-- Middle Row: Globe + Sidebar -->
+            <div class="main-content-row">
+                <!-- Map Area -->
+                <div class="map-wrapper">
+                    <button class="map-toggle-btn" id="mapToggleBtn">🗺 Flat Map</button>
+                    <!-- Floating Layer Panel (Left Side) -->
+                    <div class="floating-layers-panel" id="layerControls">
+                        <div class="flp-title">Layers</div>
+                        <button class="flp-toggle active" id="layerNews" data-layer="news" title="Global News">
+                            <span class="flp-icon">📰</span><span class="flp-label">News</span>
+                        </button>
+                        <button class="flp-toggle" id="layerFirms" data-layer="firms" title="NASA FIRMS">
+                            <span class="flp-icon">🔥</span><span class="flp-label">FIRMS</span>
+                        </button>
+                        <div class="flp-slider-wrap" id="frpSliderWrap">
+                            <input type="range" id="frpSlider" min="100" max="500" value="100" step="1">
+                            <span id="frpValue">100 MW</span>
+                        </div>
+                        <button class="flp-toggle" id="layerEarthquakes" data-layer="earthquakes"
+                            title="USGS Earthquakes">
+                            <span class="flp-icon">🌍</span><span class="flp-label">Quakes</span>
+                        </button>
+                        <button class="flp-toggle" id="layerNuclear" data-layer="nuclear" title="Nuclear Plants">
+                            <span class="flp-icon">☢️</span><span class="flp-label">Strategic</span>
+                        </button>
+                        <button class="flp-toggle" id="layerConflicts" data-layer="conflicts"
+                            title="Active Conflict Zones">
+                            <span class="flp-icon">⚔️</span><span class="flp-label">Conflicts</span>
+                        </button>
+                        <button class="flp-toggle" id="layerFlights" data-layer="flights"
+                            title="Live Military & Emergency Flights">
+                            <span class="flp-icon">✈️</span><span class="flp-label">Flights</span>
+                        </button>
+                        <button class="flp-toggle" id="layerShips" data-layer="ships"
+                            title="Live Military & Rescue Ships">
+                            <span class="flp-icon">⚓</span><span class="flp-label">Navi</span>
+                        </button>
+                        <button class="flp-toggle" id="layerSatellites" data-layer="satellites"
+                            title="Live Real-Time Satellites">
+                            <span class="flp-icon">🛰️</span><span class="flp-label">Sats</span>
+                        </button>
+                        <button class="flp-toggle" id="layerGpsJam" data-layer="gpsjam"
+                            title="Live GPS Jamming / GNSS Interference">
+                            <span class="flp-icon">📡</span><span class="flp-label">GPS Jam</span>
+                        </button>
+                    </div>
+                    <div id="globe-container"></div>
+                    <div id="flat-map-container" style="display:none;width:100%;height:100%;"></div>
+                    <div class="map-footer">
+                        Global News Tracker &middot; <strong id="tracked-articles-count">0</strong> articles tracked
+                    </div>
+                </div>
+
+                <!-- Right Sidebar -->
+                <aside class="right-sidebar">
+                    <!-- Sidebar Tabs -->
+                    <div class="sidebar-tabs">
+                        <button class="sidebar-tab active" id="tabNews" data-tab="news">📰 News</button>
+                        <button class="sidebar-tab" id="tabTelegram" data-tab="telegram">📡 Telegram</button>
+                        <button class="sidebar-tab" id="tabPizza" data-tab="pizza">🍕 Pizza Index</button>
+                    </div>
+
+                    <!-- News Tab Content -->
+                    <div class="tab-content" id="tabContentNews">
+                        <!-- Category Sub-Navigation (always visible) -->
+                        <div class="ansa-cat-filters">
+                            <button class="ansa-cat-btn active" data-cat="all">📰 Tutti</button>
+                            <button class="ansa-cat-btn" data-cat="Mondo">🌍 Mondo</button>
+                            <button class="ansa-cat-btn" data-cat="Economia">📈 Economia</button>
+                            <button class="ansa-cat-btn report-btn" id="openReportBtn">📊 Report 24h</button>
+                        </div>
+
+                        <!-- "Tutti" view: General News Feed -->
+                        <div id="news-view-all">
+                            <div class="feed-header">
+                                <div>
+                                    <h2>News Feed</h2>
+                                    <span class="article-count" id="sidebar-article-count">0 articles</span>
+                                </div>
+                                <div class="top-controls">
+                                    <button class="toggle-btn active" id="sortDateBtn">
+                                        <svg class="icon-small" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                            stroke-width="2">
+                                            <circle cx="12" cy="12" r="10"></circle>
+                                            <polyline points="12 6 12 12 16 14"></polyline>
+                                        </svg>
+                                        Date
+                                    </button>
+                                    <button class="toggle-btn" id="sortPriorityBtn">
+                                        <svg class="icon-small" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                            stroke-width="2">
+                                            <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+                                        </svg>
+                                        Priority
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="search-bar-wrapper">
+                                <div class="search-bar">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round">
+                                        <circle cx="11" cy="11" r="8"></circle>
+                                        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                                    </svg>
+                                    <input type="text" id="newsSearchInput" placeholder="Search news..."
+                                        autocomplete="off">
+                                </div>
+                            </div>
+                            <div class="news-list" id="unified-news-feed"></div>
+                        </div>
+
+                        <!-- "Mondo" view: ANSA Ultima Ora Mondo -->
+                        <div id="news-view-mondo" style="display: none;">
+                            <div class="feed-section-header">
+                                <span class="breaking-news-badge">LIVE</span>
+                                <h2>Ultima Ora — Mondo</h2>
+                            </div>
+                            <div id="ansa-feed-mondo" class="news-list"></div>
+                        </div>
+
+                        <!-- "Economia" view: ANSA Ultima Ora Economia -->
+                        <div id="news-view-economia" style="display: none;">
+                            <div class="feed-section-header">
+                                <span class="breaking-news-badge">LIVE</span>
+                                <h2>Ultima Ora — Economia</h2>
+                            </div>
+                            <div id="ansa-feed-economia" class="news-list"></div>
+                        </div>
+                    </div>
+
+                    <!-- Telegram Tab Content -->
+                    <div class="tab-content" id="tabContentTelegram" style="display:none;">
+                        <div class="feed-header">
+                            <h2>OSINT Feed</h2>
+                            <span class="article-count" id="telegram-msg-count">0 messages</span>
+                        </div>
+                        <div class="search-bar-wrapper">
+                            <div class="search-bar">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <circle cx="11" cy="11" r="8"></circle>
+                                    <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                                </svg>
+                                <input type="text" id="telegramSearchInput" placeholder="Search OSINT..."
+                                    autocomplete="off">
+                            </div>
+                        </div>
+                        <div class="news-list" id="telegram-feed"></div>
+                    </div>
+
+                    <!-- Pizza Index Tab Content -->
+                    <div class="tab-content" id="tabContentPizza" style="display:none;">
+                        <div class="feed-header">
+                            <div>
+                                <h2>Pentagon Pizza Index</h2>
+                                <span class="article-count" id="pizza-status-label">Monitoring Readiness...</span>
+                            </div>
+                        </div>
+                        <div class="news-list" id="pizza-feed"></div>
+                    </div>
+                </aside>
+            </div>
+
+            <!-- Bottom Bar -->
+            <footer class="bottom-bar">
+                <!-- Risk Strip — compact horizontal -->
+                <div class="risk-strip">
+                    <span class="risk-strip-label">🌐 Global Risk</span>
+                    <div class="risk-strip-items">
+                        <div class="risk-chip">
+                            <span>🇪🇺 Europe</span>
+                            <div class="risk-badge" id="risk-eu">Low</div>
+                            <span class="risk-meta" id="risk-count-eu">–</span>
+                            <span class="risk-meta risk-critical" id="risk-high-eu">–</span>
+                        </div>
+                        <div class="risk-chip">
+                            <span>🌎 Americas</span>
+                            <div class="risk-badge" id="risk-am">Med</div>
+                            <span class="risk-meta" id="risk-count-am">–</span>
+                            <span class="risk-meta risk-critical" id="risk-high-am">–</span>
+                        </div>
+                        <div class="risk-chip">
+                            <span>🌏 Asia</span>
+                            <div class="risk-badge" id="risk-as">Low</div>
+                            <span class="risk-meta" id="risk-count-as">–</span>
+                            <span class="risk-meta risk-critical" id="risk-high-as">–</span>
+                        </div>
+                        <div class="risk-chip">
+                            <span>🕌 Mid-East</span>
+                            <div class="risk-badge" id="risk-me">High</div>
+                            <span class="risk-meta" id="risk-count-me">–</span>
+                            <span class="risk-meta risk-critical" id="risk-high-me">–</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Charts Row — dynamically managed -->
+                <div class="charts-row" id="chartsRow"></div>
+                <button class="add-widget-btn" id="addWidgetBtn" title="Add stock widget">＋</button>
+            </footer>
+
+        </main>
+
+        <!-- YouTube Livestreams Row (Scroll down to see) -->
+        <section class="livestreams-wrapper">
+            <h2 class="section-heading">📺 Live Coverage & OSINT Feeds</h2>
+            <div class="livestreams-container" id="livestreamsContainer">
+
+                <div class="stream-card">
+                    <div class="stream-title">Bloomberg Business News</div>
+                    <iframe src="https://www.youtube.com/embed/iEpJwprxDdk?autoplay=1&mute=1"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                </div>
+
+                <div class="stream-card">
+                    <div class="stream-title">Iran HD Camera</div>
+                    <iframe src="https://www.youtube.com/embed/-zGuR1qVKrU?autoplay=1&mute=1"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                </div>
+
+                <div class="stream-card">
+                    <div class="stream-title">Cameras in Israel, Iran, Syria and Middle East</div>
+                    <iframe src="https://www.youtube.com/embed/gmtlJ_m2r5A?autoplay=1&mute=1"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                </div>
+
+                <div class="stream-card">
+                    <div class="stream-title">Middle East real-time cameras</div>
+                    <iframe src="https://www.youtube.com/embed/4E-iFtUM2kk?autoplay=1&mute=1"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                </div>
+
+                <div class="stream-card">
+                    <div class="stream-title">CNBC Marathon</div>
+                    <iframe src="https://www.youtube.com/embed/9NyxcX3rhQs?autoplay=1&mute=1"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                </div>
+
+                <div class="stream-card">
+                    <div class="stream-title">Al Jazeera English</div>
+                    <iframe src="https://www.youtube.com/embed/gCNeDWCI0vo?autoplay=1&mute=1"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                </div>
+
+            </div>
+        </section>
+
+    </div>
+    <!-- Daily Report Modal -->
+    <div class="report-modal" id="reportModal" style="display: none;">
+        <div class="report-overlay" id="reportOverlay"></div>
+        <div class="report-container">
+            <div class="report-header">
+                <div>
+                    <h2>📊 Daily News Report</h2>
+                    <p id="reportTimestamp">Last 24 hours analysis</p>
+                </div>
+                <button class="close-btn" id="closeReportBtn">&times;</button>
+            </div>
+            <div class="report-body">
+                <!-- Day at a Glance -->
+                <div class="report-section">
+                    <h3>🌍 Day at a Glance</h3>
+                    <div class="glance-grid" id="glanceGrid">
+                        <!-- Stats cards injected here -->
+                    </div>
+                </div>
+                <!-- Geographic Focus + Categories -->
+                <div class="report-grid">
+                    <div class="report-section">
+                        <h3>📍 Geographic Focus</h3>
+                        <div id="geoFocus"></div>
+                    </div>
+                    <div class="report-section">
+                        <h3>📂 Topic Categories</h3>
+                        <div id="catBreakdown"></div>
+                    </div>
+                </div>
+                <!-- Major Stories -->
+                <div class="report-section">
+                    <h3>🔝 Major Stories</h3>
+                    <div class="report-top-news" id="reportTopNews"></div>
+                </div>
+                <!-- Sources -->
+                <div class="report-section">
+                    <h3>📈 Source Volume</h3>
+                    <div class="volume-chart" id="volumeChart"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
