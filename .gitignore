@@ -1,0 +1,9 @@
+data/
+lib/
+data*
+logs/
+node_modules/
+media/
+package-lock.json
+package.json
+venv/
