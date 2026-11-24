@@ -1,0 +1,2 @@
+# engine/data contiene i lessici versionati (il pattern globale "data/" li ignorerebbe)
+!data/

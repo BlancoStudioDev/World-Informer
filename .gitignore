@@ -1,10 +1,30 @@
-data/
-lib/
-data*
-logs/
-node_modules/
-media/
-package-lock.json
-package.json
-venv/
+# secrets
 .env
+
+# generated output / runtime
+/data/*
+!/data/countries.geojson
+!/data/countries.min.geojson
+!/data/data_conflicts.json
+logs/
+*.lock
+
+# python
+venv/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# node
+node_modules/
+
+# misc
+media/
+.DS_Store
+
+# local tooling
+.claude/
+
+# frontend build
+web/dist/

@@ -1,0 +1,8751 @@
+{
+ "version": 2,
+ "countries": [
+  {
+   "iso2": "AF",
+   "name_en": "Afghanistan",
+   "name_it": "Afghanistan",
+   "region": "asia",
+   "lat": 33.86,
+   "lng": 66.09,
+   "aliases": [
+    "Afghanistan"
+   ],
+   "demonyms": {
+    "en": [
+     "Afghan",
+     "Afghans"
+    ],
+    "it": [
+     "afghano",
+     "afghana",
+     "afghani",
+     "afghane"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Kabul",
+     "Kabul"
+    ],
+    "lat": 34.53,
+    "lng": 69.17
+   },
+   "cities": [
+    {
+     "names": [
+      "Kandahar",
+      "Kandahar"
+     ],
+     "lat": 31.62,
+     "lng": 65.71
+    },
+    {
+     "names": [
+      "Herat",
+      "Herat"
+     ],
+     "lat": 34.35,
+     "lng": 62.2
+    }
+   ],
+   "leaders": [
+    "Taliban",
+    "Akhundzada",
+    "Bagram"
+   ]
+  },
+  {
+   "iso2": "AL",
+   "name_en": "Albania",
+   "name_it": "Albania",
+   "region": "europe",
+   "lat": 41.14,
+   "lng": 20.03,
+   "aliases": [],
+   "demonyms": {
+    "en": [
+     "Albanian",
+     "Albanians"
+    ],
+    "it": [
+     "albanese",
+     "albanesi"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Tirana",
+     "Tirana"
+    ],
+    "lat": 41.33,
+    "lng": 19.82
+   },
+   "cities": [
+    {
+     "names": [
+      "Durres",
+      "Durazzo"
+     ],
+     "lat": 41.32,
+     "lng": 19.45
+    }
+   ],
+   "leaders": []
+  },
+  {
+   "iso2": "DZ",
+   "name_en": "Algeria",
+   "name_it": "Algeria",
+   "region": "africa",
+   "lat": 28.19,
+   "lng": 2.6,
+   "aliases": [],
+   "demonyms": {
+    "en": [
+     "Algerian",
+     "Algerians"
+    ],
+    "it": [
+     "algerino",
+     "algerina",
+     "algerini",
+     "algerine"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Algiers",
+     "Algeri"
+    ],
+    "lat": 36.75,
+    "lng": 3.06
+   },
+   "cities": [
+    {
+     "names": [
+      "Oran",
+      "Orano"
+     ],
+     "lat": 35.7,
+     "lng": -0.63
+    }
+   ],
+   "leaders": [
+    "Tebboune"
+   ]
+  },
+  {
+   "iso2": "AD",
+   "name_en": "Andorra",
+   "name_it": "Andorra",
+   "region": "europe",
+   "lat": 42.51,
+   "lng": 1.52,
+   "aliases": [],
+   "demonyms": {
+    "en": [
+     "Andorran",
+     "Andorrans"
+    ],
+    "it": [
+     "andorrano",
+     "andorrana",
+     "andorrani",
+     "andorrane"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Andorra la Vella"
+    ],
+    "lat": 42.51,
+    "lng": 1.52
+   },
+   "cities": [],
+   "leaders": []
+  },
+  {
+   "iso2": "AO",
+   "name_en": "Angola",
+   "name_it": "Angola",
+   "region": "africa",
+   "lat": -12.29,
+   "lng": 17.5,
+   "aliases": [],
+   "demonyms": {
+    "en": [
+     "Angolan",
+     "Angolans"
+    ],
+    "it": [
+     "angolano",
+     "angolana",
+     "angolani",
+     "angolane"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Luanda",
+     "Luanda"
+    ],
+    "lat": -8.84,
+    "lng": 13.23
+   },
+   "cities": [
+    {
+     "names": [
+      "Benguela",
+      "Benguela"
+     ],
+     "lat": -12.58,
+     "lng": 13.4
+    }
+   ],
+   "leaders": []
+  },
+  {
+   "iso2": "AG",
+   "name_en": "Antigua and Barbuda",
+   "name_it": "Antigua e Barbuda",
+   "region": "americas",
+   "lat": 17.12,
+   "lng": -61.85,
+   "aliases": [],
+   "demonyms": {
+    "en": [
+     "Antiguan",
+     "Antiguans",
+     "Barbudan",
+     "Barbudans"
+    ],
+    "it": [
+     "antiguano",
+     "antiguana",
+     "antiguani",
+     "antiguane"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Saint John's",
+     "Saint John's",
+     "St John's"
+    ],
+    "lat": 17.12,
+    "lng": -61.85
+   },
+   "cities": [],
+   "leaders": []
+  },
+  {
+   "iso2": "AR",
+   "name_en": "Argentina",
+   "name_it": "Argentina",
+   "region": "americas",
+   "lat": -35.22,
+   "lng": -65.15,
+   "aliases": [],
+   "demonyms": {
+    "en": [
+     "Argentine",
+     "Argentines",
+     "Argentinian",
+     "Argentinians"
+    ],
+    "it": [
+     "argentino",
+     "argentina",
+     "argentini",
+     "argentine"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Buenos Aires",
+     "Buenos Aires"
+    ],
+    "lat": -34.6,
+    "lng": -58.38
+   },
+   "cities": [
+    {
+     "names": [
+      "Rosario",
+      "Rosario"
+     ],
+     "lat": -32.95,
+     "lng": -60.65,
+     "weight": 0.3
+    }
+   ],
+   "leaders": [
+    "Milei",
+    "Casa Rosada",
+    "Merval"
+   ]
+  },
+  {
+   "iso2": "AM",
+   "name_en": "Armenia",
+   "name_it": "Armenia",
+   "region": "asia",
+   "lat": 40.22,
+   "lng": 45.0,
+   "aliases": [],
+   "demonyms": {
+    "en": [
+     "Armenian",
+     "Armenians"
+    ],
+    "it": [
+     "armeno",
+     "armena",
+     "armeni",
+     "armene"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Yerevan",
+     "Erevan"
+    ],
+    "lat": 40.18,
+    "lng": 44.51
+   },
+   "cities": [
+    {
+     "names": [
+      "Gyumri",
+      "Gyumri"
+     ],
+     "lat": 40.79,
+     "lng": 43.85
+    }
+   ],
+   "leaders": [
+    "Pashinyan"
+   ]
+  },
+  {
+   "iso2": "AU",
+   "name_en": "Australia",
+   "name_it": "Australia",
+   "region": "oceania",
+   "lat": -25.56,
+   "lng": 134.38,
+   "aliases": [],
+   "demonyms": {
+    "en": [
+     "Australian",
+     "Australians"
+    ],
+    "it": [
+     "australiano",
+     "australiana",
+     "australiani",
+     "australiane"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Canberra",
+     "Canberra"
+    ],
+    "lat": -35.28,
+    "lng": 149.13
+   },
+   "cities": [
+    {
+     "names": [
+      "Sydney",
+      "Sydney"
+     ],
+     "lat": -33.87,
+     "lng": 151.21
+    },
+    {
+     "names": [
+      "Melbourne",
+      "Melbourne"
+     ],
+     "lat": -37.81,
+     "lng": 144.96
+    },
+    {
+     "names": [
+      "Perth",
+      "Perth"
+     ],
+     "lat": -31.95,
+     "lng": 115.86
+    }
+   ],
+   "leaders": [
+    "Albanese",
+    "ASX"
+   ]
+  },
+  {
+   "iso2": "AT",
+   "name_en": "Austria",
+   "name_it": "Austria",
+   "region": "europe",
+   "lat": 47.61,
+   "lng": 14.08,
+   "aliases": [],
+   "demonyms": {
+    "en": [
+     "Austrian",
+     "Austrians"
+    ],
+    "it": [
+     "austriaco",
+     "austriaca",
+     "austriaci",
+     "austriace"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Vienna",
+     "Vienna",
+     "Wien"
+    ],
+    "lat": 48.21,
+    "lng": 16.37
+   },
+   "cities": [
+    {
+     "names": [
+      "Salzburg",
+      "Salisburgo"
+     ],
+     "lat": 47.8,
+     "lng": 13.04
+    }
+   ],
+   "leaders": []
+  },
+  {
+   "iso2": "AZ",
+   "name_en": "Azerbaijan",
+   "name_it": "Azerbaigian",
+   "region": "asia",
+   "lat": 40.28,
+   "lng": 47.68,
+   "aliases": [
+    "Azerbaijan",
+    "Azerbaigian",
+    "Azerbaijan"
+   ],
+   "demonyms": {
+    "en": [
+     "Azerbaijani",
+     "Azerbaijanis",
+     "Azeri",
+     "Azeris"
+    ],
+    "it": [
+     "azero",
+     "azera",
+     "azeri",
+     "azere",
+     "azerbaigiano",
+     "azerbaigiana",
+     "azerbaigiani",
+     "azerbaigiane"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Baku",
+     "Baku"
+    ],
+    "lat": 40.41,
+    "lng": 49.87
+   },
+   "cities": [
+    {
+     "names": [
+      "Nagorno-Karabakh",
+      "Nagorno-Karabakh",
+      "Nagorno Karabakh",
+      "Karabakh",
+      "Artsakh"
+     ],
+     "lat": 39.8,
+     "lng": 46.75
+    }
+   ],
+   "leaders": [
+    "Aliyev"
+   ]
+  },
+  {
+   "iso2": "BS",
+   "name_en": "Bahamas",
+   "name_it": "Bahamas",
+   "region": "americas",
+   "lat": 24.51,
+   "lng": -77.92,
+   "aliases": [],
+   "demonyms": {
+    "en": [
+     "Bahamian",
+     "Bahamians"
+    ],
+    "it": [
+     "bahamense",
+     "bahamensi",
+     "bahamiano",
+     "bahamiana",
+     "bahamiani",
+     "bahamiane"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Nassau",
+     "Nassau"
+    ],
+    "lat": 25.05,
+    "lng": -77.35,
+    "weight": 0.5
+   },
+   "cities": [],
+   "leaders": []
+  },
+  {
+   "iso2": "BH",
+   "name_en": "Bahrain",
+   "name_it": "Bahrein",
+   "region": "middle_east",
+   "lat": 26.23,
+   "lng": 50.59,
+   "aliases": [],
+   "demonyms": {
+    "en": [
+     "Bahraini",
+     "Bahrainis"
+    ],
+    "it": [
+     "bahreinita"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Manama",
+     "Manama"
+    ],
+    "lat": 26.23,
+    "lng": 50.59
+   },
+   "cities": [],
+   "leaders": []
+  },
+  {
+   "iso2": "BD",
+   "name_en": "Bangladesh",
+   "name_it": "Bangladesh",
+   "region": "asia",
+   "lat": 23.84,
+   "lng": 90.27,
+   "aliases": [],
+   "demonyms": {
+    "en": [
+     "Bangladeshi",
+     "Bangladeshis"
+    ],
+    "it": [
+     "bangladese",
+     "bangladesi"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Dhaka",
+     "Dacca"
+    ],
+    "lat": 23.81,
+    "lng": 90.41
+   },
+   "cities": [
+    {
+     "names": [
+      "Chittagong",
+      "Chittagong"
+     ],
+     "lat": 22.36,
+     "lng": 91.78
+    }
+   ],
+   "leaders": [
+    "Yunus~0.3",
+    "Hasina"
+   ]
+  },
+  {
+   "iso2": "BB",
+   "name_en": "Barbados",
+   "name_it": "Barbados",
+   "region": "americas",
+   "lat": 13.1,
+   "lng": -59.61,
+   "aliases": [],
+   "demonyms": {
+    "en": [
+     "Barbadian",
+     "Barbadians"
+    ],
+    "it": [
+     "barbadiano",
+     "barbadiana",
+     "barbadiani",
+     "barbadiane"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Bridgetown",
+     "Bridgetown"
+    ],
+    "lat": 13.1,
+    "lng": -59.61
+   },
+   "cities": [],
+   "leaders": []
+  },
+  {
+   "iso2": "BY",
+   "name_en": "Belarus",
+   "name_it": "Bielorussia",
+   "region": "europe",
+   "lat": 53.51,
+   "lng": 27.98,
+   "aliases": [
+    "Belarus",
+    "Belorussia",
+    "Bielorussia"
+   ],
+   "demonyms": {
+    "en": [
+     "Belarusian",
+     "Belarusians",
+     "Belarussian",
+     "Belarussians"
+    ],
+    "it": [
+     "bielorusso",
+     "bielorussa",
+     "bielorussi",
+     "bielorusse"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Minsk",
+     "Minsk"
+    ],
+    "lat": 53.9,
+    "lng": 27.57
+   },
+   "cities": [
+    {
+     "names": [
+      "Brest",
+      "Brest-Litovsk"
+     ],
+     "lat": 52.1,
+     "lng": 23.7,
+     "weight": 0.3
+    }
+   ],
+   "leaders": [
+    "Lukashenko",
+    "Lukashenka"
+   ]
+  },
+  {
+   "iso2": "BE",
+   "name_en": "Belgium",
+   "name_it": "Belgio",
+   "region": "europe",
+   "lat": 50.65,
+   "lng": 4.58,
+   "aliases": [
+    "Belgio"
+   ],
+   "demonyms": {
+    "en": [
+     "Belgian",
+     "Belgians"
+    ],
+    "it": [
+     "belga",
+     "belgi",
+     "belghe",
+     "belghi"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Brussels",
+     "Bruxelles"
+    ],
+    "lat": 50.85,
+    "lng": 4.35
+   },
+   "cities": [
+    {
+     "names": [
+      "Antwerp",
+      "Anversa"
+     ],
+     "lat": 51.22,
+     "lng": 4.4
+    }
+   ],
+   "leaders": []
+  },
+  {
+   "iso2": "BZ",
+   "name_en": "Belize",
+   "name_it": "Belize",
+   "region": "americas",
+   "lat": 17.2,
+   "lng": -88.7,
+   "aliases": [],
+   "demonyms": {
+    "en": [
+     "Belizean",
+     "Belizeans"
+    ],
+    "it": [
+     "beliziano",
+     "beliziana",
+     "beliziani",
+     "beliziane"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Belmopan",
+     "Belmopan"
+    ],
+    "lat": 17.25,
+    "lng": -88.77
+   },
+   "cities": [],
+   "leaders": []
+  },
+  {
+   "iso2": "BJ",
+   "name_en": "Benin",
+   "name_it": "Benin",
+   "region": "africa",
+   "lat": 9.65,
+   "lng": 2.34,
+   "aliases": [],
+   "demonyms": {
+    "en": [
+     "Beninese"
+    ],
+    "it": [
+     "beninese",
+     "beninesi"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Porto-Novo",
+     "Porto-Novo",
+     "Porto Novo"
+    ],
+    "lat": 6.5,
+    "lng": 2.6
+   },
+   "cities": [
+    {
+     "names": [
+      "Cotonou",
+      "Cotonou"
+     ],
+     "lat": 6.37,
+     "lng": 2.39
+    }
+   ],
+   "leaders": []
+  },
+  {
+   "iso2": "BT",
+   "name_en": "Bhutan",
+   "name_it": "Bhutan",
+   "region": "asia",
+   "lat": 27.43,
+   "lng": 90.47,
+   "aliases": [],
+   "demonyms": {
+    "en": [
+     "Bhutanese"
+    ],
+    "it": [
+     "bhutanese",
+     "bhutanesi"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Thimphu",
+     "Thimphu"
+    ],
+    "lat": 27.47,
+    "lng": 89.64
+   },
+   "cities": [],
+   "leaders": []
+  },
+  {
+   "iso2": "BO",
+   "name_en": "Bolivia",
+   "name_it": "Bolivia",
+   "region": "americas",
+   "lat": -16.73,
+   "lng": -64.64,
+   "aliases": [],
+   "demonyms": {
+    "en": [
+     "Bolivian",
+     "Bolivians"
+    ],
+    "it": [
+     "boliviano",
+     "boliviana",
+     "boliviani",
+     "boliviane"
+    ]
+   },
+   "capital": {
+    "names": [
+     "La Paz",
+     "La Paz"
+    ],
+    "lat": -16.5,
+    "lng": -68.15
+   },
+   "cities": [
+    {
+     "names": [
+      "Santa Cruz de la Sierra",
+      "Santa Cruz de la Sierra"
+     ],
+     "lat": -17.78,
+     "lng": -63.18
+    },
+    {
+     "names": [
+      "Sucre",
+      "Sucre"
+     ],
+     "lat": -19.04,
+     "lng": -65.26
+    }
+   ],
+   "leaders": []
+  },
+  {
+   "iso2": "BA",
+   "name_en": "Bosnia and Herzegovina",
+   "name_it": "Bosnia ed Erzegovina",
+   "region": "europe",
+   "lat": 44.18,
+   "lng": 17.82,
+   "aliases": [
+    "Bosnia",
+    "Herzegovina",
+    "Erzegovina",
+    "Bosnia-Herzegovina",
+    "Bosnia Erzegovina"
+   ],
+   "demonyms": {
+    "en": [
+     "Bosnian",
+     "Bosnians"
+    ],
+    "it": [
+     "bosniaco",
+     "bosniaca",
+     "bosniaci",
+     "bosniace"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Sarajevo",
+     "Sarajevo"
+    ],
+    "lat": 43.86,
+    "lng": 18.41
+   },
+   "cities": [
+    {
+     "names": [
+      "Mostar",
+      "Mostar"
+     ],
+     "lat": 43.34,
+     "lng": 17.81
+    }
+   ],
+   "leaders": []
+  },
+  {
+   "iso2": "BW",
+   "name_en": "Botswana",
+   "name_it": "Botswana",
+   "region": "africa",
+   "lat": -22.1,
+   "lng": 23.77,
+   "aliases": [],
+   "demonyms": {
+    "en": [
+     "Botswanan",
+     "Botswanans",
+     "Motswana",
+     "Motswanas"
+    ],
+    "it": [
+     "botswano",
+     "botswana",
+     "botswani",
+     "botswane"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Gaborone",
+     "Gaborone"
+    ],
+    "lat": -24.65,
+    "lng": 25.91
+   },
+   "cities": [],
+   "leaders": []
+  },
+  {
+   "iso2": "BR",
+   "name_en": "Brazil",
+   "name_it": "Brasile",
+   "region": "americas",
+   "lat": -10.81,
+   "lng": -53.05,
+   "aliases": [
+    "Brasil"
+   ],
+   "demonyms": {
+    "en": [
+     "Brazilian",
+     "Brazilians"
+    ],
+    "it": [
+     "brasiliano",
+     "brasiliana",
+     "brasiliani",
+     "brasiliane"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Brasilia",
+     "Brasilia"
+    ],
+    "lat": -15.79,
+    "lng": -47.88
+   },
+   "cities": [
+    {
+     "names": [
+      "Sao Paulo",
+      "San Paolo"
+     ],
+     "lat": -23.55,
+     "lng": -46.63
+    },
+    {
+     "names": [
+      "Rio de Janeiro",
+      "Rio de Janeiro"
+     ],
+     "lat": -22.91,
+     "lng": -43.17
+    }
+   ],
+   "leaders": [
+    "Lula",
+    "Bolsonaro",
+    "Bovespa",
+    "Petrobras~0.3"
+   ]
+  },
+  {
+   "iso2": "BN",
+   "name_en": "Brunei",
+   "name_it": "Brunei",
+   "region": "asia",
+   "lat": 4.69,
+   "lng": 114.92,
+   "aliases": [],
+   "demonyms": {
+    "en": [
+     "Bruneian",
+     "Bruneians"
+    ],
+    "it": [
+     "bruneiano",
+     "bruneiana",
+     "bruneiani",
+     "bruneiane"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Bandar Seri Begawan"
+    ],
+    "lat": 4.89,
+    "lng": 114.94
+   },
+   "cities": [],
+   "leaders": []
+  },
+  {
+   "iso2": "BG",
+   "name_en": "Bulgaria",
+   "name_it": "Bulgaria",
+   "region": "europe",
+   "lat": 42.75,
+   "lng": 25.2,
+   "aliases": [],
+   "demonyms": {
+    "en": [
+     "Bulgarian",
+     "Bulgarians"
+    ],
+    "it": [
+     "bulgaro",
+     "bulgara",
+     "bulgari",
+     "bulgare"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Sofia",
+     "Sofia"
+    ],
+    "lat": 42.7,
+    "lng": 23.32,
+    "weight": 0.4
+   },
+   "cities": [
+    {
+     "names": [
+      "Varna",
+      "Varna"
+     ],
+     "lat": 43.2,
+     "lng": 27.91
+    }
+   ],
+   "leaders": []
+  },
+  {
+   "iso2": "BF",
+   "name_en": "Burkina Faso",
+   "name_it": "Burkina Faso",
+   "region": "africa",
+   "lat": 12.31,
+   "lng": -1.78,
+   "aliases": [],
+   "demonyms": {
+    "en": [
+     "Burkinabe",
+     "Burkinabes"
+    ],
+    "it": [
+     "burkinabe",
+     "burkinabi"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Ouagadougou",
+     "Ouagadougou"
+    ],
+    "lat": 12.37,
+    "lng": -1.52
+   },
+   "cities": [],
+   "leaders": []
+  },
+  {
+   "iso2": "BI",
+   "name_en": "Burundi",
+   "name_it": "Burundi",
+   "region": "africa",
+   "lat": -3.38,
+   "lng": 29.91,
+   "aliases": [],
+   "demonyms": {
+    "en": [
+     "Burundian",
+     "Burundians"
+    ],
+    "it": [
+     "burundese",
+     "burundesi"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Gitega",
+     "Gitega"
+    ],
+    "lat": -3.43,
+    "lng": 29.93
+   },
+   "cities": [
+    {
+     "names": [
+      "Bujumbura",
+      "Bujumbura"
+     ],
+     "lat": -3.38,
+     "lng": 29.36
+    }
+   ],
+   "leaders": []
+  },
+  {
+   "iso2": "CV",
+   "name_en": "Cabo Verde",
+   "name_it": "Capo Verde",
+   "region": "africa",
+   "lat": 14.93,
+   "lng": -23.51,
+   "aliases": [
+    "Cape Verde",
+    "Cabo Verde",
+    "Capo Verde"
+   ],
+   "demonyms": {
+    "en": [
+     "Cape Verdean",
+     "Cape Verdeans"
+    ],
+    "it": [
+     "capoverdiano",
+     "capoverdiana",
+     "capoverdiani",
+     "capoverdiane"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Praia",
+     "Praia"
+    ],
+    "lat": 14.93,
+    "lng": -23.51,
+    "weight": 0.4
+   },
+   "cities": [],
+   "leaders": []
+  },
+  {
+   "iso2": "KH",
+   "name_en": "Cambodia",
+   "name_it": "Cambogia",
+   "region": "asia",
+   "lat": 12.68,
+   "lng": 104.88,
+   "aliases": [],
+   "demonyms": {
+    "en": [
+     "Cambodian",
+     "Cambodians"
+    ],
+    "it": [
+     "cambogiano",
+     "cambogiana",
+     "cambogiani",
+     "cambogiane"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Phnom Penh",
+     "Phnom Penh"
+    ],
+    "lat": 11.56,
+    "lng": 104.92
+   },
+   "cities": [
+    {
+     "names": [
+      "Siem Reap",
+      "Siem Reap"
+     ],
+     "lat": 13.36,
+     "lng": 103.86
+    }
+   ],
+   "leaders": [
+    "Hun Sen",
+    "Hun Manet"
+   ]
+  },
+  {
+   "iso2": "CM",
+   "name_en": "Cameroon",
+   "name_it": "Camerun",
+   "region": "africa",
+   "lat": 5.66,
+   "lng": 12.61,
+   "aliases": [],
+   "demonyms": {
+    "en": [
+     "Cameroonian",
+     "Cameroonians"
+    ],
+    "it": [
+     "camerunese",
+     "camerunesi"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Yaounde",
+     "Yaounde"
+    ],
+    "lat": 3.85,
+    "lng": 11.5
+   },
+   "cities": [
+    {
+     "names": [
+      "Douala",
+      "Douala"
+     ],
+     "lat": 4.05,
+     "lng": 9.77
+    }
+   ],
+   "leaders": []
+  },
+  {
+   "iso2": "CA",
+   "name_en": "Canada",
+   "name_it": "Canada",
+   "region": "americas",
+   "lat": 57.75,
+   "lng": -101.57,
+   "aliases": [],
+   "demonyms": {
+    "en": [
+     "Canadian",
+     "Canadians"
+    ],
+    "it": [
+     "canadese",
+     "canadesi"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Ottawa",
+     "Ottawa"
+    ],
+    "lat": 45.42,
+    "lng": -75.7
+   },
+   "cities": [
+    {
+     "names": [
+      "Toronto",
+      "Toronto"
+     ],
+     "lat": 43.65,
+     "lng": -79.38
+    },
+    {
+     "names": [
+      "Vancouver",
+      "Vancouver"
+     ],
+     "lat": 49.28,
+     "lng": -123.12
+    },
+    {
+     "names": [
+      "Montreal",
+      "Montreal"
+     ],
+     "lat": 45.5,
+     "lng": -73.57
+    }
+   ],
+   "leaders": [
+    "Carney",
+    "Trudeau",
+    "Poilievre"
+   ]
+  },
+  {
+   "iso2": "CF",
+   "name_en": "Central African Republic",
+   "name_it": "Repubblica Centrafricana",
+   "region": "africa",
+   "lat": 6.54,
+   "lng": 20.37,
+   "aliases": [],
+   "demonyms": {
+    "en": [
+     "Central African",
+     "Central Africans"
+    ],
+    "it": [
+     "centrafricano",
+     "centrafricana",
+     "centrafricani",
+     "centrafricane"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Bangui",
+     "Bangui"
+    ],
+    "lat": 4.36,
+    "lng": 18.56
+   },
+   "cities": [],
+   "leaders": []
+  },
+  {
+   "iso2": "TD",
+   "name_en": "Chad",
+   "name_it": "Ciad",
+   "region": "africa",
+   "lat": 15.33,
+   "lng": 18.58,
+   "aliases": [
+    "=Chad",
+    "Ciad"
+   ],
+   "demonyms": {
+    "en": [
+     "Chadian",
+     "Chadians"
+    ],
+    "it": [
+     "ciadiano",
+     "ciadiana",
+     "ciadiani",
+     "ciadiane"
+    ]
+   },
+   "capital": {
+    "names": [
+     "N'Djamena",
+     "N'Djamena",
+     "Ndjamena"
+    ],
+    "lat": 12.13,
+    "lng": 15.05
+   },
+   "cities": [],
+   "leaders": []
+  },
+  {
+   "iso2": "CL",
+   "name_en": "Chile",
+   "name_it": "Cile",
+   "region": "americas",
+   "lat": -37.34,
+   "lng": -71.67,
+   "aliases": [
+    "=Chile",
+    "Cile"
+   ],
+   "demonyms": {
+    "en": [
+     "Chilean",
+     "Chileans"
+    ],
+    "it": [
+     "cileno",
+     "cilena",
+     "cileni",
+     "cilene"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Santiago",
+     "Santiago"
+    ],
+    "lat": -33.45,
+    "lng": -70.67
+   },
+   "cities": [
+    {
+     "names": [
+      "Valparaiso",
+      "Valparaiso"
+     ],
+     "lat": -33.05,
+     "lng": -71.62
+    }
+   ],
+   "leaders": [
+    "Boric",
+    "Kast"
+   ]
+  },
+  {
+   "iso2": "CN",
+   "name_en": "China",
+   "name_it": "Cina",
+   "region": "asia",
+   "lat": 36.61,
+   "lng": 103.87,
+   "aliases": [
+    "PRC",
+    "Repubblica Popolare Cinese",
+    "Mainland China"
+   ],
+   "demonyms": {
+    "en": [
+     "Chinese"
+    ],
+    "it": [
+     "cinese",
+     "cinesi"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Beijing",
+     "Pechino",
+     "Peking"
+    ],
+    "lat": 39.9,
+    "lng": 116.4
+   },
+   "cities": [
+    {
+     "names": [
+      "Shanghai",
+      "Shanghai"
+     ],
+     "lat": 31.23,
+     "lng": 121.47
+    },
+    {
+     "names": [
+      "Shenzhen",
+      "Shenzhen"
+     ],
+     "lat": 22.54,
+     "lng": 114.06
+    },
+    {
+     "names": [
+      "Wuhan",
+      "Wuhan"
+     ],
+     "lat": 30.59,
+     "lng": 114.31
+    },
+    {
+     "names": [
+      "Xinjiang",
+      "Xinjiang"
+     ],
+     "lat": 41.1,
+     "lng": 85.0
+    },
+    {
+     "names": [
+      "Tibet",
+      "Tibet"
+     ],
+     "lat": 31.0,
+     "lng": 88.0
+    }
+   ],
+   "leaders": [
+    "Xi Jinping",
+    "Zhongnanhai",
+    "Huawei~0.3",
+    "Alibaba~0.3",
+    "Tencent~0.3",
+    "=BYD~0.3",
+    "Shanghai Composite"
+   ]
+  },
+  {
+   "iso2": "CO",
+   "name_en": "Colombia",
+   "name_it": "Colombia",
+   "region": "americas",
+   "lat": 3.93,
+   "lng": -73.08,
+   "aliases": [],
+   "demonyms": {
+    "en": [
+     "Colombian",
+     "Colombians"
+    ],
+    "it": [
+     "colombiano",
+     "colombiana",
+     "colombiani",
+     "colombiane"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Bogota",
+     "Bogota"
+    ],
+    "lat": 4.71,
+    "lng": -74.07
+   },
+   "cities": [
+    {
+     "names": [
+      "Medellin",
+      "Medellin"
+     ],
+     "lat": 6.25,
+     "lng": -75.57
+    }
+   ],
+   "leaders": [
+    "Gustavo Petro"
+   ]
+  },
+  {
+   "iso2": "KM",
+   "name_en": "Comoros",
+   "name_it": "Comore",
+   "region": "africa",
+   "lat": -11.7,
+   "lng": 43.26,
+   "aliases": [],
+   "demonyms": {
+    "en": [
+     "Comorian",
+     "Comorians"
+    ],
+    "it": [
+     "comoriano",
+     "comoriana",
+     "comoriani",
+     "comoriane"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Moroni",
+     "Moroni"
+    ],
+    "lat": -11.7,
+    "lng": 43.26,
+    "weight": 0.3
+   },
+   "cities": [],
+   "leaders": []
+  },
+  {
+   "iso2": "CD",
+   "name_en": "Democratic Republic of the Congo",
+   "name_it": "Repubblica Democratica del Congo",
+   "region": "africa",
+   "lat": -2.85,
+   "lng": 23.58,
+   "aliases": [
+    "DR Congo",
+    "DRC",
+    "RD Congo",
+    "RDC",
+    "Congo-Kinshasa",
+    "Congo Kinshasa",
+    "Democratic Republic of Congo",
+    "Repubblica Democratica del Congo"
+   ],
+   "demonyms": {
+    "en": [],
+    "it": []
+   },
+   "capital": {
+    "names": [
+     "Kinshasa",
+     "Kinshasa"
+    ],
+    "lat": -4.44,
+    "lng": 15.27
+   },
+   "cities": [
+    {
+     "names": [
+      "Goma",
+      "Goma"
+     ],
+     "lat": -1.68,
+     "lng": 29.22
+    },
+    {
+     "names": [
+      "Lubumbashi",
+      "Lubumbashi"
+     ],
+     "lat": -11.66,
+     "lng": 27.48
+    },
+    {
+     "names": [
+      "Bukavu",
+      "Bukavu"
+     ],
+     "lat": -2.5,
+     "lng": 28.86
+    }
+   ],
+   "leaders": [
+    "Tshisekedi",
+    "M23"
+   ]
+  },
+  {
+   "iso2": "CG",
+   "name_en": "Republic of the Congo",
+   "name_it": "Repubblica del Congo",
+   "region": "africa",
+   "lat": -0.84,
+   "lng": 15.13,
+   "aliases": [
+    "Congo-Brazzaville",
+    "Congo Brazzaville",
+    "Republic of Congo",
+    "Repubblica del Congo"
+   ],
+   "demonyms": {
+    "en": [],
+    "it": []
+   },
+   "capital": {
+    "names": [
+     "Brazzaville",
+     "Brazzaville"
+    ],
+    "lat": -4.27,
+    "lng": 15.28
+   },
+   "cities": [
+    {
+     "names": [
+      "Pointe-Noire",
+      "Pointe-Noire"
+     ],
+     "lat": -4.78,
+     "lng": 11.86
+    }
+   ],
+   "leaders": [
+    "Sassou Nguesso"
+   ]
+  },
+  {
+   "iso2": "CR",
+   "name_en": "Costa Rica",
+   "name_it": "Costa Rica",
+   "region": "americas",
+   "lat": 9.97,
+   "lng": -84.18,
+   "aliases": [],
+   "demonyms": {
+    "en": [
+     "Costa Rican",
+     "Costa Ricans"
+    ],
+    "it": [
+     "costaricano",
+     "costaricana",
+     "costaricani",
+     "costaricane"
+    ]
+   },
+   "capital": {
+    "names": [
+     "San Jose",
+     "San Jose"
+    ],
+    "lat": 9.93,
+    "lng": -84.08,
+    "weight": 0.3
+   },
+   "cities": [],
+   "leaders": []
+  },
+  {
+   "iso2": "CI",
+   "name_en": "Ivory Coast",
+   "name_it": "Costa d'Avorio",
+   "region": "africa",
+   "lat": 7.55,
+   "lng": -5.61,
+   "aliases": [
+    "Cote d'Ivoire",
+    "Cote dIvoire"
+   ],
+   "demonyms": {
+    "en": [
+     "Ivorian",
+     "Ivorians"
+    ],
+    "it": [
+     "ivoriano",
+     "ivoriana",
+     "ivoriani",
+     "ivoriane"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Yamoussoukro",
+     "Yamoussoukro"
+    ],
+    "lat": 6.82,
+    "lng": -5.28
+   },
+   "cities": [
+    {
+     "names": [
+      "Abidjan",
+      "Abidjan"
+     ],
+     "lat": 5.36,
+     "lng": -4.01
+    }
+   ],
+   "leaders": [
+    "Ouattara"
+   ]
+  },
+  {
+   "iso2": "HR",
+   "name_en": "Croatia",
+   "name_it": "Croazia",
+   "region": "europe",
+   "lat": 45.02,
+   "lng": 16.57,
+   "aliases": [],
+   "demonyms": {
+    "en": [
+     "Croatian",
+     "Croatians"
+    ],
+    "it": [
+     "croato",
+     "croata",
+     "croati",
+     "croate"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Zagreb",
+     "Zagabria"
+    ],
+    "lat": 45.81,
+    "lng": 15.98
+   },
+   "cities": [
+    {
+     "names": [
+      "Dubrovnik",
+      "Ragusa"
+     ],
+     "lat": 42.65,
+     "lng": 18.09
+    }
+   ],
+   "leaders": []
+  },
+  {
+   "iso2": "CU",
+   "name_en": "Cuba",
+   "name_it": "Cuba",
+   "region": "americas",
+   "lat": 21.63,
+   "lng": -78.96,
+   "aliases": [],
+   "demonyms": {
+    "en": [
+     "Cuban",
+     "Cubans"
+    ],
+    "it": [
+     "cubano",
+     "cubana",
+     "cubani",
+     "cubane"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Havana",
+     "L'Avana"
+    ],
+    "lat": 23.13,
+    "lng": -82.38
+   },
+   "cities": [
+    {
+     "names": [
+      "Guantanamo",
+      "Guantanamo"
+     ],
+     "lat": 20.14,
+     "lng": -75.21
+    }
+   ],
+   "leaders": [
+    "Diaz-Canel"
+   ]
+  },
+  {
+   "iso2": "CY",
+   "name_en": "Cyprus",
+   "name_it": "Cipro",
+   "region": "europe",
+   "lat": 34.91,
+   "lng": 33.04,
+   "aliases": [],
+   "demonyms": {
+    "en": [
+     "Cypriot",
+     "Cypriots"
+    ],
+    "it": [
+     "cipriota"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Nicosia",
+     "Nicosia"
+    ],
+    "lat": 35.17,
+    "lng": 33.36
+   },
+   "cities": [
+    {
+     "names": [
+      "Limassol",
+      "Limassol"
+     ],
+     "lat": 34.68,
+     "lng": 33.04
+    }
+   ],
+   "leaders": []
+  },
+  {
+   "iso2": "CZ",
+   "name_en": "Czechia",
+   "name_it": "Repubblica Ceca",
+   "region": "europe",
+   "lat": 49.78,
+   "lng": 15.33,
+   "aliases": [
+    "Czech Republic",
+    "Cechia",
+    "Repubblica Ceca"
+   ],
+   "demonyms": {
+    "en": [
+     "Czech"
+    ],
+    "it": [
+     "ceco",
+     "ceca",
+     "cechi",
+     "cheche"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Prague",
+     "Praga"
+    ],
+    "lat": 50.08,
+    "lng": 14.44
+   },
+   "cities": [
+    {
+     "names": [
+      "Brno",
+      "Brno"
+     ],
+     "lat": 49.2,
+     "lng": 16.61
+    }
+   ],
+   "leaders": [
+    "Babis"
+   ]
+  },
+  {
+   "iso2": "DK",
+   "name_en": "Denmark",
+   "name_it": "Danimarca",
+   "region": "europe",
+   "lat": 56.22,
+   "lng": 9.31,
+   "aliases": [],
+   "demonyms": {
+    "en": [
+     "Danish",
+     "Dane",
+     "Danes"
+    ],
+    "it": [
+     "danese",
+     "danesi"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Copenhagen",
+     "Copenaghen"
+    ],
+    "lat": 55.68,
+    "lng": 12.57
+   },
+   "cities": [
+    {
+     "names": [
+      "Aarhus",
+      "Aarhus"
+     ],
+     "lat": 56.16,
+     "lng": 10.2
+    }
+   ],
+   "leaders": [
+    "Frederiksen"
+   ]
+  },
+  {
+   "iso2": "DJ",
+   "name_en": "Djibouti",
+   "name_it": "Gibuti",
+   "region": "africa",
+   "lat": 11.77,
+   "lng": 42.5,
+   "aliases": [],
+   "demonyms": {
+    "en": [
+     "Djiboutian",
+     "Djiboutians"
+    ],
+    "it": [
+     "gibutiano",
+     "gibutiana",
+     "gibutiani",
+     "gibutiane"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Djibouti",
+     "Gibuti"
+    ],
+    "lat": 11.59,
+    "lng": 43.15
+   },
+   "cities": [],
+   "leaders": []
+  },
+  {
+   "iso2": "DM",
+   "name_en": "Dominica",
+   "name_it": "Dominica",
+   "region": "americas",
+   "lat": 15.3,
+   "lng": -61.39,
+   "aliases": [],
+   "demonyms": {
+    "en": [],
+    "it": []
+   },
+   "capital": {
+    "names": [
+     "Roseau",
+     "Roseau"
+    ],
+    "lat": 15.3,
+    "lng": -61.39
+   },
+   "cities": [],
+   "leaders": []
+  },
+  {
+   "iso2": "DO",
+   "name_en": "Dominican Republic",
+   "name_it": "Repubblica Dominicana",
+   "region": "americas",
+   "lat": 18.88,
+   "lng": -70.46,
+   "aliases": [
+    "Dominican Republic",
+    "Repubblica Dominicana"
+   ],
+   "demonyms": {
+    "en": [
+     "Dominican",
+     "Dominicans"
+    ],
+    "it": [
+     "dominicano",
+     "dominicana",
+     "dominicani",
+     "dominicane"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Santo Domingo",
+     "Santo Domingo"
+    ],
+    "lat": 18.49,
+    "lng": -69.93
+   },
+   "cities": [
+    {
+     "names": [
+      "Punta Cana",
+      "Punta Cana"
+     ],
+     "lat": 18.58,
+     "lng": -68.4
+    }
+   ],
+   "leaders": []
+  },
+  {
+   "iso2": "EC",
+   "name_en": "Ecuador",
+   "name_it": "Ecuador",
+   "region": "americas",
+   "lat": -1.45,
+   "lng": -78.38,
+   "aliases": [],
+   "demonyms": {
+    "en": [
+     "Ecuadorian",
+     "Ecuadorians"
+    ],
+    "it": [
+     "ecuadoriano",
+     "ecuadoriana",
+     "ecuadoriani",
+     "ecuadoriane"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Quito",
+     "Quito"
+    ],
+    "lat": -0.18,
+    "lng": -78.47
+   },
+   "cities": [
+    {
+     "names": [
+      "Guayaquil",
+      "Guayaquil"
+     ],
+     "lat": -2.17,
+     "lng": -79.92
+    }
+   ],
+   "leaders": [
+    "Noboa"
+   ]
+  },
+  {
+   "iso2": "EG",
+   "name_en": "Egypt",
+   "name_it": "Egitto",
+   "region": "middle_east",
+   "lat": 26.51,
+   "lng": 29.84,
+   "aliases": [],
+   "demonyms": {
+    "en": [
+     "Egyptian",
+     "Egyptians"
+    ],
+    "it": [
+     "egiziano",
+     "egiziana",
+     "egiziani",
+     "egiziane"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Cairo",
+     "Il Cairo"
+    ],
+    "lat": 30.04,
+    "lng": 31.24
+   },
+   "cities": [
+    {
+     "names": [
+      "Alexandria",
+      "Alessandria d'Egitto"
+     ],
+     "lat": 31.2,
+     "lng": 29.92,
+     "weight": 0.4
+    },
+    {
+     "names": [
+      "Suez",
+      "Suez"
+     ],
+     "lat": 29.97,
+     "lng": 32.55
+    },
+    {
+     "names": [
+      "Sinai",
+      "Sinai"
+     ],
+     "lat": 29.5,
+     "lng": 33.8
+    },
+    {
+     "names": [
+      "Rafah Crossing"
+     ],
+     "lat": 31.3,
+     "lng": 34.2,
+     "weight": 0.1
+    }
+   ],
+   "leaders": [
+    "Sisi",
+    "al-Sisi"
+   ]
+  },
+  {
+   "iso2": "SV",
+   "name_en": "El Salvador",
+   "name_it": "El Salvador",
+   "region": "americas",
+   "lat": 13.73,
+   "lng": -88.87,
+   "aliases": [],
+   "demonyms": {
+    "en": [
+     "Salvadoran",
+     "Salvadorans"
+    ],
+    "it": [
+     "salvadoregno",
+     "salvadoregna",
+     "salvadoregni",
+     "salvadoregne"
+    ]
+   },
+   "capital": {
+    "names": [
+     "San Salvador",
+     "San Salvador"
+    ],
+    "lat": 13.69,
+    "lng": -89.19
+   },
+   "cities": [],
+   "leaders": [
+    "Bukele"
+   ]
+  },
+  {
+   "iso2": "GQ",
+   "name_en": "Equatorial Guinea",
+   "name_it": "Guinea Equatoriale",
+   "region": "africa",
+   "lat": 1.65,
+   "lng": 10.37,
+   "aliases": [],
+   "demonyms": {
+    "en": [
+     "Equatoguinean",
+     "Equatoguineans",
+     "Equatorial Guinean",
+     "Equatorial Guineans"
+    ],
+    "it": [
+     "equatoguineano",
+     "equatoguineana",
+     "equatoguineani",
+     "equatoguineane"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Malabo",
+     "Malabo"
+    ],
+    "lat": 3.75,
+    "lng": 8.78
+   },
+   "cities": [],
+   "leaders": []
+  },
+  {
+   "iso2": "ER",
+   "name_en": "Eritrea",
+   "name_it": "Eritrea",
+   "region": "africa",
+   "lat": 15.43,
+   "lng": 38.68,
+   "aliases": [],
+   "demonyms": {
+    "en": [
+     "Eritrean",
+     "Eritreans"
+    ],
+    "it": [
+     "eritreo",
+     "eritrea",
+     "eritrei",
+     "eritree"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Asmara",
+     "Asmara"
+    ],
+    "lat": 15.32,
+    "lng": 38.93
+   },
+   "cities": [],
+   "leaders": []
+  },
+  {
+   "iso2": "EE",
+   "name_en": "Estonia",
+   "name_it": "Estonia",
+   "region": "europe",
+   "lat": 58.64,
+   "lng": 25.82,
+   "aliases": [],
+   "demonyms": {
+    "en": [
+     "Estonian",
+     "Estonians"
+    ],
+    "it": [
+     "estone",
+     "estoni"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Tallinn",
+     "Tallinn"
+    ],
+    "lat": 59.44,
+    "lng": 24.75
+   },
+   "cities": [
+    {
+     "names": [
+      "Narva",
+      "Narva"
+     ],
+     "lat": 59.38,
+     "lng": 28.2
+    }
+   ],
+   "leaders": []
+  },
+  {
+   "iso2": "SZ",
+   "name_en": "Eswatini",
+   "name_it": "Eswatini",
+   "region": "africa",
+   "lat": -26.49,
+   "lng": 31.4,
+   "aliases": [
+    "Eswatini",
+    "Swaziland"
+   ],
+   "demonyms": {
+    "en": [
+     "Swazi",
+     "Swazis"
+    ],
+    "it": [
+     "swazi"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Mbabane",
+     "Mbabane"
+    ],
+    "lat": -26.32,
+    "lng": 31.14
+   },
+   "cities": [],
+   "leaders": []
+  },
+  {
+   "iso2": "ET",
+   "name_en": "Ethiopia",
+   "name_it": "Etiopia",
+   "region": "africa",
+   "lat": 8.65,
+   "lng": 39.55,
+   "aliases": [],
+   "demonyms": {
+    "en": [
+     "Ethiopian",
+     "Ethiopians"
+    ],
+    "it": [
+     "etiope",
+     "etiopi"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Addis Ababa",
+     "Addis Abeba"
+    ],
+    "lat": 9.03,
+    "lng": 38.74
+   },
+   "cities": [
+    {
+     "names": [
+      "Tigray",
+      "Tigray"
+     ],
+     "lat": 14.1,
+     "lng": 38.3
+    }
+   ],
+   "leaders": [
+    "Abiy Ahmed",
+    "Abiy"
+   ]
+  },
+  {
+   "iso2": "FJ",
+   "name_en": "Fiji",
+   "name_it": "Figi",
+   "region": "oceania",
+   "lat": -17.83,
+   "lng": 178.0,
+   "aliases": [],
+   "demonyms": {
+    "en": [
+     "Fijian",
+     "Fijians"
+    ],
+    "it": [
+     "figiano",
+     "figiana",
+     "figiani",
+     "figiane"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Suva",
+     "Suva"
+    ],
+    "lat": -18.14,
+    "lng": 178.44
+   },
+   "cities": [],
+   "leaders": []
+  },
+  {
+   "iso2": "FI",
+   "name_en": "Finland",
+   "name_it": "Finlandia",
+   "region": "europe",
+   "lat": 64.5,
+   "lng": 26.21,
+   "aliases": [],
+   "demonyms": {
+    "en": [
+     "Finnish",
+     "Finn",
+     "Finns"
+    ],
+    "it": [
+     "finlandese",
+     "finlandesi"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Helsinki",
+     "Helsinki"
+    ],
+    "lat": 60.17,
+    "lng": 24.94
+   },
+   "cities": [
+    {
+     "names": [
+      "Tampere",
+      "Tampere"
+     ],
+     "lat": 61.5,
+     "lng": 23.76
+    }
+   ],
+   "leaders": [
+    "Stubb",
+    "Orpo"
+   ]
+  },
+  {
+   "iso2": "FR",
+   "name_en": "France",
+   "name_it": "Francia",
+   "region": "europe",
+   "lat": 46.61,
+   "lng": 2.34,
+   "aliases": [
+    "Francia"
+   ],
+   "demonyms": {
+    "en": [
+     "French"
+    ],
+    "it": [
+     "francese",
+     "francesi"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Paris",
+     "Parigi"
+    ],
+    "lat": 48.86,
+    "lng": 2.35
+   },
+   "cities": [
+    {
+     "names": [
+      "Marseille",
+      "Marsiglia"
+     ],
+     "lat": 43.3,
+     "lng": 5.37
+    },
+    {
+     "names": [
+      "Lyon",
+      "Lione"
+     ],
+     "lat": 45.76,
+     "lng": 4.84
+    },
+    {
+     "names": [
+      "Nizza",
+      "Nizza"
+     ],
+     "lat": 43.7,
+     "lng": 7.26
+    }
+   ],
+   "leaders": [
+    "Macron",
+    "Le Pen",
+    "Elysee",
+    "Eliseo",
+    "Matignon",
+    "Quai d'Orsay",
+    "CAC 40",
+    "Bayrou",
+    "Lecornu"
+   ]
+  },
+  {
+   "iso2": "GA",
+   "name_en": "Gabon",
+   "name_it": "Gabon",
+   "region": "africa",
+   "lat": -0.65,
+   "lng": 11.69,
+   "aliases": [],
+   "demonyms": {
+    "en": [
+     "Gabonese"
+    ],
+    "it": [
+     "gabonese",
+     "gabonesi"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Libreville",
+     "Libreville"
+    ],
+    "lat": 0.39,
+    "lng": 9.45
+   },
+   "cities": [],
+   "leaders": []
+  },
+  {
+   "iso2": "GM",
+   "name_en": "Gambia",
+   "name_it": "Gambia",
+   "region": "africa",
+   "lat": 13.48,
+   "lng": -15.43,
+   "aliases": [
+    "The Gambia"
+   ],
+   "demonyms": {
+    "en": [
+     "Gambian",
+     "Gambians"
+    ],
+    "it": [
+     "gambiano",
+     "gambiana",
+     "gambiani",
+     "gambiane"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Banjul",
+     "Banjul"
+    ],
+    "lat": 13.45,
+    "lng": -16.58
+   },
+   "cities": [],
+   "leaders": []
+  },
+  {
+   "iso2": "GE",
+   "name_en": "Georgia",
+   "name_it": "Georgia",
+   "region": "asia",
+   "lat": 42.16,
+   "lng": 43.48,
+   "aliases": [],
+   "demonyms": {
+    "en": [
+     "Georgian",
+     "Georgians"
+    ],
+    "it": [
+     "georgiano",
+     "georgiana",
+     "georgiani",
+     "georgiane"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Tbilisi",
+     "Tbilisi"
+    ],
+    "lat": 41.72,
+    "lng": 44.79
+   },
+   "cities": [
+    {
+     "names": [
+      "Batumi",
+      "Batumi"
+     ],
+     "lat": 41.64,
+     "lng": 41.64
+    },
+    {
+     "names": [
+      "Abkhazia",
+      "Abkhazia"
+     ],
+     "lat": 43.0,
+     "lng": 41.0
+    },
+    {
+     "names": [
+      "South Ossetia",
+      "Ossezia del Sud"
+     ],
+     "lat": 42.22,
+     "lng": 43.97
+    }
+   ],
+   "leaders": [
+    "Georgian Dream",
+    "Sogno georgiano"
+   ]
+  },
+  {
+   "iso2": "DE",
+   "name_en": "Germany",
+   "name_it": "Germania",
+   "region": "europe",
+   "lat": 51.13,
+   "lng": 10.29,
+   "aliases": [
+    "Deutschland"
+   ],
+   "demonyms": {
+    "en": [
+     "German",
+     "Germans"
+    ],
+    "it": [
+     "tedesco",
+     "tedesca",
+     "tedeschi",
+     "tedesche",
+     "germanico"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Berlin",
+     "Berlino"
+    ],
+    "lat": 52.52,
+    "lng": 13.4
+   },
+   "cities": [
+    {
+     "names": [
+      "Munich",
+      "Monaco di Baviera",
+      "Bayern Monaco"
+     ],
+     "lat": 48.14,
+     "lng": 11.58
+    },
+    {
+     "names": [
+      "Frankfurt",
+      "Francoforte"
+     ],
+     "lat": 50.11,
+     "lng": 8.68
+    },
+    {
+     "names": [
+      "Hamburg",
+      "Amburgo"
+     ],
+     "lat": 53.55,
+     "lng": 9.99
+    }
+   ],
+   "leaders": [
+    "Merz",
+    "Scholz",
+    "Bundestag",
+    "Bundesbank",
+    "=DAX",
+    "Bundeswehr",
+    "Habeck",
+    "Baerbock"
+   ]
+  },
+  {
+   "iso2": "GH",
+   "name_en": "Ghana",
+   "name_it": "Ghana",
+   "region": "africa",
+   "lat": 7.93,
+   "lng": -1.24,
+   "aliases": [],
+   "demonyms": {
+    "en": [
+     "Ghanaian",
+     "Ghanaians"
+    ],
+    "it": [
+     "ghanese",
+     "ghanesi"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Accra",
+     "Accra"
+    ],
+    "lat": 5.6,
+    "lng": -0.19
+   },
+   "cities": [
+    {
+     "names": [
+      "Kumasi",
+      "Kumasi"
+     ],
+     "lat": 6.69,
+     "lng": -1.62
+    }
+   ],
+   "leaders": []
+  },
+  {
+   "iso2": "GR",
+   "name_en": "Greece",
+   "name_it": "Grecia",
+   "region": "europe",
+   "lat": 39.34,
+   "lng": 22.56,
+   "aliases": [
+    "Grecia",
+    "Hellenic Republic"
+   ],
+   "demonyms": {
+    "en": [
+     "Greek",
+     "Greeks"
+    ],
+    "it": [
+     "greco",
+     "greca",
+     "greci",
+     "greche"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Athens",
+     "Atene"
+    ],
+    "lat": 37.98,
+    "lng": 23.73
+   },
+   "cities": [
+    {
+     "names": [
+      "Thessaloniki",
+      "Salonicco"
+     ],
+     "lat": 40.64,
+     "lng": 22.94
+    },
+    {
+     "names": [
+      "Crete",
+      "Creta"
+     ],
+     "lat": 35.24,
+     "lng": 24.81
+    }
+   ],
+   "leaders": [
+    "Mitsotakis"
+   ]
+  },
+  {
+   "iso2": "GD",
+   "name_en": "Grenada",
+   "name_it": "Grenada",
+   "region": "americas",
+   "lat": 12.05,
+   "lng": -61.75,
+   "aliases": [],
+   "demonyms": {
+    "en": [
+     "Grenadian",
+     "Grenadians"
+    ],
+    "it": [
+     "grenadino",
+     "grenadina",
+     "grenadini",
+     "grenadine"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Saint George's",
+     "Saint George's",
+     "St George's"
+    ],
+    "lat": 12.05,
+    "lng": -61.75
+   },
+   "cities": [],
+   "leaders": []
+  },
+  {
+   "iso2": "GT",
+   "name_en": "Guatemala",
+   "name_it": "Guatemala",
+   "region": "americas",
+   "lat": 15.7,
+   "lng": -90.37,
+   "aliases": [],
+   "demonyms": {
+    "en": [
+     "Guatemalan",
+     "Guatemalans"
+    ],
+    "it": [
+     "guatemalteco",
+     "guatemalteca",
+     "guatemalteci",
+     "guatemaltece"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Guatemala City",
+     "Citta del Guatemala"
+    ],
+    "lat": 14.63,
+    "lng": -90.51
+   },
+   "cities": [],
+   "leaders": [
+    "Arevalo"
+   ]
+  },
+  {
+   "iso2": "GN",
+   "name_en": "Guinea",
+   "name_it": "Guinea",
+   "region": "africa",
+   "lat": 10.45,
+   "lng": -11.06,
+   "aliases": [
+    "Guinea-Conakry"
+   ],
+   "demonyms": {
+    "en": [
+     "Guinean",
+     "Guineans"
+    ],
+    "it": [
+     "guineano",
+     "guineana",
+     "guineani",
+     "guineane"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Conakry",
+     "Conakry"
+    ],
+    "lat": 9.64,
+    "lng": -13.58
+   },
+   "cities": [],
+   "leaders": [
+    "Doumbouya"
+   ]
+  },
+  {
+   "iso2": "GW",
+   "name_en": "Guinea-Bissau",
+   "name_it": "Guinea-Bissau",
+   "region": "africa",
+   "lat": 12.02,
+   "lng": -15.11,
+   "aliases": [
+    "Guinea Bissau"
+   ],
+   "demonyms": {
+    "en": [
+     "Bissau-Guinean",
+     "Bissau-Guineans"
+    ],
+    "it": [
+     "bissauguineano",
+     "bissauguineana",
+     "bissauguineani",
+     "bissauguineane"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Bissau",
+     "Bissau"
+    ],
+    "lat": 11.86,
+    "lng": -15.6
+   },
+   "cities": [],
+   "leaders": []
+  },
+  {
+   "iso2": "GY",
+   "name_en": "Guyana",
+   "name_it": "Guyana",
+   "region": "americas",
+   "lat": 4.79,
+   "lng": -58.97,
+   "aliases": [],
+   "demonyms": {
+    "en": [
+     "Guyanese"
+    ],
+    "it": [
+     "guyanese",
+     "guyanesi"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Georgetown",
+     "Georgetown"
+    ],
+    "lat": 6.8,
+    "lng": -58.16,
+    "weight": 0.3
+   },
+   "cities": [],
+   "leaders": []
+  },
+  {
+   "iso2": "HT",
+   "name_en": "Haiti",
+   "name_it": "Haiti",
+   "region": "americas",
+   "lat": 18.9,
+   "lng": -72.66,
+   "aliases": [],
+   "demonyms": {
+    "en": [
+     "Haitian",
+     "Haitians"
+    ],
+    "it": [
+     "haitiano",
+     "haitiana",
+     "haitiani",
+     "haitiane"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Port-au-Prince",
+     "Port-au-Prince",
+     "Port au Prince"
+    ],
+    "lat": 18.54,
+    "lng": -72.34
+   },
+   "cities": [],
+   "leaders": []
+  },
+  {
+   "iso2": "HN",
+   "name_en": "Honduras",
+   "name_it": "Honduras",
+   "region": "americas",
+   "lat": 14.82,
+   "lng": -86.59,
+   "aliases": [],
+   "demonyms": {
+    "en": [
+     "Honduran",
+     "Hondurans"
+    ],
+    "it": [
+     "honduregno",
+     "honduregna",
+     "honduregni",
+     "honduregne"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Tegucigalpa",
+     "Tegucigalpa"
+    ],
+    "lat": 14.07,
+    "lng": -87.19
+   },
+   "cities": [
+    {
+     "names": [
+      "San Pedro Sula",
+      "San Pedro Sula"
+     ],
+     "lat": 15.5,
+     "lng": -88.03
+    }
+   ],
+   "leaders": []
+  },
+  {
+   "iso2": "HU",
+   "name_en": "Hungary",
+   "name_it": "Ungheria",
+   "region": "europe",
+   "lat": 47.2,
+   "lng": 19.36,
+   "aliases": [],
+   "demonyms": {
+    "en": [
+     "Hungarian",
+     "Hungarians"
+    ],
+    "it": [
+     "ungherese",
+     "ungheresi"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Budapest",
+     "Budapest"
+    ],
+    "lat": 47.5,
+    "lng": 19.04
+   },
+   "cities": [],
+   "leaders": [
+    "Orban",
+    "Magyar~0.3"
+   ]
+  },
+  {
+   "iso2": "IS",
+   "name_en": "Iceland",
+   "name_it": "Islanda",
+   "region": "europe",
+   "lat": 65.07,
+   "lng": -18.76,
+   "aliases": [],
+   "demonyms": {
+    "en": [
+     "Icelandic",
+     "Icelandics",
+     "Icelander",
+     "Icelanders"
+    ],
+    "it": [
+     "islandese",
+     "islandesi"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Reykjavik",
+     "Reykjavik"
+    ],
+    "lat": 64.15,
+    "lng": -21.94
+   },
+   "cities": [],
+   "leaders": []
+  },
+  {
+   "iso2": "IN",
+   "name_en": "India",
+   "name_it": "India",
+   "region": "asia",
+   "lat": 22.93,
+   "lng": 79.59,
+   "aliases": [],
+   "demonyms": {
+    "en": [
+     "Indian",
+     "Indians"
+    ],
+    "it": [
+     "indiano",
+     "indiana",
+     "indiani",
+     "indiane"
+    ]
+   },
+   "capital": {
+    "names": [
+     "New Delhi",
+     "Nuova Delhi",
+     "Delhi"
+    ],
+    "lat": 28.61,
+    "lng": 77.21
+   },
+   "cities": [
+    {
+     "names": [
+      "Mumbai",
+      "Mumbai",
+      "Bombay"
+     ],
+     "lat": 19.08,
+     "lng": 72.88
+    },
+    {
+     "names": [
+      "Bangalore",
+      "Bangalore",
+      "Bengaluru"
+     ],
+     "lat": 12.97,
+     "lng": 77.59
+    },
+    {
+     "names": [
+      "Kolkata",
+      "Calcutta"
+     ],
+     "lat": 22.57,
+     "lng": 88.36
+    },
+    {
+     "names": [
+      "Kashmir",
+      "Kashmir",
+      "Cashmere"
+     ],
+     "lat": 34.08,
+     "lng": 74.8
+    }
+   ],
+   "leaders": [
+    "Modi",
+    "Sensex",
+    "Nifty",
+    "Lok Sabha",
+    "Reliance Industries~0.3"
+   ]
+  },
+  {
+   "iso2": "ID",
+   "name_en": "Indonesia",
+   "name_it": "Indonesia",
+   "region": "asia",
+   "lat": -0.25,
+   "lng": 114.02,
+   "aliases": [],
+   "demonyms": {
+    "en": [
+     "Indonesian",
+     "Indonesians"
+    ],
+    "it": [
+     "indonesiano",
+     "indonesiana",
+     "indonesiani",
+     "indonesiane"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Jakarta",
+     "Giacarta"
+    ],
+    "lat": -6.2,
+    "lng": 106.85
+   },
+   "cities": [
+    {
+     "names": [
+      "Surabaya",
+      "Surabaya"
+     ],
+     "lat": -7.25,
+     "lng": 112.75
+    },
+    {
+     "names": [
+      "Bali",
+      "Bali"
+     ],
+     "lat": -8.34,
+     "lng": 115.09
+    }
+   ],
+   "leaders": [
+    "Prabowo"
+   ]
+  },
+  {
+   "iso2": "IR",
+   "name_en": "Iran",
+   "name_it": "Iran",
+   "region": "middle_east",
+   "lat": 32.52,
+   "lng": 54.29,
+   "aliases": [
+    "Islamic Republic of Iran",
+    "Repubblica Islamica"
+   ],
+   "demonyms": {
+    "en": [
+     "Iranian",
+     "Iranians",
+     "Persian",
+     "Persians"
+    ],
+    "it": [
+     "iraniano",
+     "iraniana",
+     "iraniani",
+     "iraniane"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Tehran",
+     "Teheran"
+    ],
+    "lat": 35.69,
+    "lng": 51.39
+   },
+   "cities": [
+    {
+     "names": [
+      "Strait of Hormuz",
+      "Stretto di Hormuz",
+      "Hormuz",
+      "Ormuz",
+      "Stretto di Ormuz",
+      "Hormuz Strait"
+     ],
+     "lat": 26.57,
+     "lng": 56.25
+    },
+    {
+     "names": [
+      "Isfahan",
+      "Isfahan",
+      "Esfahan"
+     ],
+     "lat": 32.65,
+     "lng": 51.67
+    },
+    {
+     "names": [
+      "Tabriz",
+      "Tabriz"
+     ],
+     "lat": 38.08,
+     "lng": 46.29
+    },
+    {
+     "names": [
+      "Natanz",
+      "Natanz"
+     ],
+     "lat": 33.72,
+     "lng": 51.73
+    },
+    {
+     "names": [
+      "Bushehr",
+      "Bushehr"
+     ],
+     "lat": 28.97,
+     "lng": 50.84
+    },
+    {
+     "names": [
+      "Kharg",
+      "Kharg"
+     ],
+     "lat": 29.23,
+     "lng": 50.32
+    },
+    {
+     "names": [
+      "Bandar Abbas",
+      "Bandar Abbas"
+     ],
+     "lat": 27.18,
+     "lng": 56.27
+    }
+   ],
+   "leaders": [
+    "Khamenei",
+    "Pezeshkian",
+    "Araghchi",
+    "Ayatollah",
+    "IRGC",
+    "Pasdaran",
+    "Guardie della rivoluzione",
+    "Revolutionary Guard",
+    "Revolutionary Guards",
+    "Mojtaba"
+   ]
+  },
+  {
+   "iso2": "IQ",
+   "name_en": "Iraq",
+   "name_it": "Iraq",
+   "region": "middle_east",
+   "lat": 33.04,
+   "lng": 43.76,
+   "aliases": [],
+   "demonyms": {
+    "en": [
+     "Iraqi",
+     "Iraqis"
+    ],
+    "it": [
+     "iracheno",
+     "irachena",
+     "iracheni",
+     "irachene"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Baghdad",
+     "Baghdad"
+    ],
+    "lat": 33.31,
+    "lng": 44.37
+   },
+   "cities": [
+    {
+     "names": [
+      "Mosul",
+      "Mosul"
+     ],
+     "lat": 36.34,
+     "lng": 43.13
+    },
+    {
+     "names": [
+      "Basra",
+      "Bassora"
+     ],
+     "lat": 30.51,
+     "lng": 47.78
+    },
+    {
+     "names": [
+      "Erbil",
+      "Erbil"
+     ],
+     "lat": 36.19,
+     "lng": 44.01
+    },
+    {
+     "names": [
+      "Kurdistan",
+      "Kurdistan"
+     ],
+     "lat": 36.4,
+     "lng": 44.0
+    }
+   ],
+   "leaders": [
+    "Sudani",
+    "Green Zone"
+   ]
+  },
+  {
+   "iso2": "IE",
+   "name_en": "Ireland",
+   "name_it": "Irlanda",
+   "region": "europe",
+   "lat": 53.18,
+   "lng": -8.01,
+   "aliases": [],
+   "demonyms": {
+    "en": [
+     "Irish"
+    ],
+    "it": [
+     "irlandese",
+     "irlandesi"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Dublin",
+     "Dublino"
+    ],
+    "lat": 53.35,
+    "lng": -6.26
+   },
+   "cities": [
+    {
+     "names": [
+      "=Cork"
+     ],
+     "lat": 51.9,
+     "lng": -8.47,
+     "weight": 0.4
+    }
+   ],
+   "leaders": [
+    "Taoiseach"
+   ]
+  },
+  {
+   "iso2": "IL",
+   "name_en": "Israel",
+   "name_it": "Israele",
+   "region": "middle_east",
+   "lat": 31.48,
+   "lng": 35.0,
+   "aliases": [],
+   "demonyms": {
+    "en": [
+     "Israeli",
+     "Israelis"
+    ],
+    "it": [
+     "israeliano",
+     "israeliana",
+     "israeliani",
+     "israeliane"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Jerusalem",
+     "Gerusalemme"
+    ],
+    "lat": 31.77,
+    "lng": 35.21
+   },
+   "cities": [
+    {
+     "names": [
+      "Tel Aviv",
+      "Tel Aviv"
+     ],
+     "lat": 32.09,
+     "lng": 34.78
+    },
+    {
+     "names": [
+      "Haifa",
+      "Haifa"
+     ],
+     "lat": 32.79,
+     "lng": 34.99
+    },
+    {
+     "names": [
+      "Beersheba",
+      "Beer Sheva"
+     ],
+     "lat": 31.25,
+     "lng": 34.79
+    },
+    {
+     "names": [
+      "Golan",
+      "Golan"
+     ],
+     "lat": 32.98,
+     "lng": 35.75
+    }
+   ],
+   "leaders": [
+    "Netanyahu",
+    "Knesset",
+    "=IDF",
+    "Tsahal",
+    "Mossad",
+    "Shin Bet",
+    "Cupola di ferro",
+    "Iron Dome",
+    "Smotrich",
+    "Ben Gvir",
+    "Ben-Gvir"
+   ]
+  },
+  {
+   "iso2": "IT",
+   "name_en": "Italy",
+   "name_it": "Italia",
+   "region": "europe",
+   "lat": 43.47,
+   "lng": 12.22,
+   "aliases": [],
+   "demonyms": {
+    "en": [
+     "Italian",
+     "Italians"
+    ],
+    "it": [
+     "italiano",
+     "italiana",
+     "italiani",
+     "italiane"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Rome",
+     "Roma"
+    ],
+    "lat": 41.9,
+    "lng": 12.5
+   },
+   "cities": [
+    {
+     "names": [
+      "Milan",
+      "Milano"
+     ],
+     "lat": 45.46,
+     "lng": 9.19
+    },
+    {
+     "names": [
+      "Naples",
+      "Napoli"
+     ],
+     "lat": 40.85,
+     "lng": 14.27
+    },
+    {
+     "names": [
+      "Turin",
+      "Torino"
+     ],
+     "lat": 45.07,
+     "lng": 7.69
+    },
+    {
+     "names": [
+      "Sicily",
+      "Sicilia"
+     ],
+     "lat": 37.6,
+     "lng": 14.0
+    },
+    {
+     "names": [
+      "Lampedusa",
+      "Lampedusa"
+     ],
+     "lat": 35.5,
+     "lng": 12.6
+    },
+    {
+     "names": [
+      "Venice",
+      "Venezia"
+     ],
+     "lat": 45.44,
+     "lng": 12.32
+    },
+    {
+     "names": [
+      "Florence",
+      "Firenze"
+     ],
+     "lat": 43.77,
+     "lng": 11.25
+    },
+    {
+     "names": [
+      "Palermo",
+      "Palermo"
+     ],
+     "lat": 38.12,
+     "lng": 13.36
+    }
+   ],
+   "leaders": [
+    "Meloni",
+    "Palazzo Chigi",
+    "Mattarella",
+    "Salvini",
+    "Tajani",
+    "Schlein",
+    "Quirinale",
+    "Montecitorio",
+    "Viminale",
+    "Piazza Affari",
+    "Ftse Mib",
+    "Borsa di Milano",
+    "Borsa Italiana",
+    "Farnesina",
+    "Crosetto",
+    "Giorgetti",
+    "Palazzo Madama"
+   ]
+  },
+  {
+   "iso2": "JM",
+   "name_en": "Jamaica",
+   "name_it": "Giamaica",
+   "region": "americas",
+   "lat": 18.14,
+   "lng": -77.32,
+   "aliases": [],
+   "demonyms": {
+    "en": [
+     "Jamaican",
+     "Jamaicans"
+    ],
+    "it": [
+     "giamaicano",
+     "giamaicana",
+     "giamaicani",
+     "giamaicane"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Kingston",
+     "Kingston"
+    ],
+    "lat": 17.97,
+    "lng": -76.79
+   },
+   "cities": [],
+   "leaders": []
+  },
+  {
+   "iso2": "JP",
+   "name_en": "Japan",
+   "name_it": "Giappone",
+   "region": "asia",
+   "lat": 36.02,
+   "lng": 136.88,
+   "aliases": [
+    "Giappone"
+   ],
+   "demonyms": {
+    "en": [
+     "Japanese"
+    ],
+    "it": [
+     "giapponese",
+     "giapponesi"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Tokyo",
+     "Tokyo"
+    ],
+    "lat": 35.68,
+    "lng": 139.69
+   },
+   "cities": [
+    {
+     "names": [
+      "Osaka",
+      "Osaka"
+     ],
+     "lat": 34.69,
+     "lng": 135.5
+    },
+    {
+     "names": [
+      "Fukushima",
+      "Fukushima"
+     ],
+     "lat": 37.76,
+     "lng": 140.47
+    },
+    {
+     "names": [
+      "Okinawa",
+      "Okinawa"
+     ],
+     "lat": 26.5,
+     "lng": 127.9
+    }
+   ],
+   "leaders": [
+    "Takaichi",
+    "Ishiba",
+    "Nikkei",
+    "Bank of Japan",
+    "Banca del Giappone",
+    "Toyota~0.3",
+    "Sony~0.3",
+    "=BoJ",
+    "Kishida"
+   ]
+  },
+  {
+   "iso2": "JO",
+   "name_en": "Jordan",
+   "name_it": "Giordania",
+   "region": "middle_east",
+   "lat": 31.25,
+   "lng": 36.78,
+   "aliases": [
+    "=Jordan",
+    "Giordania"
+   ],
+   "demonyms": {
+    "en": [
+     "Jordanian",
+     "Jordanians"
+    ],
+    "it": [
+     "giordano",
+     "giordana",
+     "giordani",
+     "giordane"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Amman",
+     "Amman"
+    ],
+    "lat": 31.95,
+    "lng": 35.93
+   },
+   "cities": [
+    {
+     "names": [
+      "Aqaba",
+      "Aqaba"
+     ],
+     "lat": 29.53,
+     "lng": 35.0
+    }
+   ],
+   "leaders": [
+    "King Abdullah II",
+    "Re Abdallah"
+   ]
+  },
+  {
+   "iso2": "KZ",
+   "name_en": "Kazakhstan",
+   "name_it": "Kazakistan",
+   "region": "asia",
+   "lat": 48.19,
+   "lng": 67.28,
+   "aliases": [],
+   "demonyms": {
+    "en": [
+     "Kazakh",
+     "Kazakhs"
+    ],
+    "it": [
+     "kazako",
+     "kazaka",
+     "kazaki",
+     "kazake"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Astana",
+     "Astana"
+    ],
+    "lat": 51.17,
+    "lng": 71.43
+   },
+   "cities": [
+    {
+     "names": [
+      "Almaty",
+      "Almaty"
+     ],
+     "lat": 43.24,
+     "lng": 76.89
+    }
+   ],
+   "leaders": [
+    "Tokayev"
+   ]
+  },
+  {
+   "iso2": "KE",
+   "name_en": "Kenya",
+   "name_it": "Kenya",
+   "region": "africa",
+   "lat": 0.6,
+   "lng": 37.79,
+   "aliases": [],
+   "demonyms": {
+    "en": [
+     "Kenyan",
+     "Kenyans"
+    ],
+    "it": [
+     "keniano",
+     "keniana",
+     "keniani",
+     "keniane",
+     "keniota"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Nairobi",
+     "Nairobi"
+    ],
+    "lat": -1.29,
+    "lng": 36.82
+   },
+   "cities": [
+    {
+     "names": [
+      "Mombasa",
+      "Mombasa"
+     ],
+     "lat": -4.04,
+     "lng": 39.67
+    }
+   ],
+   "leaders": [
+    "Ruto"
+   ]
+  },
+  {
+   "iso2": "KI",
+   "name_en": "Kiribati",
+   "name_it": "Kiribati",
+   "region": "oceania",
+   "lat": 1.45,
+   "lng": 173.03,
+   "aliases": [],
+   "demonyms": {
+    "en": [
+     "I-Kiribati",
+     "I-Kiribatis"
+    ],
+    "it": [
+     "kiribatiano",
+     "kiribatiana",
+     "kiribatiani",
+     "kiribatiane"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Tarawa",
+     "Tarawa"
+    ],
+    "lat": 1.45,
+    "lng": 173.03
+   },
+   "cities": [],
+   "leaders": []
+  },
+  {
+   "iso2": "KW",
+   "name_en": "Kuwait",
+   "name_it": "Kuwait",
+   "region": "middle_east",
+   "lat": 29.31,
+   "lng": 47.6,
+   "aliases": [],
+   "demonyms": {
+    "en": [
+     "Kuwaiti",
+     "Kuwaitis"
+    ],
+    "it": [
+     "kuwaitiano",
+     "kuwaitiana",
+     "kuwaitiani",
+     "kuwaitiane"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Kuwait City",
+     "Citta del Kuwait"
+    ],
+    "lat": 29.38,
+    "lng": 47.99
+   },
+   "cities": [],
+   "leaders": []
+  },
+  {
+   "iso2": "KG",
+   "name_en": "Kyrgyzstan",
+   "name_it": "Kirghizistan",
+   "region": "asia",
+   "lat": 41.51,
+   "lng": 74.62,
+   "aliases": [],
+   "demonyms": {
+    "en": [
+     "Kyrgyz",
+     "Kyrgyzs"
+    ],
+    "it": [
+     "kirghiso",
+     "kirghisa",
+     "kirghisi",
+     "kirghise"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Bishkek",
+     "Bishkek"
+    ],
+    "lat": 42.87,
+    "lng": 74.59
+   },
+   "cities": [],
+   "leaders": [
+    "Japarov"
+   ]
+  },
+  {
+   "iso2": "LA",
+   "name_en": "Laos",
+   "name_it": "Laos",
+   "region": "asia",
+   "lat": 18.44,
+   "lng": 103.75,
+   "aliases": [],
+   "demonyms": {
+    "en": [
+     "Lao",
+     "Laotian",
+     "Laotians"
+    ],
+    "it": [
+     "laotiano",
+     "laotiana",
+     "laotiani",
+     "laotiane"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Vientiane",
+     "Vientiane"
+    ],
+    "lat": 17.97,
+    "lng": 102.6
+   },
+   "cities": [],
+   "leaders": []
+  },
+  {
+   "iso2": "LV",
+   "name_en": "Latvia",
+   "name_it": "Lettonia",
+   "region": "europe",
+   "lat": 56.81,
+   "lng": 24.83,
+   "aliases": [],
+   "demonyms": {
+    "en": [
+     "Latvian",
+     "Latvians"
+    ],
+    "it": [
+     "lettone",
+     "lettoni"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Riga",
+     "Riga"
+    ],
+    "lat": 56.95,
+    "lng": 24.11
+   },
+   "cities": [],
+   "leaders": []
+  },
+  {
+   "iso2": "LB",
+   "name_en": "Lebanon",
+   "name_it": "Libano",
+   "region": "middle_east",
+   "lat": 33.91,
+   "lng": 35.87,
+   "aliases": [
+    "Lebanon"
+   ],
+   "demonyms": {
+    "en": [
+     "Lebanese"
+    ],
+    "it": [
+     "libanese",
+     "libanesi"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Beirut",
+     "Beirut"
+    ],
+    "lat": 33.89,
+    "lng": 35.5
+   },
+   "cities": [
+    {
+     "names": [
+      "Sidon",
+      "Sidone"
+     ],
+     "lat": 33.56,
+     "lng": 35.37
+    },
+    {
+     "names": [
+      "Baalbek",
+      "Baalbek"
+     ],
+     "lat": 34.0,
+     "lng": 36.2
+    }
+   ],
+   "leaders": [
+    "Hezbollah",
+    "Hizbullah",
+    "Hizballah",
+    "Nasrallah",
+    "Aoun~0.2"
+   ]
+  },
+  {
+   "iso2": "LS",
+   "name_en": "Lesotho",
+   "name_it": "Lesotho",
+   "region": "africa",
+   "lat": -29.63,
+   "lng": 28.17,
+   "aliases": [],
+   "demonyms": {
+    "en": [
+     "Basotho",
+     "Basothos"
+    ],
+    "it": [
+     "lesothiano",
+     "lesothiana",
+     "lesothiani",
+     "lesothiane"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Maseru",
+     "Maseru"
+    ],
+    "lat": -29.31,
+    "lng": 27.48
+   },
+   "cities": [],
+   "leaders": []
+  },
+  {
+   "iso2": "LR",
+   "name_en": "Liberia",
+   "name_it": "Liberia",
+   "region": "africa",
+   "lat": 6.43,
+   "lng": -9.41,
+   "aliases": [],
+   "demonyms": {
+    "en": [
+     "Liberian",
+     "Liberians"
+    ],
+    "it": [
+     "liberiano",
+     "liberiana",
+     "liberiani",
+     "liberiane"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Monrovia",
+     "Monrovia"
+    ],
+    "lat": 6.3,
+    "lng": -10.8
+   },
+   "cities": [],
+   "leaders": []
+  },
+  {
+   "iso2": "LY",
+   "name_en": "Libya",
+   "name_it": "Libia",
+   "region": "africa",
+   "lat": 27.0,
+   "lng": 17.97,
+   "aliases": [],
+   "demonyms": {
+    "en": [
+     "Libyan",
+     "Libyans"
+    ],
+    "it": [
+     "libico",
+     "libica",
+     "libici",
+     "libiche"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Tripoli",
+     "Tripoli"
+    ],
+    "lat": 32.89,
+    "lng": 13.19,
+    "weight": 0.5
+   },
+   "cities": [
+    {
+     "names": [
+      "Benghazi",
+      "Bengasi"
+     ],
+     "lat": 32.12,
+     "lng": 20.07
+    },
+    {
+     "names": [
+      "Misrata",
+      "Misurata"
+     ],
+     "lat": 32.38,
+     "lng": 15.09
+    }
+   ],
+   "leaders": [
+    "Haftar",
+    "Dbeibah",
+    "Dbeibeh"
+   ]
+  },
+  {
+   "iso2": "LI",
+   "name_en": "Liechtenstein",
+   "name_it": "Liechtenstein",
+   "region": "europe",
+   "lat": 47.14,
+   "lng": 9.52,
+   "aliases": [],
+   "demonyms": {
+    "en": [
+     "Liechtensteiner",
+     "Liechtensteiners"
+    ],
+    "it": [
+     "liechtensteiniano",
+     "liechtensteiniana",
+     "liechtensteiniani",
+     "liechtensteiniane"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Vaduz",
+     "Vaduz"
+    ],
+    "lat": 47.14,
+    "lng": 9.52
+   },
+   "cities": [],
+   "leaders": []
+  },
+  {
+   "iso2": "LT",
+   "name_en": "Lithuania",
+   "name_it": "Lituania",
+   "region": "europe",
+   "lat": 55.28,
+   "lng": 23.88,
+   "aliases": [],
+   "demonyms": {
+    "en": [
+     "Lithuanian",
+     "Lithuanians"
+    ],
+    "it": [
+     "lituano",
+     "lituana",
+     "lituani",
+     "lituane"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Vilnius",
+     "Vilnius"
+    ],
+    "lat": 54.69,
+    "lng": 25.28
+   },
+   "cities": [
+    {
+     "names": [
+      "Kaunas",
+      "Kaunas"
+     ],
+     "lat": 54.9,
+     "lng": 23.9
+    }
+   ],
+   "leaders": []
+  },
+  {
+   "iso2": "LU",
+   "name_en": "Luxembourg",
+   "name_it": "Lussemburgo",
+   "region": "europe",
+   "lat": 49.77,
+   "lng": 5.97,
+   "aliases": [],
+   "demonyms": {
+    "en": [
+     "Luxembourgish"
+    ],
+    "it": [
+     "lussemburghese",
+     "lussemburghesi"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Luxembourg City",
+     "Citta del Lussemburgo"
+    ],
+    "lat": 49.61,
+    "lng": 6.13
+   },
+   "cities": [],
+   "leaders": []
+  },
+  {
+   "iso2": "MG",
+   "name_en": "Madagascar",
+   "name_it": "Madagascar",
+   "region": "africa",
+   "lat": -19.36,
+   "lng": 46.69,
+   "aliases": [],
+   "demonyms": {
+    "en": [
+     "Malagasy",
+     "Malagasys"
+    ],
+    "it": [
+     "malgascio",
+     "malgascia",
+     "malgasci",
+     "malgasce"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Antananarivo",
+     "Antananarivo"
+    ],
+    "lat": -18.88,
+    "lng": 47.51
+   },
+   "cities": [],
+   "leaders": []
+  },
+  {
+   "iso2": "MW",
+   "name_en": "Malawi",
+   "name_it": "Malawi",
+   "region": "africa",
+   "lat": -13.17,
+   "lng": 34.19,
+   "aliases": [],
+   "demonyms": {
+    "en": [
+     "Malawian",
+     "Malawians"
+    ],
+    "it": [
+     "malawiano",
+     "malawiana",
+     "malawiani",
+     "malawiane"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Lilongwe",
+     "Lilongwe"
+    ],
+    "lat": -13.96,
+    "lng": 33.77
+   },
+   "cities": [
+    {
+     "names": [
+      "Blantyre",
+      "Blantyre"
+     ],
+     "lat": -15.79,
+     "lng": 35.0
+    }
+   ],
+   "leaders": []
+  },
+  {
+   "iso2": "MY",
+   "name_en": "Malaysia",
+   "name_it": "Malesia",
+   "region": "asia",
+   "lat": 3.55,
+   "lng": 114.68,
+   "aliases": [],
+   "demonyms": {
+    "en": [
+     "Malaysian",
+     "Malaysians"
+    ],
+    "it": [
+     "malese",
+     "malesi"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Kuala Lumpur",
+     "Kuala Lumpur"
+    ],
+    "lat": 3.14,
+    "lng": 101.69
+   },
+   "cities": [
+    {
+     "names": [
+      "Penang",
+      "Penang"
+     ],
+     "lat": 5.41,
+     "lng": 100.33
+    }
+   ],
+   "leaders": [
+    "Anwar Ibrahim"
+   ]
+  },
+  {
+   "iso2": "MV",
+   "name_en": "Maldives",
+   "name_it": "Maldive",
+   "region": "asia",
+   "lat": 4.18,
+   "lng": 73.51,
+   "aliases": [
+    "Maldives",
+    "Maldive"
+   ],
+   "demonyms": {
+    "en": [
+     "Maldivian",
+     "Maldivians"
+    ],
+    "it": [
+     "maldiviano",
+     "maldiviana",
+     "maldiviani",
+     "maldiviane"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Male City"
+    ],
+    "lat": 4.18,
+    "lng": 73.51,
+    "weight": 0.3
+   },
+   "cities": [],
+   "leaders": []
+  },
+  {
+   "iso2": "ML",
+   "name_en": "Mali",
+   "name_it": "Mali",
+   "region": "africa",
+   "lat": 17.27,
+   "lng": -3.54,
+   "aliases": [
+    "=Mali"
+   ],
+   "demonyms": {
+    "en": [
+     "Malian",
+     "Malians"
+    ],
+    "it": [
+     "maliano",
+     "maliana",
+     "maliani",
+     "maliane"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Bamako",
+     "Bamako"
+    ],
+    "lat": 12.64,
+    "lng": -8.0
+   },
+   "cities": [
+    {
+     "names": [
+      "Timbuktu",
+      "Timbuctu"
+     ],
+     "lat": 16.77,
+     "lng": -3.0
+    }
+   ],
+   "leaders": []
+  },
+  {
+   "iso2": "MT",
+   "name_en": "Malta",
+   "name_it": "Malta",
+   "region": "europe",
+   "lat": 35.9,
+   "lng": 14.51,
+   "aliases": [],
+   "demonyms": {
+    "en": [
+     "Maltese"
+    ],
+    "it": [
+     "maltese",
+     "maltesi"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Valletta",
+     "La Valletta"
+    ],
+    "lat": 35.9,
+    "lng": 14.51
+   },
+   "cities": [],
+   "leaders": []
+  },
+  {
+   "iso2": "MH",
+   "name_en": "Marshall Islands",
+   "name_it": "Isole Marshall",
+   "region": "oceania",
+   "lat": 7.09,
+   "lng": 171.38,
+   "aliases": [
+    "Marshall Islands",
+    "Isole Marshall"
+   ],
+   "demonyms": {
+    "en": [
+     "Marshallese"
+    ],
+    "it": [
+     "marshallese",
+     "marshallesi"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Majuro",
+     "Majuro"
+    ],
+    "lat": 7.09,
+    "lng": 171.38
+   },
+   "cities": [],
+   "leaders": []
+  },
+  {
+   "iso2": "MR",
+   "name_en": "Mauritania",
+   "name_it": "Mauritania",
+   "region": "africa",
+   "lat": 20.21,
+   "lng": -10.33,
+   "aliases": [],
+   "demonyms": {
+    "en": [
+     "Mauritanian",
+     "Mauritanians"
+    ],
+    "it": [
+     "mauritano",
+     "mauritana",
+     "mauritani",
+     "mauritane"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Nouakchott",
+     "Nouakchott"
+    ],
+    "lat": 18.09,
+    "lng": -15.98
+   },
+   "cities": [],
+   "leaders": []
+  },
+  {
+   "iso2": "MU",
+   "name_en": "Mauritius",
+   "name_it": "Mauritius",
+   "region": "africa",
+   "lat": -20.16,
+   "lng": 57.5,
+   "aliases": [],
+   "demonyms": {
+    "en": [
+     "Mauritian",
+     "Mauritians"
+    ],
+    "it": [
+     "mauriziano",
+     "mauriziana",
+     "mauriziani",
+     "mauriziane"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Port Louis",
+     "Port Louis"
+    ],
+    "lat": -20.16,
+    "lng": 57.5
+   },
+   "cities": [],
+   "leaders": []
+  },
+  {
+   "iso2": "MX",
+   "name_en": "Mexico",
+   "name_it": "Messico",
+   "region": "americas",
+   "lat": 23.94,
+   "lng": -102.58,
+   "aliases": [],
+   "demonyms": {
+    "en": [
+     "Mexican",
+     "Mexicans"
+    ],
+    "it": [
+     "messicano",
+     "messicana",
+     "messicani",
+     "messicane"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Mexico City",
+     "Citta del Messico"
+    ],
+    "lat": 19.43,
+    "lng": -99.13
+   },
+   "cities": [
+    {
+     "names": [
+      "Guadalajara",
+      "Guadalajara"
+     ],
+     "lat": 20.66,
+     "lng": -103.35
+    },
+    {
+     "names": [
+      "Monterrey",
+      "Monterrey"
+     ],
+     "lat": 25.67,
+     "lng": -100.31
+    },
+    {
+     "names": [
+      "Tijuana",
+      "Tijuana"
+     ],
+     "lat": 32.51,
+     "lng": -117.04
+    }
+   ],
+   "leaders": [
+    "Sheinbaum",
+    "Lopez Obrador",
+    "Sinaloa~0.3"
+   ]
+  },
+  {
+   "iso2": "FM",
+   "name_en": "Micronesia",
+   "name_it": "Micronesia",
+   "region": "oceania",
+   "lat": 6.92,
+   "lng": 158.16,
+   "aliases": [],
+   "demonyms": {
+    "en": [
+     "Micronesian",
+     "Micronesians"
+    ],
+    "it": [
+     "micronesiano",
+     "micronesiana",
+     "micronesiani",
+     "micronesiane"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Palikir",
+     "Palikir"
+    ],
+    "lat": 6.92,
+    "lng": 158.16
+   },
+   "cities": [],
+   "leaders": []
+  },
+  {
+   "iso2": "MD",
+   "name_en": "Moldova",
+   "name_it": "Moldavia",
+   "region": "europe",
+   "lat": 47.2,
+   "lng": 28.41,
+   "aliases": [
+    "Moldavia"
+   ],
+   "demonyms": {
+    "en": [
+     "Moldovan",
+     "Moldovans"
+    ],
+    "it": [
+     "moldavo",
+     "moldava",
+     "moldavi",
+     "moldave"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Chisinau",
+     "Chisinau"
+    ],
+    "lat": 47.01,
+    "lng": 28.86
+   },
+   "cities": [
+    {
+     "names": [
+      "Transnistria",
+      "Transnistria"
+     ],
+     "lat": 46.84,
+     "lng": 29.63
+    }
+   ],
+   "leaders": [
+    "Maia Sandu"
+   ]
+  },
+  {
+   "iso2": "MC",
+   "name_en": "Monaco",
+   "name_it": "Principato di Monaco",
+   "region": "europe",
+   "lat": 43.74,
+   "lng": 7.42,
+   "aliases": [
+    "Principato di Monaco"
+   ],
+   "demonyms": {
+    "en": [
+     "Monegasque",
+     "Monegasques"
+    ],
+    "it": [
+     "monegasco",
+     "monegasca",
+     "monegasci",
+     "monegasce"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Monaco",
+     "Monaco"
+    ],
+    "lat": 43.74,
+    "lng": 7.42
+   },
+   "cities": [],
+   "leaders": []
+  },
+  {
+   "iso2": "MN",
+   "name_en": "Mongolia",
+   "name_it": "Mongolia",
+   "region": "asia",
+   "lat": 46.82,
+   "lng": 102.95,
+   "aliases": [],
+   "demonyms": {
+    "en": [
+     "Mongolian",
+     "Mongolians"
+    ],
+    "it": [
+     "mongolo",
+     "mongola",
+     "mongoli",
+     "mongole"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Ulaanbaatar",
+     "Ulan Bator"
+    ],
+    "lat": 47.89,
+    "lng": 106.91
+   },
+   "cities": [],
+   "leaders": []
+  },
+  {
+   "iso2": "ME",
+   "name_en": "Montenegro",
+   "name_it": "Montenegro",
+   "region": "europe",
+   "lat": 42.79,
+   "lng": 19.29,
+   "aliases": [],
+   "demonyms": {
+    "en": [
+     "Montenegrin",
+     "Montenegrins"
+    ],
+    "it": [
+     "montenegrino",
+     "montenegrina",
+     "montenegrini",
+     "montenegrine"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Podgorica",
+     "Podgorica"
+    ],
+    "lat": 42.44,
+    "lng": 19.26
+   },
+   "cities": [],
+   "leaders": []
+  },
+  {
+   "iso2": "MA",
+   "name_en": "Morocco",
+   "name_it": "Marocco",
+   "region": "africa",
+   "lat": 29.89,
+   "lng": -8.42,
+   "aliases": [],
+   "demonyms": {
+    "en": [
+     "Moroccan",
+     "Moroccans"
+    ],
+    "it": [
+     "marocchino",
+     "marocchina",
+     "marocchini",
+     "marocchine"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Rabat",
+     "Rabat"
+    ],
+    "lat": 34.02,
+    "lng": -6.84
+   },
+   "cities": [
+    {
+     "names": [
+      "Casablanca",
+      "Casablanca"
+     ],
+     "lat": 33.57,
+     "lng": -7.59
+    },
+    {
+     "names": [
+      "Marrakesh",
+      "Marrakech"
+     ],
+     "lat": 31.63,
+     "lng": -8.0
+    }
+   ],
+   "leaders": []
+  },
+  {
+   "iso2": "MZ",
+   "name_en": "Mozambique",
+   "name_it": "Mozambico",
+   "region": "africa",
+   "lat": -17.23,
+   "lng": 35.47,
+   "aliases": [],
+   "demonyms": {
+    "en": [
+     "Mozambican",
+     "Mozambicans"
+    ],
+    "it": [
+     "mozambicano",
+     "mozambicana",
+     "mozambicani",
+     "mozambicane"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Maputo",
+     "Maputo"
+    ],
+    "lat": -25.97,
+    "lng": 32.57
+   },
+   "cities": [
+    {
+     "names": [
+      "Cabo Delgado",
+      "Cabo Delgado"
+     ],
+     "lat": -12.3,
+     "lng": 40.0
+    }
+   ],
+   "leaders": []
+  },
+  {
+   "iso2": "MM",
+   "name_en": "Myanmar",
+   "name_it": "Birmania",
+   "region": "asia",
+   "lat": 21.02,
+   "lng": 96.51,
+   "aliases": [
+    "Burma",
+    "Birmania"
+   ],
+   "demonyms": {
+    "en": [
+     "Burmese",
+     "Myanmar",
+     "Myanmars"
+    ],
+    "it": [
+     "birmano",
+     "birmana",
+     "birmani",
+     "birmane"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Naypyidaw",
+     "Naypyidaw"
+    ],
+    "lat": 19.76,
+    "lng": 96.08
+   },
+   "cities": [
+    {
+     "names": [
+      "Yangon",
+      "Rangoon"
+     ],
+     "lat": 16.87,
+     "lng": 96.2
+    },
+    {
+     "names": [
+      "Mandalay",
+      "Mandalay"
+     ],
+     "lat": 21.97,
+     "lng": 96.08
+    }
+   ],
+   "leaders": [
+    "Min Aung Hlaing",
+    "Tatmadaw"
+   ]
+  },
+  {
+   "iso2": "NA",
+   "name_en": "Namibia",
+   "name_it": "Namibia",
+   "region": "africa",
+   "lat": -22.1,
+   "lng": 17.16,
+   "aliases": [],
+   "demonyms": {
+    "en": [
+     "Namibian",
+     "Namibians"
+    ],
+    "it": [
+     "namibiano",
+     "namibiana",
+     "namibiani",
+     "namibiane"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Windhoek",
+     "Windhoek"
+    ],
+    "lat": -22.56,
+    "lng": 17.08
+   },
+   "cities": [],
+   "leaders": []
+  },
+  {
+   "iso2": "NR",
+   "name_en": "Nauru",
+   "name_it": "Nauru",
+   "region": "oceania",
+   "lat": -0.55,
+   "lng": 166.92,
+   "aliases": [],
+   "demonyms": {
+    "en": [
+     "Nauruan",
+     "Nauruans"
+    ],
+    "it": [
+     "nauruano",
+     "nauruana",
+     "nauruani",
+     "nauruane"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Yaren",
+     "Yaren"
+    ],
+    "lat": -0.55,
+    "lng": 166.92
+   },
+   "cities": [],
+   "leaders": []
+  },
+  {
+   "iso2": "NP",
+   "name_en": "Nepal",
+   "name_it": "Nepal",
+   "region": "asia",
+   "lat": 28.24,
+   "lng": 84.01,
+   "aliases": [],
+   "demonyms": {
+    "en": [
+     "Nepali",
+     "Nepalis",
+     "Nepalese"
+    ],
+    "it": [
+     "nepalese",
+     "nepalesi"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Kathmandu",
+     "Katmandu"
+    ],
+    "lat": 27.72,
+    "lng": 85.32
+   },
+   "cities": [],
+   "leaders": []
+  },
+  {
+   "iso2": "NL",
+   "name_en": "Netherlands",
+   "name_it": "Paesi Bassi",
+   "region": "europe",
+   "lat": 52.3,
+   "lng": 5.51,
+   "aliases": [
+    "Holland",
+    "Olanda",
+    "Pays-Bas"
+   ],
+   "demonyms": {
+    "en": [
+     "Dutch"
+    ],
+    "it": [
+     "olandese",
+     "olandesi",
+     "neerlandese",
+     "neerlandesi"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Amsterdam",
+     "Amsterdam"
+    ],
+    "lat": 52.37,
+    "lng": 4.9
+   },
+   "cities": [
+    {
+     "names": [
+      "The Hague",
+      "L'Aia"
+     ],
+     "lat": 52.08,
+     "lng": 4.31
+    },
+    {
+     "names": [
+      "Rotterdam",
+      "Rotterdam"
+     ],
+     "lat": 51.92,
+     "lng": 4.48
+    }
+   ],
+   "leaders": [
+    "Wilders"
+   ]
+  },
+  {
+   "iso2": "NZ",
+   "name_en": "New Zealand",
+   "name_it": "Nuova Zelanda",
+   "region": "oceania",
+   "lat": -43.99,
+   "lng": 170.51,
+   "aliases": [],
+   "demonyms": {
+    "en": [
+     "New Zealander",
+     "New Zealanders"
+    ],
+    "it": [
+     "neozelandese",
+     "neozelandesi"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Wellington",
+     "Wellington"
+    ],
+    "lat": -41.29,
+    "lng": 174.78
+   },
+   "cities": [
+    {
+     "names": [
+      "Auckland",
+      "Auckland"
+     ],
+     "lat": -36.85,
+     "lng": 174.76
+    }
+   ],
+   "leaders": [
+    "Luxon"
+   ]
+  },
+  {
+   "iso2": "NI",
+   "name_en": "Nicaragua",
+   "name_it": "Nicaragua",
+   "region": "americas",
+   "lat": 12.85,
+   "lng": -85.02,
+   "aliases": [],
+   "demonyms": {
+    "en": [
+     "Nicaraguan",
+     "Nicaraguans"
+    ],
+    "it": [
+     "nicaraguense",
+     "nicaraguensi"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Managua",
+     "Managua"
+    ],
+    "lat": 12.13,
+    "lng": -86.25
+   },
+   "cities": [],
+   "leaders": [
+    "Daniel Ortega"
+   ]
+  },
+  {
+   "iso2": "NE",
+   "name_en": "Niger",
+   "name_it": "Niger",
+   "region": "africa",
+   "lat": 17.35,
+   "lng": 9.32,
+   "aliases": [
+    "=Niger"
+   ],
+   "demonyms": {
+    "en": [
+     "Nigerien",
+     "Nigeriens"
+    ],
+    "it": [
+     "nigerino",
+     "nigerina",
+     "nigerini",
+     "nigerine"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Niamey",
+     "Niamey"
+    ],
+    "lat": 13.51,
+    "lng": 2.11
+   },
+   "cities": [],
+   "leaders": []
+  },
+  {
+   "iso2": "NG",
+   "name_en": "Nigeria",
+   "name_it": "Nigeria",
+   "region": "africa",
+   "lat": 9.55,
+   "lng": 8.0,
+   "aliases": [],
+   "demonyms": {
+    "en": [
+     "Nigerian",
+     "Nigerians"
+    ],
+    "it": [
+     "nigeriano",
+     "nigeriana",
+     "nigeriani",
+     "nigeriane"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Abuja",
+     "Abuja"
+    ],
+    "lat": 9.06,
+    "lng": 7.49
+   },
+   "cities": [
+    {
+     "names": [
+      "Lagos",
+      "Lagos"
+     ],
+     "lat": 6.52,
+     "lng": 3.38
+    }
+   ],
+   "leaders": [
+    "Tinubu",
+    "Boko Haram"
+   ]
+  },
+  {
+   "iso2": "KP",
+   "name_en": "North Korea",
+   "name_it": "Corea del Nord",
+   "region": "asia",
+   "lat": 40.14,
+   "lng": 127.17,
+   "aliases": [],
+   "demonyms": {
+    "en": [
+     "North Korean",
+     "North Koreans"
+    ],
+    "it": [
+     "nordcoreano",
+     "nordcoreana",
+     "nordcoreani",
+     "nordcoreane"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Pyongyang",
+     "Pyongyang"
+    ],
+    "lat": 39.04,
+    "lng": 125.76
+   },
+   "cities": [],
+   "leaders": [
+    "DPRK",
+    "Corea Nord",
+    "Nord Corea",
+    "Kim Jong Un",
+    "Kim Jong-un",
+    "Kim Yo Jong"
+   ]
+  },
+  {
+   "iso2": "MK",
+   "name_en": "North Macedonia",
+   "name_it": "Macedonia del Nord",
+   "region": "europe",
+   "lat": 41.61,
+   "lng": 21.7,
+   "aliases": [
+    "Macedonia"
+   ],
+   "demonyms": {
+    "en": [
+     "Macedonian",
+     "Macedonians"
+    ],
+    "it": [
+     "macedone",
+     "macedoni"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Skopje",
+     "Skopje"
+    ],
+    "lat": 41.99,
+    "lng": 21.43
+   },
+   "cities": [],
+   "leaders": []
+  },
+  {
+   "iso2": "NO",
+   "name_en": "Norway",
+   "name_it": "Norvegia",
+   "region": "europe",
+   "lat": 64.54,
+   "lng": 14.24,
+   "aliases": [],
+   "demonyms": {
+    "en": [
+     "Norwegian",
+     "Norwegians"
+    ],
+    "it": [
+     "norvegese",
+     "norvegesi"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Oslo",
+     "Oslo"
+    ],
+    "lat": 59.91,
+    "lng": 10.75
+   },
+   "cities": [
+    {
+     "names": [
+      "Bergen",
+      "Bergen"
+     ],
+     "lat": 60.39,
+     "lng": 5.32
+    }
+   ],
+   "leaders": [
+    "Equinor~0.3"
+   ]
+  },
+  {
+   "iso2": "OM",
+   "name_en": "Oman",
+   "name_it": "Oman",
+   "region": "middle_east",
+   "lat": 20.58,
+   "lng": 56.1,
+   "aliases": [
+    "=Oman"
+   ],
+   "demonyms": {
+    "en": [
+     "Omani",
+     "Omanis"
+    ],
+    "it": [
+     "omanita"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Muscat",
+     "Mascate"
+    ],
+    "lat": 23.59,
+    "lng": 58.41
+   },
+   "cities": [],
+   "leaders": []
+  },
+  {
+   "iso2": "PK",
+   "name_en": "Pakistan",
+   "name_it": "Pakistan",
+   "region": "asia",
+   "lat": 29.97,
+   "lng": 69.41,
+   "aliases": [],
+   "demonyms": {
+    "en": [
+     "Pakistani",
+     "Pakistanis"
+    ],
+    "it": [
+     "pakistano",
+     "pakistana",
+     "pakistani",
+     "pakistane"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Islamabad",
+     "Islamabad"
+    ],
+    "lat": 33.68,
+    "lng": 73.05
+   },
+   "cities": [
+    {
+     "names": [
+      "Karachi",
+      "Karachi"
+     ],
+     "lat": 24.86,
+     "lng": 67.0
+    },
+    {
+     "names": [
+      "Lahore",
+      "Lahore"
+     ],
+     "lat": 31.55,
+     "lng": 74.34
+    },
+    {
+     "names": [
+      "Peshawar",
+      "Peshawar"
+     ],
+     "lat": 34.0,
+     "lng": 71.58
+    }
+   ],
+   "leaders": [
+    "Shehbaz Sharif",
+    "Imran Khan"
+   ]
+  },
+  {
+   "iso2": "PW",
+   "name_en": "Palau",
+   "name_it": "Palau",
+   "region": "oceania",
+   "lat": 7.5,
+   "lng": 134.62,
+   "aliases": [],
+   "demonyms": {
+    "en": [
+     "Palauan",
+     "Palauans"
+    ],
+    "it": [
+     "palauano",
+     "palauana",
+     "palauani",
+     "palauane"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Ngerulmud",
+     "Ngerulmud"
+    ],
+    "lat": 7.5,
+    "lng": 134.62
+   },
+   "cities": [],
+   "leaders": []
+  },
+  {
+   "iso2": "PS",
+   "name_en": "Palestine",
+   "name_it": "Palestina",
+   "region": "middle_east",
+   "lat": 31.94,
+   "lng": 35.27,
+   "aliases": [
+    "Palestine",
+    "Palestina",
+    "State of Palestine"
+   ],
+   "demonyms": {
+    "en": [
+     "Palestinian",
+     "Palestinians"
+    ],
+    "it": [
+     "palestinese",
+     "palestinesi"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Ramallah",
+     "Ramallah"
+    ],
+    "lat": 31.9,
+    "lng": 35.2
+   },
+   "cities": [
+    {
+     "names": [
+      "Gaza",
+      "Gaza",
+      "Gaza City",
+      "Gaza Strip",
+      "Striscia di Gaza"
+     ],
+     "lat": 31.5,
+     "lng": 34.47
+    },
+    {
+     "names": [
+      "West Bank",
+      "Cisgiordania"
+     ],
+     "lat": 31.95,
+     "lng": 35.3
+    },
+    {
+     "names": [
+      "Rafah",
+      "Rafah"
+     ],
+     "lat": 31.29,
+     "lng": 34.25
+    },
+    {
+     "names": [
+      "Khan Younis",
+      "Khan Yunis"
+     ],
+     "lat": 31.34,
+     "lng": 34.3
+    },
+    {
+     "names": [
+      "Jenin",
+      "Jenin"
+     ],
+     "lat": 32.46,
+     "lng": 35.3
+    }
+   ],
+   "leaders": [
+    "Hamas",
+    "Mahmoud Abbas",
+    "Abu Mazen",
+    "Jihad islamica",
+    "Islamic Jihad"
+   ]
+  },
+  {
+   "iso2": "PA",
+   "name_en": "Panama",
+   "name_it": "Panama",
+   "region": "americas",
+   "lat": 8.53,
+   "lng": -80.11,
+   "aliases": [],
+   "demonyms": {
+    "en": [
+     "Panamanian",
+     "Panamanians"
+    ],
+    "it": [
+     "panamense",
+     "panamensi"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Panama City",
+     "Citta di Panama"
+    ],
+    "lat": 8.98,
+    "lng": -79.52
+   },
+   "cities": [
+    {
+     "names": [
+      "Panama Canal",
+      "Canale di Panama"
+     ],
+     "lat": 9.08,
+     "lng": -79.68
+    }
+   ],
+   "leaders": [
+    "Mulino"
+   ]
+  },
+  {
+   "iso2": "PG",
+   "name_en": "Papua New Guinea",
+   "name_it": "Papua Nuova Guinea",
+   "region": "oceania",
+   "lat": -6.65,
+   "lng": 144.33,
+   "aliases": [],
+   "demonyms": {
+    "en": [
+     "Papua New Guinean",
+     "Papua New Guineans"
+    ],
+    "it": [
+     "papuano",
+     "papuana",
+     "papuani",
+     "papuane"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Port Moresby",
+     "Port Moresby"
+    ],
+    "lat": -9.44,
+    "lng": 147.18
+   },
+   "cities": [],
+   "leaders": []
+  },
+  {
+   "iso2": "PY",
+   "name_en": "Paraguay",
+   "name_it": "Paraguay",
+   "region": "americas",
+   "lat": -23.25,
+   "lng": -58.39,
+   "aliases": [],
+   "demonyms": {
+    "en": [
+     "Paraguayan",
+     "Paraguayans"
+    ],
+    "it": [
+     "paraguaiano",
+     "paraguaiana",
+     "paraguaiani",
+     "paraguaiane"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Asuncion",
+     "Asuncion"
+    ],
+    "lat": -25.26,
+    "lng": -57.58
+   },
+   "cities": [],
+   "leaders": []
+  },
+  {
+   "iso2": "PE",
+   "name_en": "Peru",
+   "name_it": "Peru",
+   "region": "americas",
+   "lat": -9.19,
+   "lng": -74.39,
+   "aliases": [],
+   "demonyms": {
+    "en": [
+     "Peruvian",
+     "Peruvians"
+    ],
+    "it": [
+     "peruviano",
+     "peruviana",
+     "peruviani",
+     "peruviane"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Lima",
+     "Lima"
+    ],
+    "lat": -12.05,
+    "lng": -77.04
+   },
+   "cities": [
+    {
+     "names": [
+      "Cusco",
+      "Cusco"
+     ],
+     "lat": -13.53,
+     "lng": -71.97
+    }
+   ],
+   "leaders": [
+    "Boluarte"
+   ]
+  },
+  {
+   "iso2": "PH",
+   "name_en": "Philippines",
+   "name_it": "Filippine",
+   "region": "asia",
+   "lat": 15.75,
+   "lng": 121.54,
+   "aliases": [
+    "Philippines",
+    "Filippine"
+   ],
+   "demonyms": {
+    "en": [
+     "Filipino",
+     "Filipinos",
+     "Philippine",
+     "Philippines"
+    ],
+    "it": [
+     "filippino",
+     "filippina",
+     "filippini",
+     "filippine"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Manila",
+     "Manila"
+    ],
+    "lat": 14.6,
+    "lng": 120.98
+   },
+   "cities": [
+    {
+     "names": [
+      "Cebu",
+      "Cebu"
+     ],
+     "lat": 10.32,
+     "lng": 123.89
+    },
+    {
+     "names": [
+      "Mindanao",
+      "Mindanao"
+     ],
+     "lat": 7.5,
+     "lng": 125.0
+    }
+   ],
+   "leaders": [
+    "Marcos Jr",
+    "Ferdinand Marcos"
+   ]
+  },
+  {
+   "iso2": "PL",
+   "name_en": "Poland",
+   "name_it": "Polonia",
+   "region": "europe",
+   "lat": 52.15,
+   "lng": 19.31,
+   "aliases": [],
+   "demonyms": {
+    "en": [
+     "=Polish",
+     "Poles",
+     "Poless"
+    ],
+    "it": [
+     "polacco",
+     "polacca",
+     "polacchi",
+     "polacche"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Warsaw",
+     "Varsavia"
+    ],
+    "lat": 52.23,
+    "lng": 21.01
+   },
+   "cities": [
+    {
+     "names": [
+      "Krakow",
+      "Cracovia"
+     ],
+     "lat": 50.06,
+     "lng": 19.94
+    },
+    {
+     "names": [
+      "Gdansk",
+      "Danzica"
+     ],
+     "lat": 54.35,
+     "lng": 18.65
+    }
+   ],
+   "leaders": [
+    "Tusk",
+    "Nawrocki",
+    "Sejm"
+   ]
+  },
+  {
+   "iso2": "PT",
+   "name_en": "Portugal",
+   "name_it": "Portogallo",
+   "region": "europe",
+   "lat": 39.63,
+   "lng": -8.06,
+   "aliases": [],
+   "demonyms": {
+    "en": [
+     "Portuguese"
+    ],
+    "it": [
+     "portoghese",
+     "portoghesi"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Lisbon",
+     "Lisbona"
+    ],
+    "lat": 38.72,
+    "lng": -9.14
+   },
+   "cities": [],
+   "leaders": []
+  },
+  {
+   "iso2": "QA",
+   "name_en": "Qatar",
+   "name_it": "Qatar",
+   "region": "middle_east",
+   "lat": 25.32,
+   "lng": 51.18,
+   "aliases": [],
+   "demonyms": {
+    "en": [
+     "Qatari",
+     "Qataris"
+    ],
+    "it": [
+     "qatariota",
+     "qatarino",
+     "qatarina",
+     "qatarini",
+     "qatarine"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Doha",
+     "Doha"
+    ],
+    "lat": 25.29,
+    "lng": 51.53
+   },
+   "cities": [],
+   "leaders": []
+  },
+  {
+   "iso2": "RO",
+   "name_en": "Romania",
+   "name_it": "Romania",
+   "region": "europe",
+   "lat": 45.86,
+   "lng": 24.94,
+   "aliases": [],
+   "demonyms": {
+    "en": [
+     "Romanian",
+     "Romanians"
+    ],
+    "it": [
+     "rumeno",
+     "rumena",
+     "rumeni",
+     "rumene",
+     "romeno",
+     "romena",
+     "romeni",
+     "romene"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Bucharest",
+     "Bucarest"
+    ],
+    "lat": 44.43,
+    "lng": 26.1
+   },
+   "cities": [
+    {
+     "names": [
+      "Constanta",
+      "Constanta"
+     ],
+     "lat": 44.18,
+     "lng": 28.65
+    }
+   ],
+   "leaders": []
+  },
+  {
+   "iso2": "RU",
+   "name_en": "Russia",
+   "name_it": "Russia",
+   "region": "europe",
+   "lat": 61.69,
+   "lng": 99.22,
+   "aliases": [
+    "Russian Federation",
+    "Federazione Russa"
+   ],
+   "demonyms": {
+    "en": [
+     "Russian",
+     "Russians"
+    ],
+    "it": [
+     "russo",
+     "russa",
+     "russi",
+     "russe"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Moscow",
+     "Mosca"
+    ],
+    "lat": 55.76,
+    "lng": 37.62
+   },
+   "cities": [
+    {
+     "names": [
+      "Saint Petersburg",
+      "San Pietroburgo"
+     ],
+     "lat": 59.93,
+     "lng": 30.34
+    },
+    {
+     "names": [
+      "Kursk",
+      "Kursk"
+     ],
+     "lat": 51.73,
+     "lng": 36.19
+    },
+    {
+     "names": [
+      "Belgorod",
+      "Belgorod"
+     ],
+     "lat": 50.6,
+     "lng": 36.6
+    },
+    {
+     "names": [
+      "Kaliningrad",
+      "Kaliningrad"
+     ],
+     "lat": 54.71,
+     "lng": 20.51
+    }
+   ],
+   "leaders": [
+    "Putin",
+    "Kremlin",
+    "Cremlino",
+    "Lavrov",
+    "Medvedev",
+    "Peskov",
+    "Zakharova",
+    "Gazprom~0.3",
+    "Rosneft~0.3",
+    "Shoigu",
+    "Gerasimov",
+    "Belousov"
+   ]
+  },
+  {
+   "iso2": "RW",
+   "name_en": "Rwanda",
+   "name_it": "Ruanda",
+   "region": "africa",
+   "lat": -2.01,
+   "lng": 29.92,
+   "aliases": [],
+   "demonyms": {
+    "en": [
+     "Rwandan",
+     "Rwandans"
+    ],
+    "it": [
+     "ruandese",
+     "ruandesi"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Kigali",
+     "Kigali"
+    ],
+    "lat": -1.95,
+    "lng": 30.06
+   },
+   "cities": [],
+   "leaders": [
+    "Kagame"
+   ]
+  },
+  {
+   "iso2": "KN",
+   "name_en": "Saint Kitts and Nevis",
+   "name_it": "Saint Kitts e Nevis",
+   "region": "americas",
+   "lat": 17.3,
+   "lng": -62.72,
+   "aliases": [
+    "St Kitts",
+    "Saint Kitts"
+   ],
+   "demonyms": {
+    "en": [
+     "Kittitian",
+     "Kittitians"
+    ],
+    "it": [
+     "sankittiano",
+     "sankittiana",
+     "sankittiani",
+     "sankittiane"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Basseterre",
+     "Basseterre"
+    ],
+    "lat": 17.3,
+    "lng": -62.72
+   },
+   "cities": [],
+   "leaders": []
+  },
+  {
+   "iso2": "LC",
+   "name_en": "Saint Lucia",
+   "name_it": "Santa Lucia",
+   "region": "americas",
+   "lat": 14.01,
+   "lng": -60.99,
+   "aliases": [
+    "St Lucia",
+    "Saint Lucia"
+   ],
+   "demonyms": {
+    "en": [
+     "Saint Lucian",
+     "Saint Lucians"
+    ],
+    "it": [
+     "santaluciano",
+     "santaluciana",
+     "santaluciani",
+     "santaluciane"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Castries",
+     "Castries"
+    ],
+    "lat": 14.01,
+    "lng": -60.99
+   },
+   "cities": [],
+   "leaders": []
+  },
+  {
+   "iso2": "VC",
+   "name_en": "Saint Vincent and the Grenadines",
+   "name_it": "Saint Vincent e Grenadine",
+   "region": "americas",
+   "lat": 13.16,
+   "lng": -61.22,
+   "aliases": [
+    "St Vincent",
+    "Saint Vincent"
+   ],
+   "demonyms": {
+    "en": [
+     "Vincentian",
+     "Vincentians"
+    ],
+    "it": [
+     "vincentino",
+     "vincentina",
+     "vincentini",
+     "vincentine"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Kingstown",
+     "Kingstown"
+    ],
+    "lat": 13.16,
+    "lng": -61.22
+   },
+   "cities": [],
+   "leaders": []
+  },
+  {
+   "iso2": "WS",
+   "name_en": "Samoa",
+   "name_it": "Samoa",
+   "region": "oceania",
+   "lat": -13.83,
+   "lng": -171.76,
+   "aliases": [],
+   "demonyms": {
+    "en": [
+     "Samoan",
+     "Samoans"
+    ],
+    "it": [
+     "samoano",
+     "samoana",
+     "samoani",
+     "samoane"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Apia",
+     "Apia"
+    ],
+    "lat": -13.83,
+    "lng": -171.76
+   },
+   "cities": [],
+   "leaders": []
+  },
+  {
+   "iso2": "SM",
+   "name_en": "San Marino",
+   "name_it": "San Marino",
+   "region": "europe",
+   "lat": 43.94,
+   "lng": 12.45,
+   "aliases": [],
+   "demonyms": {
+    "en": [
+     "Sammarinese"
+    ],
+    "it": [
+     "sammarinese",
+     "sammarinesi"
+    ]
+   },
+   "capital": {
+    "names": [
+     "San Marino",
+     "San Marino"
+    ],
+    "lat": 43.94,
+    "lng": 12.45
+   },
+   "cities": [],
+   "leaders": []
+  },
+  {
+   "iso2": "ST",
+   "name_en": "Sao Tome and Principe",
+   "name_it": "Sao Tome e Principe",
+   "region": "africa",
+   "lat": 0.34,
+   "lng": 6.73,
+   "aliases": [
+    "Sao Tome and Principe"
+   ],
+   "demonyms": {
+    "en": [
+     "Sao Tomean",
+     "Sao Tomeans"
+    ],
+    "it": [
+     "santomense",
+     "santomensi"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Sao Tome",
+     "Sao Tome"
+    ],
+    "lat": 0.34,
+    "lng": 6.73
+   },
+   "cities": [],
+   "leaders": []
+  },
+  {
+   "iso2": "SA",
+   "name_en": "Saudi Arabia",
+   "name_it": "Arabia Saudita",
+   "region": "middle_east",
+   "lat": 24.12,
+   "lng": 44.52,
+   "aliases": [],
+   "demonyms": {
+    "en": [
+     "Saudi",
+     "Saudis"
+    ],
+    "it": [
+     "saudita"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Riyadh",
+     "Riad"
+    ],
+    "lat": 24.71,
+    "lng": 46.68
+   },
+   "cities": [
+    {
+     "names": [
+      "Jeddah",
+      "Gedda"
+     ],
+     "lat": 21.54,
+     "lng": 39.17
+    },
+    {
+     "names": [
+      "Mecca",
+      "La Mecca"
+     ],
+     "lat": 21.42,
+     "lng": 39.83
+    }
+   ],
+   "leaders": [
+    "bin Salman",
+    "=MBS",
+    "Aramco~0.4"
+   ]
+  },
+  {
+   "iso2": "SN",
+   "name_en": "Senegal",
+   "name_it": "Senegal",
+   "region": "africa",
+   "lat": 14.35,
+   "lng": -14.51,
+   "aliases": [],
+   "demonyms": {
+    "en": [
+     "Senegalese"
+    ],
+    "it": [
+     "senegalese",
+     "senegalesi"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Dakar",
+     "Dakar"
+    ],
+    "lat": 14.72,
+    "lng": -17.47
+   },
+   "cities": [],
+   "leaders": []
+  },
+  {
+   "iso2": "RS",
+   "name_en": "Serbia",
+   "name_it": "Serbia",
+   "region": "europe",
+   "lat": 44.23,
+   "lng": 20.82,
+   "aliases": [],
+   "demonyms": {
+    "en": [
+     "Serbian",
+     "Serbians"
+    ],
+    "it": [
+     "serbo",
+     "serba",
+     "serbi",
+     "serbe"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Belgrade",
+     "Belgrado"
+    ],
+    "lat": 44.79,
+    "lng": 20.45
+   },
+   "cities": [
+    {
+     "names": [
+      "Novi Sad",
+      "Novi Sad"
+     ],
+     "lat": 45.25,
+     "lng": 19.84
+    }
+   ],
+   "leaders": [
+    "Vucic"
+   ]
+  },
+  {
+   "iso2": "SC",
+   "name_en": "Seychelles",
+   "name_it": "Seychelles",
+   "region": "africa",
+   "lat": -4.62,
+   "lng": 55.45,
+   "aliases": [],
+   "demonyms": {
+    "en": [
+     "Seychellois",
+     "Seychelloiss"
+    ],
+    "it": [
+     "seychellese",
+     "seychellesi"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Victoria"
+    ],
+    "lat": -4.62,
+    "lng": 55.45,
+    "weight": 0.1
+   },
+   "cities": [],
+   "leaders": []
+  },
+  {
+   "iso2": "SL",
+   "name_en": "Sierra Leone",
+   "name_it": "Sierra Leone",
+   "region": "africa",
+   "lat": 8.53,
+   "lng": -11.8,
+   "aliases": [],
+   "demonyms": {
+    "en": [
+     "Sierra Leonean",
+     "Sierra Leoneans"
+    ],
+    "it": [
+     "sierraleonese",
+     "sierraleonesi"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Freetown",
+     "Freetown"
+    ],
+    "lat": 8.48,
+    "lng": -13.23
+   },
+   "cities": [],
+   "leaders": []
+  },
+  {
+   "iso2": "SG",
+   "name_en": "Singapore",
+   "name_it": "Singapore",
+   "region": "asia",
+   "lat": 1.35,
+   "lng": 103.82,
+   "aliases": [],
+   "demonyms": {
+    "en": [
+     "Singaporean",
+     "Singaporeans"
+    ],
+    "it": [
+     "singaporiano",
+     "singaporiana",
+     "singaporiani",
+     "singaporiane"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Singapore",
+     "Singapore"
+    ],
+    "lat": 1.35,
+    "lng": 103.82
+   },
+   "cities": [],
+   "leaders": []
+  },
+  {
+   "iso2": "SK",
+   "name_en": "Slovakia",
+   "name_it": "Slovacchia",
+   "region": "europe",
+   "lat": 48.73,
+   "lng": 19.51,
+   "aliases": [],
+   "demonyms": {
+    "en": [
+     "Slovak"
+    ],
+    "it": [
+     "slovacco",
+     "slovacca",
+     "slovacchi",
+     "slovacche"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Bratislava",
+     "Bratislava"
+    ],
+    "lat": 48.15,
+    "lng": 17.11
+   },
+   "cities": [],
+   "leaders": []
+  },
+  {
+   "iso2": "SI",
+   "name_en": "Slovenia",
+   "name_it": "Slovenia",
+   "region": "europe",
+   "lat": 46.13,
+   "lng": 14.94,
+   "aliases": [],
+   "demonyms": {
+    "en": [
+     "Slovenian",
+     "Slovenians",
+     "Slovene",
+     "Slovenes"
+    ],
+    "it": [
+     "sloveno",
+     "slovena",
+     "sloveni",
+     "slovene"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Ljubljana",
+     "Lubiana"
+    ],
+    "lat": 46.06,
+    "lng": 14.51
+   },
+   "cities": [],
+   "leaders": []
+  },
+  {
+   "iso2": "SB",
+   "name_en": "Solomon Islands",
+   "name_it": "Isole Salomone",
+   "region": "oceania",
+   "lat": -7.9,
+   "lng": 159.1,
+   "aliases": [
+    "Solomon Islands",
+    "Isole Salomone"
+   ],
+   "demonyms": {
+    "en": [
+     "Solomon Islander",
+     "Solomon Islanders"
+    ],
+    "it": [
+     "salomonese",
+     "salomonesi"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Honiara",
+     "Honiara"
+    ],
+    "lat": -9.43,
+    "lng": 159.95
+   },
+   "cities": [],
+   "leaders": []
+  },
+  {
+   "iso2": "SO",
+   "name_en": "Somalia",
+   "name_it": "Somalia",
+   "region": "africa",
+   "lat": 4.75,
+   "lng": 45.73,
+   "aliases": [],
+   "demonyms": {
+    "en": [
+     "Somali",
+     "Somalis"
+    ],
+    "it": [
+     "somalo",
+     "somala",
+     "somali",
+     "somale"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Mogadishu",
+     "Mogadiscio"
+    ],
+    "lat": 2.05,
+    "lng": 45.32
+   },
+   "cities": [],
+   "leaders": [
+    "Al-Shabaab",
+    "Al Shabaab",
+    "Shabaab"
+   ]
+  },
+  {
+   "iso2": "ZA",
+   "name_en": "South Africa",
+   "name_it": "Sudafrica",
+   "region": "africa",
+   "lat": -28.96,
+   "lng": 25.12,
+   "aliases": [
+    "Sud Africa"
+   ],
+   "demonyms": {
+    "en": [
+     "South African",
+     "South Africans"
+    ],
+    "it": [
+     "sudafricano",
+     "sudafricana",
+     "sudafricani",
+     "sudafricane"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Pretoria",
+     "Pretoria"
+    ],
+    "lat": -25.75,
+    "lng": 28.19
+   },
+   "cities": [
+    {
+     "names": [
+      "Johannesburg",
+      "Johannesburg"
+     ],
+     "lat": -26.2,
+     "lng": 28.05
+    },
+    {
+     "names": [
+      "Cape Town",
+      "Citta del Capo"
+     ],
+     "lat": -33.92,
+     "lng": 18.42
+    }
+   ],
+   "leaders": [
+    "Ramaphosa"
+   ]
+  },
+  {
+   "iso2": "KR",
+   "name_en": "South Korea",
+   "name_it": "Corea del Sud",
+   "region": "asia",
+   "lat": 36.43,
+   "lng": 127.82,
+   "aliases": [
+    "Sud Corea",
+    "Corea Sud"
+   ],
+   "demonyms": {
+    "en": [
+     "South Korean",
+     "South Koreans"
+    ],
+    "it": [
+     "sudcoreano",
+     "sudcoreana",
+     "sudcoreani",
+     "sudcoreane"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Seoul",
+     "Seul"
+    ],
+    "lat": 37.57,
+    "lng": 126.98
+   },
+   "cities": [
+    {
+     "names": [
+      "Busan",
+      "Busan"
+     ],
+     "lat": 35.18,
+     "lng": 129.08
+    }
+   ],
+   "leaders": [
+    "Lee Jae-myung",
+    "Yoon Suk Yeol",
+    "Kospi",
+    "Samsung~0.3",
+    "Hyundai~0.3"
+   ]
+  },
+  {
+   "iso2": "SS",
+   "name_en": "South Sudan",
+   "name_it": "Sud Sudan",
+   "region": "africa",
+   "lat": 7.29,
+   "lng": 30.2,
+   "aliases": [
+    "Sudan del Sud",
+    "Sud Sudan"
+   ],
+   "demonyms": {
+    "en": [
+     "South Sudanese"
+    ],
+    "it": [
+     "sudsudanese",
+     "sudsudanesi"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Juba",
+     "Juba"
+    ],
+    "lat": 4.85,
+    "lng": 31.58
+   },
+   "cities": [],
+   "leaders": [
+    "Salva Kiir"
+   ]
+  },
+  {
+   "iso2": "ES",
+   "name_en": "Spain",
+   "name_it": "Spagna",
+   "region": "europe",
+   "lat": 40.35,
+   "lng": -3.62,
+   "aliases": [
+    "Espana"
+   ],
+   "demonyms": {
+    "en": [
+     "Spanish",
+     "Spaniard",
+     "Spaniards"
+    ],
+    "it": [
+     "spagnolo",
+     "spagnola",
+     "spagnoli",
+     "spagnole"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Madrid",
+     "Madrid"
+    ],
+    "lat": 40.42,
+    "lng": -3.7
+   },
+   "cities": [
+    {
+     "names": [
+      "Barcelona",
+      "Barcellona"
+     ],
+     "lat": 41.39,
+     "lng": 2.17
+    },
+    {
+     "names": [
+      "Valencia",
+      "Valencia"
+     ],
+     "lat": 39.47,
+     "lng": -0.38
+    },
+    {
+     "names": [
+      "Seville",
+      "Siviglia"
+     ],
+     "lat": 37.39,
+     "lng": -5.98
+    }
+   ],
+   "leaders": [
+    "Moncloa",
+    "Ibex 35",
+    "Pedro Sanchez"
+   ]
+  },
+  {
+   "iso2": "LK",
+   "name_en": "Sri Lanka",
+   "name_it": "Sri Lanka",
+   "region": "asia",
+   "lat": 7.7,
+   "lng": 80.67,
+   "aliases": [],
+   "demonyms": {
+    "en": [
+     "Sri Lankan",
+     "Sri Lankans"
+    ],
+    "it": [
+     "singalese",
+     "singalesi",
+     "srilankese",
+     "srilankesi"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Colombo",
+     "Colombo"
+    ],
+    "lat": 6.93,
+    "lng": 79.86
+   },
+   "cities": [],
+   "leaders": []
+  },
+  {
+   "iso2": "SD",
+   "name_en": "Sudan",
+   "name_it": "Sudan",
+   "region": "africa",
+   "lat": 15.99,
+   "lng": 29.86,
+   "aliases": [],
+   "demonyms": {
+    "en": [
+     "Sudanese"
+    ],
+    "it": [
+     "sudanese",
+     "sudanesi"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Khartoum",
+     "Khartum"
+    ],
+    "lat": 15.5,
+    "lng": 32.56
+   },
+   "cities": [
+    {
+     "names": [
+      "Port Sudan",
+      "Port Sudan"
+     ],
+     "lat": 19.62,
+     "lng": 37.22
+    },
+    {
+     "names": [
+      "Darfur",
+      "Darfur"
+     ],
+     "lat": 13.5,
+     "lng": 25.0
+    },
+    {
+     "names": [
+      "El Fasher",
+      "El Fasher"
+     ],
+     "lat": 13.63,
+     "lng": 25.35
+    }
+   ],
+   "leaders": [
+    "Burhan",
+    "Rapid Support Forces",
+    "Forze di supporto rapido",
+    "Hemedti"
+   ]
+  },
+  {
+   "iso2": "SR",
+   "name_en": "Suriname",
+   "name_it": "Suriname",
+   "region": "americas",
+   "lat": 4.12,
+   "lng": -55.91,
+   "aliases": [],
+   "demonyms": {
+    "en": [
+     "Surinamese"
+    ],
+    "it": [
+     "surinamese",
+     "surinamesi"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Paramaribo",
+     "Paramaribo"
+    ],
+    "lat": 5.85,
+    "lng": -55.2
+   },
+   "cities": [],
+   "leaders": []
+  },
+  {
+   "iso2": "SE",
+   "name_en": "Sweden",
+   "name_it": "Svezia",
+   "region": "europe",
+   "lat": 62.81,
+   "lng": 16.6,
+   "aliases": [],
+   "demonyms": {
+    "en": [
+     "Swedish",
+     "Swede",
+     "Swedes"
+    ],
+    "it": [
+     "svedese",
+     "svedesi"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Stockholm",
+     "Stoccolma"
+    ],
+    "lat": 59.33,
+    "lng": 18.07
+   },
+   "cities": [
+    {
+     "names": [
+      "Gothenburg",
+      "Goteborg"
+     ],
+     "lat": 57.71,
+     "lng": 11.97
+    }
+   ],
+   "leaders": [
+    "Kristersson"
+   ]
+  },
+  {
+   "iso2": "CH",
+   "name_en": "Switzerland",
+   "name_it": "Svizzera",
+   "region": "europe",
+   "lat": 46.79,
+   "lng": 8.12,
+   "aliases": [
+    "Svizzera"
+   ],
+   "demonyms": {
+    "en": [
+     "Swiss"
+    ],
+    "it": [
+     "svizzero",
+     "svizzera",
+     "svizzeri",
+     "svizzere"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Bern",
+     "Berna"
+    ],
+    "lat": 46.95,
+    "lng": 7.45
+   },
+   "cities": [
+    {
+     "names": [
+      "Zurich",
+      "Zurigo"
+     ],
+     "lat": 47.38,
+     "lng": 8.54
+    },
+    {
+     "names": [
+      "Geneva",
+      "Ginevra"
+     ],
+     "lat": 46.2,
+     "lng": 6.14
+    }
+   ],
+   "leaders": []
+  },
+  {
+   "iso2": "SY",
+   "name_en": "Syria",
+   "name_it": "Siria",
+   "region": "middle_east",
+   "lat": 35.01,
+   "lng": 38.54,
+   "aliases": [],
+   "demonyms": {
+    "en": [
+     "Syrian",
+     "Syrians"
+    ],
+    "it": [
+     "siriano",
+     "siriana",
+     "siriani",
+     "siriane"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Damascus",
+     "Damasco"
+    ],
+    "lat": 33.51,
+    "lng": 36.29
+   },
+   "cities": [
+    {
+     "names": [
+      "Aleppo",
+      "Aleppo"
+     ],
+     "lat": 36.2,
+     "lng": 37.13
+    },
+    {
+     "names": [
+      "Idlib",
+      "Idlib"
+     ],
+     "lat": 35.93,
+     "lng": 36.63
+    },
+    {
+     "names": [
+      "Latakia",
+      "Latakia"
+     ],
+     "lat": 35.52,
+     "lng": 35.78
+    }
+   ],
+   "leaders": [
+    "Assad",
+    "al-Sharaa",
+    "Sharaa",
+    "Jolani",
+    "Hayat Tahrir al-Sham"
+   ]
+  },
+  {
+   "iso2": "TW",
+   "name_en": "Taiwan",
+   "name_it": "Taiwan",
+   "region": "asia",
+   "lat": 23.74,
+   "lng": 120.97,
+   "aliases": [],
+   "demonyms": {
+    "en": [
+     "Taiwanese"
+    ],
+    "it": [
+     "taiwanese",
+     "taiwanesi"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Taipei",
+     "Taipei"
+    ],
+    "lat": 25.03,
+    "lng": 121.57
+   },
+   "cities": [
+    {
+     "names": [
+      "Kaohsiung",
+      "Kaohsiung"
+     ],
+     "lat": 22.63,
+     "lng": 120.3
+    },
+    {
+     "names": [
+      "Taiwan Strait",
+      "Stretto di Taiwan"
+     ],
+     "lat": 24.5,
+     "lng": 119.5
+    }
+   ],
+   "leaders": [
+    "Lai Ching-te",
+    "TSMC~0.4",
+    "Foxconn~0.3"
+   ]
+  },
+  {
+   "iso2": "TJ",
+   "name_en": "Tajikistan",
+   "name_it": "Tagikistan",
+   "region": "asia",
+   "lat": 38.58,
+   "lng": 71.03,
+   "aliases": [],
+   "demonyms": {
+    "en": [
+     "Tajik",
+     "Tajiks"
+    ],
+    "it": [
+     "tagiko",
+     "tagika",
+     "tagiki",
+     "tagike"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Dushanbe",
+     "Dushanbe"
+    ],
+    "lat": 38.56,
+    "lng": 68.78
+   },
+   "cities": [],
+   "leaders": []
+  },
+  {
+   "iso2": "TZ",
+   "name_en": "Tanzania",
+   "name_it": "Tanzania",
+   "region": "africa",
+   "lat": -6.26,
+   "lng": 34.75,
+   "aliases": [],
+   "demonyms": {
+    "en": [
+     "Tanzanian",
+     "Tanzanians"
+    ],
+    "it": [
+     "tanzaniano",
+     "tanzaniana",
+     "tanzaniani",
+     "tanzaniane"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Dodoma",
+     "Dodoma"
+    ],
+    "lat": -6.17,
+    "lng": 35.74
+   },
+   "cities": [
+    {
+     "names": [
+      "Dar es Salaam",
+      "Dar es Salaam"
+     ],
+     "lat": -6.79,
+     "lng": 39.21
+    },
+    {
+     "names": [
+      "Zanzibar",
+      "Zanzibar"
+     ],
+     "lat": -6.16,
+     "lng": 39.2
+    }
+   ],
+   "leaders": []
+  },
+  {
+   "iso2": "TH",
+   "name_en": "Thailand",
+   "name_it": "Thailandia",
+   "region": "asia",
+   "lat": 15.02,
+   "lng": 101.01,
+   "aliases": [
+    "Thailand"
+   ],
+   "demonyms": {
+    "en": [
+     "Thai"
+    ],
+    "it": [
+     "thailandese",
+     "thailandesi"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Bangkok",
+     "Bangkok"
+    ],
+    "lat": 13.76,
+    "lng": 100.5
+   },
+   "cities": [
+    {
+     "names": [
+      "Phuket",
+      "Phuket"
+     ],
+     "lat": 7.88,
+     "lng": 98.39
+    },
+    {
+     "names": [
+      "Chiang Mai",
+      "Chiang Mai"
+     ],
+     "lat": 18.79,
+     "lng": 98.98
+    }
+   ],
+   "leaders": [
+    "Anutin",
+    "Paetongtarn"
+   ]
+  },
+  {
+   "iso2": "TL",
+   "name_en": "Timor-Leste",
+   "name_it": "Timor Est",
+   "region": "asia",
+   "lat": -8.77,
+   "lng": 125.97,
+   "aliases": [
+    "East Timor",
+    "Timor Est",
+    "Timor Leste",
+    "Timor-Leste"
+   ],
+   "demonyms": {
+    "en": [
+     "Timorese"
+    ],
+    "it": [
+     "timorese",
+     "timoresi"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Dili",
+     "Dili"
+    ],
+    "lat": -8.56,
+    "lng": 125.57
+   },
+   "cities": [],
+   "leaders": []
+  },
+  {
+   "iso2": "TG",
+   "name_en": "Togo",
+   "name_it": "Togo",
+   "region": "africa",
+   "lat": 8.44,
+   "lng": 1.0,
+   "aliases": [
+    "=Togo"
+   ],
+   "demonyms": {
+    "en": [
+     "Togolese"
+    ],
+    "it": [
+     "togolese",
+     "togolesi"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Lome",
+     "Lome"
+    ],
+    "lat": 6.13,
+    "lng": 1.22
+   },
+   "cities": [],
+   "leaders": []
+  },
+  {
+   "iso2": "TO",
+   "name_en": "Tonga",
+   "name_it": "Tonga",
+   "region": "oceania",
+   "lat": -21.14,
+   "lng": -175.2,
+   "aliases": [
+    "=Tonga"
+   ],
+   "demonyms": {
+    "en": [
+     "Tongan",
+     "Tongans"
+    ],
+    "it": [
+     "tongano",
+     "tongana",
+     "tongani",
+     "tongane"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Nuku'alofa",
+     "Nuku'alofa"
+    ],
+    "lat": -21.14,
+    "lng": -175.2
+   },
+   "cities": [],
+   "leaders": []
+  },
+  {
+   "iso2": "TT",
+   "name_en": "Trinidad and Tobago",
+   "name_it": "Trinidad e Tobago",
+   "region": "americas",
+   "lat": 10.43,
+   "lng": -61.33,
+   "aliases": [
+    "Trinidad",
+    "Trinidad and Tobago",
+    "Trinidad e Tobago"
+   ],
+   "demonyms": {
+    "en": [
+     "Trinidadian",
+     "Trinidadians"
+    ],
+    "it": [
+     "trinidadiano",
+     "trinidadiana",
+     "trinidadiani",
+     "trinidadiane"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Port of Spain",
+     "Port of Spain"
+    ],
+    "lat": 10.65,
+    "lng": -61.51
+   },
+   "cities": [],
+   "leaders": []
+  },
+  {
+   "iso2": "TN",
+   "name_en": "Tunisia",
+   "name_it": "Tunisia",
+   "region": "africa",
+   "lat": 34.17,
+   "lng": 9.53,
+   "aliases": [],
+   "demonyms": {
+    "en": [
+     "Tunisian",
+     "Tunisians"
+    ],
+    "it": [
+     "tunisino",
+     "tunisina",
+     "tunisini",
+     "tunisine"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Tunis",
+     "Tunisi"
+    ],
+    "lat": 36.81,
+    "lng": 10.17
+   },
+   "cities": [
+    {
+     "names": [
+      "Sfax",
+      "Sfax"
+     ],
+     "lat": 34.74,
+     "lng": 10.76
+    }
+   ],
+   "leaders": [
+    "Saied"
+   ]
+  },
+  {
+   "iso2": "TR",
+   "name_en": "Turkey",
+   "name_it": "Turchia",
+   "region": "middle_east",
+   "lat": 38.99,
+   "lng": 35.39,
+   "aliases": [
+    "=Turkey",
+    "Turkiye",
+    "Turchia"
+   ],
+   "demonyms": {
+    "en": [
+     "Turkish",
+     "Turk",
+     "Turks"
+    ],
+    "it": [
+     "turco",
+     "turca",
+     "turchi",
+     "turche"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Ankara",
+     "Ankara"
+    ],
+    "lat": 39.93,
+    "lng": 32.86
+   },
+   "cities": [
+    {
+     "names": [
+      "Istanbul",
+      "Istanbul"
+     ],
+     "lat": 41.01,
+     "lng": 28.98
+    },
+    {
+     "names": [
+      "Izmir",
+      "Smirne"
+     ],
+     "lat": 38.42,
+     "lng": 27.14
+    }
+   ],
+   "leaders": [
+    "Erdogan",
+    "Fidan"
+   ]
+  },
+  {
+   "iso2": "TM",
+   "name_en": "Turkmenistan",
+   "name_it": "Turkmenistan",
+   "region": "asia",
+   "lat": 39.09,
+   "lng": 59.28,
+   "aliases": [],
+   "demonyms": {
+    "en": [
+     "Turkmen",
+     "Turkmens"
+    ],
+    "it": [
+     "turkmeno",
+     "turkmena",
+     "turkmeni",
+     "turkmene"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Ashgabat",
+     "Ashgabat"
+    ],
+    "lat": 37.96,
+    "lng": 58.33
+   },
+   "cities": [],
+   "leaders": []
+  },
+  {
+   "iso2": "TV",
+   "name_en": "Tuvalu",
+   "name_it": "Tuvalu",
+   "region": "oceania",
+   "lat": -8.52,
+   "lng": 179.2,
+   "aliases": [],
+   "demonyms": {
+    "en": [
+     "Tuvaluan",
+     "Tuvaluans"
+    ],
+    "it": [
+     "tuvaluano",
+     "tuvaluana",
+     "tuvaluani",
+     "tuvaluane"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Funafuti",
+     "Funafuti"
+    ],
+    "lat": -8.52,
+    "lng": 179.2
+   },
+   "cities": [],
+   "leaders": []
+  },
+  {
+   "iso2": "UG",
+   "name_en": "Uganda",
+   "name_it": "Uganda",
+   "region": "africa",
+   "lat": 1.3,
+   "lng": 32.36,
+   "aliases": [],
+   "demonyms": {
+    "en": [
+     "Ugandan",
+     "Ugandans"
+    ],
+    "it": [
+     "ugandese",
+     "ugandesi"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Kampala",
+     "Kampala"
+    ],
+    "lat": 0.35,
+    "lng": 32.58
+   },
+   "cities": [],
+   "leaders": [
+    "Museveni"
+   ]
+  },
+  {
+   "iso2": "UA",
+   "name_en": "Ukraine",
+   "name_it": "Ucraina",
+   "region": "europe",
+   "lat": 49.15,
+   "lng": 31.23,
+   "aliases": [
+    "Ukraina"
+   ],
+   "demonyms": {
+    "en": [
+     "Ukrainian",
+     "Ukrainians"
+    ],
+    "it": [
+     "ucraino",
+     "ucraina",
+     "ucraini",
+     "ucraine"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Kyiv",
+     "Kiev",
+     "Kyev"
+    ],
+    "lat": 50.45,
+    "lng": 30.52
+   },
+   "cities": [
+    {
+     "names": [
+      "Kharkiv",
+      "Kharkiv",
+      "Kharkov",
+      "Kharkiv",
+      "Charkiv"
+     ],
+     "lat": 49.99,
+     "lng": 36.23
+    },
+    {
+     "names": [
+      "Odesa",
+      "Odessa",
+      "Odesa"
+     ],
+     "lat": 46.48,
+     "lng": 30.73
+    },
+    {
+     "names": [
+      "Lviv",
+      "Leopoli",
+      "Lvov"
+     ],
+     "lat": 49.84,
+     "lng": 24.03
+    },
+    {
+     "names": [
+      "Donbass",
+      "Donbass",
+      "Donbas"
+     ],
+     "lat": 48.3,
+     "lng": 38.0
+    },
+    {
+     "names": [
+      "Crimea",
+      "Crimea",
+      "Krym"
+     ],
+     "lat": 45.0,
+     "lng": 34.0
+    },
+    {
+     "names": [
+      "Kherson",
+      "Kherson"
+     ],
+     "lat": 46.64,
+     "lng": 32.62
+    },
+    {
+     "names": [
+      "Zaporizhzhia",
+      "Zaporizhzhia",
+      "Zaporizhia",
+      "Zaporozhye",
+      "Zaporizhzhya"
+     ],
+     "lat": 47.84,
+     "lng": 35.14
+    },
+    {
+     "names": [
+      "Mariupol",
+      "Mariupol"
+     ],
+     "lat": 47.1,
+     "lng": 37.55
+    },
+    {
+     "names": [
+      "Donetsk",
+      "Donetsk"
+     ],
+     "lat": 48.0,
+     "lng": 37.8
+    },
+    {
+     "names": [
+      "Luhansk",
+      "Lugansk"
+     ],
+     "lat": 48.57,
+     "lng": 39.3
+    },
+    {
+     "names": [
+      "Dnipro",
+      "Dnipro"
+     ],
+     "lat": 48.46,
+     "lng": 35.05
+    }
+   ],
+   "leaders": [
+    "Zelensky",
+    "Zelenskyy",
+    "Zelenskiy",
+    "Zelenski",
+    "Syrskyi",
+    "Verkhovna Rada",
+    "Kuleba"
+   ]
+  },
+  {
+   "iso2": "AE",
+   "name_en": "United Arab Emirates",
+   "name_it": "Emirati Arabi Uniti",
+   "region": "middle_east",
+   "lat": 23.87,
+   "lng": 54.21,
+   "aliases": [
+    "=UAE",
+    "United Arab Emirates",
+    "Emirati Arabi",
+    "Emirati Uniti"
+   ],
+   "demonyms": {
+    "en": [
+     "Emirati",
+     "Emiratis"
+    ],
+    "it": [
+     "emiratino",
+     "emiratina",
+     "emiratini",
+     "emiratine"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Abu Dhabi",
+     "Abu Dhabi"
+    ],
+    "lat": 24.45,
+    "lng": 54.38
+   },
+   "cities": [
+    {
+     "names": [
+      "Dubai",
+      "Dubai"
+     ],
+     "lat": 25.2,
+     "lng": 55.27
+    }
+   ],
+   "leaders": []
+  },
+  {
+   "iso2": "GB",
+   "name_en": "United Kingdom",
+   "name_it": "Regno Unito",
+   "region": "europe",
+   "lat": 53.88,
+   "lng": -2.66,
+   "aliases": [
+    "=UK",
+    "=Uk",
+    "Britain",
+    "Great Britain",
+    "Gran Bretagna",
+    "England",
+    "Scotland",
+    "Wales",
+    "Inghilterra",
+    "Scozia",
+    "Galles",
+    "Northern Ireland",
+    "Irlanda del Nord",
+    "Regno Unito",
+    "Perfida Albione~0.2"
+   ],
+   "demonyms": {
+    "en": [
+     "British",
+     "Briton",
+     "Britons"
+    ],
+    "it": [
+     "britannico",
+     "britannica",
+     "britannici",
+     "britannice"
+    ]
+   },
+   "capital": {
+    "names": [
+     "London",
+     "Londra"
+    ],
+    "lat": 51.51,
+    "lng": -0.13
+   },
+   "cities": [
+    {
+     "names": [
+      "Manchester",
+      "Manchester"
+     ],
+     "lat": 53.48,
+     "lng": -2.24
+    },
+    {
+     "names": [
+      "Edinburgh",
+      "Edimburgo"
+     ],
+     "lat": 55.95,
+     "lng": -3.19
+    },
+    {
+     "names": [
+      "Belfast",
+      "Belfast"
+     ],
+     "lat": 54.6,
+     "lng": -5.93
+    },
+    {
+     "names": [
+      "Glasgow",
+      "Glasgow"
+     ],
+     "lat": 55.86,
+     "lng": -4.25
+    }
+   ],
+   "leaders": [
+    "Starmer",
+    "Downing Street",
+    "Westminster",
+    "Sunak",
+    "Bank of England",
+    "Banca d'Inghilterra",
+    "FTSE",
+    "Buckingham",
+    "Whitehall",
+    "King Charles",
+    "Re Carlo",
+    "Reform UK",
+    "Farage"
+   ]
+  },
+  {
+   "iso2": "US",
+   "name_en": "United States",
+   "name_it": "Stati Uniti",
+   "region": "americas",
+   "lat": 39.5,
+   "lng": -99.06,
+   "aliases": [
+    "=US",
+    "=USA",
+    "=Usa",
+    "United States of America",
+    "Stati Uniti d'America",
+    "=America~0.5",
+    "Uncle Sam",
+    "Etats-Unis",
+    "Unites States"
+   ],
+   "demonyms": {
+    "en": [
+     "American",
+     "Americans"
+    ],
+    "it": [
+     "americano",
+     "americana",
+     "americani",
+     "americane"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Washington",
+     "Washington"
+    ],
+    "lat": 38.9,
+    "lng": -77.04
+   },
+   "cities": [
+    {
+     "names": [
+      "New York",
+      "New York"
+     ],
+     "lat": 40.71,
+     "lng": -74.0
+    },
+    {
+     "names": [
+      "Los Angeles",
+      "Los Angeles"
+     ],
+     "lat": 34.05,
+     "lng": -118.24
+    },
+    {
+     "names": [
+      "Chicago",
+      "Chicago"
+     ],
+     "lat": 41.88,
+     "lng": -87.63
+    },
+    {
+     "names": [
+      "San Francisco",
+      "San Francisco"
+     ],
+     "lat": 37.77,
+     "lng": -122.42
+    },
+    {
+     "names": [
+      "Miami",
+      "Miami"
+     ],
+     "lat": 25.76,
+     "lng": -80.19
+    },
+    {
+     "names": [
+      "Texas",
+      "Texas"
+     ],
+     "lat": 31.0,
+     "lng": -100.0
+    },
+    {
+     "names": [
+      "California",
+      "California"
+     ],
+     "lat": 37.0,
+     "lng": -120.0
+    },
+    {
+     "names": [
+      "Florida",
+      "Florida"
+     ],
+     "lat": 28.0,
+     "lng": -82.0
+    },
+    {
+     "names": [
+      "Alaska",
+      "Alaska"
+     ],
+     "lat": 64.2,
+     "lng": -149.5
+    },
+    {
+     "names": [
+      "New Mexico",
+      "Nuovo Messico"
+     ],
+     "lat": 34.4,
+     "lng": -106.1
+    },
+    {
+     "names": [
+      "Atlanta",
+      "Atlanta"
+     ],
+     "lat": 33.75,
+     "lng": -84.39
+    },
+    {
+     "names": [
+      "Silicon Valley",
+      "Silicon Valley"
+     ],
+     "lat": 37.4,
+     "lng": -122.1
+    },
+    {
+     "names": [
+      "Guantanamo Bay"
+     ],
+     "lat": 19.9,
+     "lng": -75.1,
+     "weight": 0.2
+    }
+   ],
+   "leaders": [
+    "Trump",
+    "White House",
+    "Casa Bianca",
+    "Pentagon",
+    "Pentagono",
+    "Vance",
+    "Rubio",
+    "Hegseth",
+    "Capitol Hill",
+    "=Fed",
+    "Federal Reserve",
+    "Jerome Powell",
+    "Wall Street",
+    "Nasdaq",
+    "Dow Jones",
+    "S&P 500",
+    "Biden",
+    "Dipartimento di Stato",
+    "State Department",
+    "=Apple~0.3",
+    "Microsoft~0.3",
+    "Nvidia~0.3",
+    "Tesla~0.3",
+    "OpenAI~0.3",
+    "Boeing~0.3",
+    "Oval Office",
+    "Studio Ovale",
+    "Mar-a-Lago",
+    "Netflix~0.2",
+    "Pelosi",
+    "Musk~0.3",
+    "Bessent",
+    "Lutnick",
+    "Witkoff",
+    "Kushner"
+   ]
+  },
+  {
+   "iso2": "UY",
+   "name_en": "Uruguay",
+   "name_it": "Uruguay",
+   "region": "americas",
+   "lat": -32.78,
+   "lng": -56.0,
+   "aliases": [],
+   "demonyms": {
+    "en": [
+     "Uruguayan",
+     "Uruguayans"
+    ],
+    "it": [
+     "uruguaiano",
+     "uruguaiana",
+     "uruguaiani",
+     "uruguaiane"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Montevideo",
+     "Montevideo"
+    ],
+    "lat": -34.9,
+    "lng": -56.19
+   },
+   "cities": [],
+   "leaders": []
+  },
+  {
+   "iso2": "UZ",
+   "name_en": "Uzbekistan",
+   "name_it": "Uzbekistan",
+   "region": "asia",
+   "lat": 41.75,
+   "lng": 63.2,
+   "aliases": [],
+   "demonyms": {
+    "en": [
+     "Uzbek",
+     "Uzbeks"
+    ],
+    "it": [
+     "uzbeko",
+     "uzbeka",
+     "uzbeki",
+     "uzbeke"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Tashkent",
+     "Tashkent"
+    ],
+    "lat": 41.3,
+    "lng": 69.24
+   },
+   "cities": [
+    {
+     "names": [
+      "Samarkand",
+      "Samarcanda"
+     ],
+     "lat": 39.65,
+     "lng": 66.96
+    }
+   ],
+   "leaders": [
+    "Mirziyoyev"
+   ]
+  },
+  {
+   "iso2": "VU",
+   "name_en": "Vanuatu",
+   "name_it": "Vanuatu",
+   "region": "oceania",
+   "lat": -15.22,
+   "lng": 166.91,
+   "aliases": [],
+   "demonyms": {
+    "en": [
+     "Ni-Vanuatu",
+     "Ni-Vanuatus"
+    ],
+    "it": [
+     "vanuatuano",
+     "vanuatuana",
+     "vanuatuani",
+     "vanuatuane"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Port Vila",
+     "Port Vila"
+    ],
+    "lat": -17.73,
+    "lng": 168.32
+   },
+   "cities": [],
+   "leaders": []
+  },
+  {
+   "iso2": "VA",
+   "name_en": "Vatican City",
+   "name_it": "Citta del Vaticano",
+   "region": "europe",
+   "lat": 41.9,
+   "lng": 12.45,
+   "aliases": [
+    "Vatican",
+    "Vaticano",
+    "Santa Sede",
+    "Holy See"
+   ],
+   "demonyms": {
+    "en": [],
+    "it": [
+     "vaticano",
+     "vaticana",
+     "vaticani",
+     "vaticane"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Vatican City",
+     "Citta del Vaticano",
+     "Vaticano"
+    ],
+    "lat": 41.9,
+    "lng": 12.45
+   },
+   "cities": [],
+   "leaders": [
+    "Papa Leone",
+    "Pope Leo",
+    "Papa Francesco",
+    "Pope Francis",
+    "=Pope",
+    "San Pietro",
+    "Curia"
+   ]
+  },
+  {
+   "iso2": "VE",
+   "name_en": "Venezuela",
+   "name_it": "Venezuela",
+   "region": "americas",
+   "lat": 7.16,
+   "lng": -66.16,
+   "aliases": [],
+   "demonyms": {
+    "en": [
+     "Venezuelan",
+     "Venezuelans"
+    ],
+    "it": [
+     "venezuelano",
+     "venezuelana",
+     "venezuelani",
+     "venezuelane"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Caracas",
+     "Caracas"
+    ],
+    "lat": 10.49,
+    "lng": -66.88
+   },
+   "cities": [
+    {
+     "names": [
+      "Maracaibo",
+      "Maracaibo"
+     ],
+     "lat": 10.65,
+     "lng": -71.64
+    }
+   ],
+   "leaders": [
+    "Maduro",
+    "Delcy Rodriguez",
+    "Maria Corina Machado",
+    "Chavez~0.3",
+    "Cabello"
+   ]
+  },
+  {
+   "iso2": "VN",
+   "name_en": "Vietnam",
+   "name_it": "Vietnam",
+   "region": "asia",
+   "lat": 16.66,
+   "lng": 106.29,
+   "aliases": [],
+   "demonyms": {
+    "en": [
+     "Vietnamese"
+    ],
+    "it": [
+     "vietnamita"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Hanoi",
+     "Hanoi"
+    ],
+    "lat": 21.03,
+    "lng": 105.85
+   },
+   "cities": [
+    {
+     "names": [
+      "Ho Chi Minh City",
+      "Ho Chi Minh City",
+      "Saigon"
+     ],
+     "lat": 10.82,
+     "lng": 106.63
+    }
+   ],
+   "leaders": []
+  },
+  {
+   "iso2": "YE",
+   "name_en": "Yemen",
+   "name_it": "Yemen",
+   "region": "middle_east",
+   "lat": 15.91,
+   "lng": 47.54,
+   "aliases": [],
+   "demonyms": {
+    "en": [
+     "Yemeni",
+     "Yemenis"
+    ],
+    "it": [
+     "yemenita"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Sanaa",
+     "Sanaa"
+    ],
+    "lat": 15.35,
+    "lng": 44.2
+   },
+   "cities": [
+    {
+     "names": [
+      "Aden",
+      "Aden"
+     ],
+     "lat": 12.78,
+     "lng": 45.04
+    },
+    {
+     "names": [
+      "Hodeidah",
+      "Hodeida"
+     ],
+     "lat": 14.8,
+     "lng": 42.95
+    },
+    {
+     "names": [
+      "Red Sea",
+      "Mar Rosso",
+      "Bab el-Mandeb",
+      "Bab al-Mandab"
+     ],
+     "lat": 15.0,
+     "lng": 41.5
+    }
+   ],
+   "leaders": [
+    "Houthi",
+    "Houthis",
+    "Huthi",
+    "Huthis",
+    "Ansar Allah",
+    "Ansarullah"
+   ]
+  },
+  {
+   "iso2": "ZM",
+   "name_en": "Zambia",
+   "name_it": "Zambia",
+   "region": "africa",
+   "lat": -13.4,
+   "lng": 27.73,
+   "aliases": [],
+   "demonyms": {
+    "en": [
+     "Zambian",
+     "Zambians"
+    ],
+    "it": [
+     "zambiano",
+     "zambiana",
+     "zambiani",
+     "zambiane"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Lusaka",
+     "Lusaka"
+    ],
+    "lat": -15.39,
+    "lng": 28.32
+   },
+   "cities": [],
+   "leaders": [
+    "Hichilema"
+   ]
+  },
+  {
+   "iso2": "ZW",
+   "name_en": "Zimbabwe",
+   "name_it": "Zimbabwe",
+   "region": "africa",
+   "lat": -18.91,
+   "lng": 29.79,
+   "aliases": [],
+   "demonyms": {
+    "en": [
+     "Zimbabwean",
+     "Zimbabweans"
+    ],
+    "it": [
+     "zimbabwano",
+     "zimbabwana",
+     "zimbabwani",
+     "zimbabwane"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Harare",
+     "Harare"
+    ],
+    "lat": -17.83,
+    "lng": 31.05
+   },
+   "cities": [
+    {
+     "names": [
+      "Bulawayo",
+      "Bulawayo"
+     ],
+     "lat": -20.15,
+     "lng": 28.58
+    }
+   ],
+   "leaders": [
+    "Mnangagwa"
+   ]
+  },
+  {
+   "iso2": "XK",
+   "name_en": "Kosovo",
+   "name_it": "Kosovo",
+   "region": "europe",
+   "lat": 42.58,
+   "lng": 20.9,
+   "aliases": [],
+   "demonyms": {
+    "en": [
+     "Kosovar",
+     "Kosovars"
+    ],
+    "it": [
+     "kosovaro",
+     "kosovara",
+     "kosovari",
+     "kosovare"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Pristina",
+     "Pristina"
+    ],
+    "lat": 42.66,
+    "lng": 21.17
+   },
+   "cities": [],
+   "leaders": [
+    "Kurti"
+   ]
+  },
+  {
+   "iso2": "HK",
+   "name_en": "Hong Kong",
+   "name_it": "Hong Kong",
+   "region": "asia",
+   "lat": 22.32,
+   "lng": 114.17,
+   "aliases": [
+    "Hang Seng"
+   ],
+   "demonyms": {
+    "en": [
+     "Hongkonger",
+     "Hongkongers"
+    ],
+    "it": [
+     "hongkonghese",
+     "hongkonghesi"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Hong Kong",
+     "Hong Kong"
+    ],
+    "lat": 22.32,
+    "lng": 114.17
+   },
+   "cities": [],
+   "leaders": []
+  },
+  {
+   "iso2": "GL",
+   "name_en": "Greenland",
+   "name_it": "Groenlandia",
+   "region": "americas",
+   "lat": 74.77,
+   "lng": -41.5,
+   "aliases": [
+    "Greenland",
+    "Groenlandia"
+   ],
+   "demonyms": {
+    "en": [
+     "Greenlandic",
+     "Greenlandics"
+    ],
+    "it": [
+     "groenlandese",
+     "groenlandesi"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Nuuk",
+     "Nuuk"
+    ],
+    "lat": 64.18,
+    "lng": -51.72
+   },
+   "cities": [],
+   "leaders": []
+  },
+  {
+   "iso2": "EH",
+   "name_en": "Western Sahara",
+   "name_it": "Sahara Occidentale",
+   "region": "africa",
+   "lat": 24.29,
+   "lng": -12.14,
+   "aliases": [
+    "Western Sahara",
+    "Sahara Occidentale",
+    "Polisario"
+   ],
+   "demonyms": {
+    "en": [
+     "Sahrawi",
+     "Sahrawis"
+    ],
+    "it": [
+     "saharawi"
+    ]
+   },
+   "capital": {
+    "names": [
+     "Laayoune",
+     "El Aaiun"
+    ],
+    "lat": 27.15,
+    "lng": -13.2
+   },
+   "cities": [],
+   "leaders": []
+  },
+  {
+   "iso2": "EU",
+   "name_en": "European Union",
+   "name_it": "Unione Europea",
+   "region": "europe",
+   "lat": 50.85,
+   "lng": 4.35,
+   "aliases": [
+    "European Union",
+    "Unione Europea",
+    "=EU",
+    "=UE",
+    "=Ue",
+    "Eurozone",
+    "Eurozona",
+    "Euro area",
+    "Area euro"
+   ],
+   "demonyms": {
+    "en": [],
+    "it": []
+   },
+   "capital": {
+    "names": [
+     "Brussels",
+     "Bruxelles"
+    ],
+    "lat": 50.85,
+    "lng": 4.35,
+    "weight": 0.5
+   },
+   "cities": [],
+   "leaders": [
+    "von der Leyen",
+    "Kallas",
+    "Lagarde",
+    "=ECB",
+    "BCE",
+    "Banca centrale europea",
+    "European Central Bank",
+    "Eurogruppo",
+    "Commissione europea",
+    "European Commission",
+    "Parlamento europeo",
+    "European Parliament",
+    "Strasburgo",
+    "Schengen",
+    "Frontex",
+    "Eurostat",
+    "Consiglio europeo",
+    "European Council"
+   ]
+  }
+ ],
+ "ambiguous": [
+  {
+   "term": "Georgia",
+   "targets": {
+    "GE": 0.9
+   },
+   "context": [
+    {
+     "any": [
+      "atlanta",
+      "usa",
+      "us",
+      "trump",
+      "biden",
+      "senate",
+      "senato",
+      "savannah",
+      "peach",
+      "republican",
+      "democrat",
+      "democratico",
+      "repubblicano",
+      "gop",
+      "america",
+      "americano",
+      "american",
+      "stati",
+      "uniti",
+      "state",
+      "stato",
+      "governor",
+      "governatore",
+      "fulton",
+      "kemp",
+      "ossoff",
+      "warnock",
+      "texas",
+      "florida",
+      "alabama",
+      "carolina"
+     ],
+     "targets": {
+      "US": 0.9
+     }
+    },
+    {
+     "any": [
+      "tbilisi",
+      "caucaso",
+      "caucasus",
+      "sogno",
+      "dream",
+      "abkhazia",
+      "ossetia",
+      "ossezia",
+      "saakashvili",
+      "kobakhidze",
+      "kavelashvili",
+      "zourabichvili",
+      "russia",
+      "mosca",
+      "ue",
+      "eu",
+      "brussels",
+      "bruxelles",
+      "batumi"
+     ],
+     "targets": {
+      "GE": 1.0
+     }
+    }
+   ]
+  },
+  {
+   "term": "=Jordan",
+   "targets": {
+    "JO": 1.0
+   },
+   "reject_if_name_neighbor": true
+  },
+  {
+   "term": "=Chad",
+   "targets": {
+    "TD": 1.0
+   },
+   "reject_if_name_neighbor": true
+  },
+  {
+   "term": "=Turkey",
+   "targets": {
+    "TR": 1.0
+   },
+   "forbid_any": [
+    "thanksgiving",
+    "christmas",
+    "natale",
+    "roast",
+    "arrosto",
+    "butterball",
+    "gobbler",
+    "tacchino",
+    "turkeys",
+    "avian",
+    "aviaria",
+    "poultry"
+   ]
+  },
+  {
+   "term": "Congo",
+   "targets": {
+    "CD": 0.7,
+    "CG": 0.3
+   }
+  },
+  {
+   "term": "Congolese",
+   "targets": {
+    "CD": 0.55,
+    "CG": 0.25
+   }
+  },
+  {
+   "term": "Congolesi",
+   "targets": {
+    "CD": 0.55,
+    "CG": 0.25
+   }
+  },
+  {
+   "term": "Korea",
+   "targets": {
+    "KR": 0.7
+   }
+  },
+  {
+   "term": "Corea",
+   "targets": {
+    "KR": 0.7
+   }
+  },
+  {
+   "term": "Korean",
+   "targets": {
+    "KR": 0.6
+   }
+  },
+  {
+   "term": "Coreano",
+   "targets": {
+    "KR": 0.6
+   }
+  },
+  {
+   "term": "Coreana",
+   "targets": {
+    "KR": 0.6
+   }
+  },
+  {
+   "term": "Coreani",
+   "targets": {
+    "KR": 0.6
+   }
+  },
+  {
+   "term": "Coreane",
+   "targets": {
+    "KR": 0.6
+   }
+  },
+  {
+   "term": "Korean peninsula",
+   "targets": {
+    "KR": 0.5,
+    "KP": 0.5
+   }
+  },
+  {
+   "term": "Penisola coreana",
+   "targets": {
+    "KR": 0.5,
+    "KP": 0.5
+   }
+  },
+  {
+   "term": "=Monaco",
+   "targets": {
+    "DE": 0.5,
+    "MC": 0.4
+   },
+   "context": [
+    {
+     "any": [
+      "principato",
+      "grimaldi",
+      "ligue",
+      "montecarlo",
+      "carlo",
+      "prince",
+      "albert",
+      "casino",
+      "principality"
+     ],
+     "targets": {
+      "MC": 0.9
+     }
+    }
+   ]
+  },
+  {
+   "term": "Dominicano",
+   "targets": {
+    "DO": 0.8
+   }
+  },
+  {
+   "term": "Brussels",
+   "targets": {
+    "BE": 0.5,
+    "EU": 0.5
+   }
+  },
+  {
+   "term": "Bruxelles",
+   "targets": {
+    "BE": 0.5,
+    "EU": 0.5
+   }
+  }
+ ]
+}
