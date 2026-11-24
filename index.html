@@ -1,369 +1,255 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it" data-theme="dark">
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Global News Tracker</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="description" content="World-Informer: notizie dal mondo su un globo 3D, layer OSINT e impatto sui mercati.">
+    <title>World-Informer</title>
+    <script>
+        /* Applica il tema salvato prima del primo paint (evita il flash) */
+        try { if (localStorage.getItem('theme') === 'light') document.documentElement.setAttribute('data-theme', 'light'); } catch (e) { }
+    </script>
 
-    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-
-    <!-- Leaflet CSS for flat map -->
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/report.css">
 
-    <!-- Three.js + Globe.gl -->
-    <script src="lib/three.min.js"></script>
-    <script src="lib/globe.gl.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/satellite.js/5.0.0/satellite.min.js"></script>
-    <!-- Leaflet JS -->
-    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <!-- globe.gl include già three.js. Leaflet (mappa 2D), satellite.js (nel worker) e TradingView/YouTube si caricano solo quando servono. -->
+    <script defer src="lib/globe.gl.min.js"></script>
+    <script type="module" src="js/app.js"></script>
 </head>
 
 <body>
-    <div class="app-layout">
-        <main class="main-content">
+    <a class="skip-link" href="#sidebar">Vai al pannello notizie</a>
 
-            <!-- Header Overlay -->
-            <header class="main-header">
-                <div style="display: flex; align-items: center; gap: 12px;">
-                    <div class="header-title">
-                        <svg class="globe-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                            stroke-linecap="round" stroke-linejoin="round">
-                            <circle cx="12" cy="12" r="10"></circle>
-                            <line x1="2" y1="12" x2="22" y2="12"></line>
-                            <path
-                                d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z">
-                            </path>
-                        </svg>
-                        <div>
-                            <h1>Global News Tracker</h1>
-                            <p>Real-time world events monitoring</p>
-                        </div>
-                    </div>
-                    <button class="theme-toggle-btn" id="themeToggleBtn" title="Toggle dark/light mode"
-                        style="margin-left: 0;">
-                        <svg id="themeIcon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                            stroke-linecap="round" stroke-linejoin="round">
-                            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
-                        </svg>
+    <div class="app">
+        <header class="topbar">
+            <div class="brand">
+                <svg class="brand-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <line x1="2" y1="12" x2="22" y2="12"></line>
+                    <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+                </svg>
+                <h1>World-Informer</h1>
+            </div>
+
+            <button class="status" id="statusBtn" type="button" title="Aggiorna ora" aria-label="Stato dati. Premi per aggiornare ora">
+                <span class="live-dot" id="liveDot" aria-hidden="true"></span>
+                <span class="status-label">Aggiornato</span>
+                <span class="status-time" id="lastUpdate" aria-live="off">caricamento…</span>
+                <svg class="status-spin" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M21 12a9 9 0 1 1-3-6.7"></path><polyline points="21 3 21 9 15 9"></polyline></svg>
+            </button>
+
+            <div class="topbar-right">
+                <button class="btn" id="liveBtn" type="button" aria-expanded="false" aria-controls="livePanel">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="5" width="20" height="14" rx="2"></rect><polygon points="10 9 15 12 10 15 10 9"></polygon></svg>
+                    <span>Guarda dirette</span>
+                </button>
+                <button class="btn" id="mapToggle" type="button" aria-pressed="false">Mappa 2D</button>
+                <button class="icon-btn" id="themeToggle" type="button" title="Cambia tema" aria-label="Passa al tema chiaro">
+                    <svg id="themeIcon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"></svg>
+                </button>
+            </div>
+        </header>
+
+        <main class="stage">
+            <section class="map-wrap" aria-label="Mappa degli eventi">
+                <div id="globe"></div>
+                <div id="flatmap" hidden></div>
+                <div class="globe-skel" id="globeSkel" aria-hidden="true"></div>
+
+                <!-- Layer: raggruppati, con conteggi -->
+                <div class="layers" id="layers">
+                    <button class="layers-head" id="layersToggle" type="button" aria-expanded="true" aria-controls="layersBody">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg>
+                        <span>Layer</span>
+                        <span class="layers-sum" id="layersSum"></span>
+                        <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
                     </button>
-                </div>
-
-                <!-- Right side empty for now -->
-                <div></div>
-            </header>
-
-            <!-- Middle Row: Globe + Sidebar -->
-            <div class="main-content-row">
-                <!-- Map Area -->
-                <div class="map-wrapper">
-                    <button class="map-toggle-btn" id="mapToggleBtn">🗺 Flat Map</button>
-                    <!-- Floating Layer Panel (Left Side) -->
-                    <div class="floating-layers-panel" id="layerControls">
-                        <div class="flp-title">Layers</div>
-                        <button class="flp-toggle active" id="layerNews" data-layer="news" title="Global News">
-                            <span class="flp-icon">📰</span><span class="flp-label">News</span>
-                        </button>
-                        <button class="flp-toggle" id="layerFirms" data-layer="firms" title="NASA FIRMS">
-                            <span class="flp-icon">🔥</span><span class="flp-label">FIRMS</span>
-                        </button>
-                        <div class="flp-slider-wrap" id="frpSliderWrap">
-                            <input type="range" id="frpSlider" min="100" max="500" value="100" step="1">
-                            <span id="frpValue">100 MW</span>
+                    <div class="layers-body" id="layersBody">
+                        <div class="lgroup" role="group" aria-labelledby="lg-news">
+                            <h2 class="lgroup-t" id="lg-news">Notizie &amp; rischio</h2>
+                            <button class="layer-toggle active" id="layer-news" data-layer="news" type="button" aria-pressed="true" title="Notizie dal mondo"><span class="sw sw-sev" aria-hidden="true"></span><span class="layer-label">Notizie</span><span class="layer-count"></span></button>
+                            <button class="layer-toggle active" id="layer-risk" data-layer="risk" type="button" aria-pressed="true" title="Rischio paesi (markets.json)"><span class="sw sw-risk" aria-hidden="true"></span><span class="layer-label">Rischio paesi</span><span class="layer-count"></span></button>
                         </div>
-                        <button class="flp-toggle" id="layerEarthquakes" data-layer="earthquakes"
-                            title="USGS Earthquakes">
-                            <span class="flp-icon">🌍</span><span class="flp-label">Quakes</span>
-                        </button>
-                        <button class="flp-toggle" id="layerNuclear" data-layer="nuclear" title="Nuclear Plants">
-                            <span class="flp-icon">☢️</span><span class="flp-label">Strategic</span>
-                        </button>
-                        <button class="flp-toggle" id="layerConflicts" data-layer="conflicts"
-                            title="Active Conflict Zones">
-                            <span class="flp-icon">⚔️</span><span class="flp-label">Conflicts</span>
-                        </button>
-                        <button class="flp-toggle" id="layerFlights" data-layer="flights"
-                            title="Live Military & Emergency Flights">
-                            <span class="flp-icon">✈️</span><span class="flp-label">Flights</span>
-                        </button>
-                        <button class="flp-toggle" id="layerShips" data-layer="ships"
-                            title="Live Military & Rescue Ships">
-                            <span class="flp-icon">⚓</span><span class="flp-label">Navi</span>
-                        </button>
-                        <button class="flp-toggle" id="layerSatellites" data-layer="satellites"
-                            title="Live Real-Time Satellites">
-                            <span class="flp-icon">🛰️</span><span class="flp-label">Sats</span>
-                        </button>
-                        <button class="flp-toggle" id="layerGpsJam" data-layer="gpsjam"
-                            title="Live GPS Jamming / GNSS Interference">
-                            <span class="flp-icon">📡</span><span class="flp-label">GPS Jam</span>
-                        </button>
-                    </div>
-                    <div id="globe-container"></div>
-                    <div id="flat-map-container" style="display:none;width:100%;height:100%;"></div>
-                    <div class="map-footer">
-                        Global News Tracker &middot; <strong id="tracked-articles-count">0</strong> articles tracked
+                        <div class="lgroup" role="group" aria-labelledby="lg-mil">
+                            <h2 class="lgroup-t" id="lg-mil">Militare &amp; traffico</h2>
+                            <button class="layer-toggle" id="layer-flights" data-layer="flights" type="button" aria-pressed="false" title="Voli militari e in emergenza"><span class="sw" style="--c:#ffa31a" aria-hidden="true"></span><span class="layer-label">Voli</span><span class="layer-count"></span></button>
+                            <button class="layer-toggle" id="layer-ships" data-layer="ships" type="button" aria-pressed="false" title="Navi militari e di soccorso"><span class="sw" style="--c:#94a3c4" aria-hidden="true"></span><span class="layer-label">Navi</span><span class="layer-count"></span></button>
+                            <button class="layer-toggle" id="layer-nuclear" data-layer="nuclear" type="button" aria-pressed="false" title="Impianti nucleari"><span class="sw" style="--c:#facc15" aria-hidden="true"></span><span class="layer-label">Nucleare</span><span class="layer-count"></span></button>
+                            <button class="layer-toggle" id="layer-gpsjam" data-layer="gpsjam" type="button" aria-pressed="false" title="Interferenze GPS"><span class="sw" style="--c:#f59e0b" aria-hidden="true"></span><span class="layer-label">GPS Jam</span><span class="layer-count"></span></button>
+                        </div>
+                        <div class="lgroup" role="group" aria-labelledby="lg-env">
+                            <h2 class="lgroup-t" id="lg-env">Ambiente &amp; spazio</h2>
+                            <button class="layer-toggle" id="layer-quakes" data-layer="quakes" type="button" aria-pressed="false" title="Terremoti USGS (24h)"><span class="sw" style="--c:#ff7a1a" aria-hidden="true"></span><span class="layer-label">Terremoti</span><span class="layer-count"></span></button>
+                            <button class="layer-toggle" id="layer-firms" data-layer="firms" type="button" aria-pressed="false" title="NASA FIRMS — hotspot termici"><span class="sw" style="--c:#ff3228" aria-hidden="true"></span><span class="layer-label">Incendi</span><span class="layer-count"></span></button>
+                            <div class="frp" id="frpSliderWrap" hidden>
+                                <label for="frpSlider">FRP minimo</label>
+                                <input type="range" id="frpSlider" min="10" max="500" value="100" step="10">
+                                <output id="frpValue" for="frpSlider">100 MW</output>
+                            </div>
+                            <button class="layer-toggle" id="layer-radiation" data-layer="radiation" type="button" aria-pressed="false" title="Radiazioni (Safecast)"><span class="sw" style="--c:#22d3ee" aria-hidden="true"></span><span class="layer-label">Radiazioni</span><span class="layer-count"></span></button>
+                            <button class="layer-toggle" id="layer-satellites" data-layer="satellites" type="button" aria-pressed="false" title="Satelliti in tempo reale (calcolo in background)"><span class="sw" style="--c:#8aa4ff" aria-hidden="true"></span><span class="layer-label">Satelliti</span><span class="layer-count"></span></button>
+                        </div>
+                        <div class="legend legend-inline" aria-label="Legenda">
+                            <div class="legend-row"><span class="legend-t">Colore</span><span class="lg"><i class="d-minimal"></i>Minima</span><span class="lg"><i class="d-low"></i>Bassa</span><span class="lg"><i class="d-moderate"></i>Moderata</span><span class="lg"><i class="d-high"></i>Alta</span><span class="lg"><i class="d-severe"></i>Grave</span></div>
+                            <div class="legend-row"><span class="legend-t">Dimensione</span><span class="lg-size" aria-hidden="true"><i></i><i></i><i></i></span><span class="lg">= impatto</span></div>
+                        </div>
                     </div>
                 </div>
 
-                <!-- Right Sidebar -->
-                <aside class="right-sidebar">
-                    <!-- Sidebar Tabs -->
-                    <div class="sidebar-tabs">
-                        <button class="sidebar-tab active" id="tabNews" data-tab="news">📰 News</button>
-                        <button class="sidebar-tab" id="tabTelegram" data-tab="telegram">📡 Telegram</button>
-                        <button class="sidebar-tab" id="tabPizza" data-tab="pizza">🍕 Pizza Index</button>
+                <!-- Legenda (desktop): colore = gravità, dimensione = impatto -->
+                <div class="legend legend-float" aria-label="Legenda della mappa">
+                    <div class="legend-row"><span class="legend-t">Gravità</span><span class="lg"><i class="d-minimal"></i>Minima</span><span class="lg"><i class="d-low"></i>Bassa</span><span class="lg"><i class="d-moderate"></i>Moderata</span><span class="lg"><i class="d-high"></i>Alta</span><span class="lg"><i class="d-severe"></i>Grave</span></div>
+                    <div class="legend-row"><span class="legend-t">Impatto</span><span class="lg-size" aria-hidden="true"><i></i><i></i><i></i></span><span class="lg">dimensione del punto</span></div>
+                </div>
+
+                <!-- Dettaglio evento -->
+                <aside class="detail" id="detail" aria-labelledby="detailTitle">
+                    <div class="detail-bar">
+                        <button class="icon-btn" id="detailPrev" type="button" aria-label="Evento precedente" title="Evento precedente (K)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="18 15 12 9 6 15"></polyline></svg></button>
+                        <button class="icon-btn" id="detailNext" type="button" aria-label="Evento successivo" title="Evento successivo (J)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg></button>
+                        <span class="detail-bar-t">Dettaglio evento</span>
+                        <button class="icon-btn" id="detailClose" type="button" aria-label="Chiudi dettaglio" title="Chiudi (Esc)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg></button>
                     </div>
-
-                    <!-- News Tab Content -->
-                    <div class="tab-content" id="tabContentNews">
-                        <!-- Category Sub-Navigation (always visible) -->
-                        <div class="ansa-cat-filters">
-                            <button class="ansa-cat-btn active" data-cat="all">📰 Tutti</button>
-                            <button class="ansa-cat-btn" data-cat="Mondo">🌍 Mondo</button>
-                            <button class="ansa-cat-btn" data-cat="Economia">📈 Economia</button>
-                            <button class="ansa-cat-btn report-btn" id="openReportBtn">📊 Report 24h</button>
-                        </div>
-
-                        <!-- "Tutti" view: General News Feed -->
-                        <div id="news-view-all">
-                            <div class="feed-header">
-                                <div>
-                                    <h2>News Feed</h2>
-                                    <span class="article-count" id="sidebar-article-count">0 articles</span>
-                                </div>
-                                <div class="top-controls">
-                                    <button class="toggle-btn active" id="sortDateBtn">
-                                        <svg class="icon-small" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                            stroke-width="2">
-                                            <circle cx="12" cy="12" r="10"></circle>
-                                            <polyline points="12 6 12 12 16 14"></polyline>
-                                        </svg>
-                                        Date
-                                    </button>
-                                    <button class="toggle-btn" id="sortPriorityBtn">
-                                        <svg class="icon-small" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                            stroke-width="2">
-                                            <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
-                                        </svg>
-                                        Priority
-                                    </button>
-                                </div>
-                            </div>
-                            <div class="search-bar-wrapper">
-                                <div class="search-bar">
-                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                        stroke-linecap="round" stroke-linejoin="round">
-                                        <circle cx="11" cy="11" r="8"></circle>
-                                        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
-                                    </svg>
-                                    <input type="text" id="newsSearchInput" placeholder="Search news..."
-                                        autocomplete="off">
-                                </div>
-                            </div>
-                            <div class="news-list" id="unified-news-feed"></div>
-                        </div>
-
-                        <!-- "Mondo" view: ANSA Ultima Ora Mondo -->
-                        <div id="news-view-mondo" style="display: none;">
-                            <div class="feed-section-header">
-                                <span class="breaking-news-badge">LIVE</span>
-                                <h2>Ultima Ora — Mondo</h2>
-                            </div>
-                            <div id="ansa-feed-mondo" class="news-list"></div>
-                        </div>
-
-                        <!-- "Economia" view: ANSA Ultima Ora Economia -->
-                        <div id="news-view-economia" style="display: none;">
-                            <div class="feed-section-header">
-                                <span class="breaking-news-badge">LIVE</span>
-                                <h2>Ultima Ora — Economia</h2>
-                            </div>
-                            <div id="ansa-feed-economia" class="news-list"></div>
-                        </div>
-                    </div>
-
-                    <!-- Telegram Tab Content -->
-                    <div class="tab-content" id="tabContentTelegram" style="display:none;">
-                        <div class="feed-header">
-                            <h2>OSINT Feed</h2>
-                            <span class="article-count" id="telegram-msg-count">0 messages</span>
-                        </div>
-                        <div class="search-bar-wrapper">
-                            <div class="search-bar">
-                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                    stroke-linecap="round" stroke-linejoin="round">
-                                    <circle cx="11" cy="11" r="8"></circle>
-                                    <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
-                                </svg>
-                                <input type="text" id="telegramSearchInput" placeholder="Search OSINT..."
-                                    autocomplete="off">
-                            </div>
-                        </div>
-                        <div class="news-list" id="telegram-feed"></div>
-                    </div>
-
-                    <!-- Pizza Index Tab Content -->
-                    <div class="tab-content" id="tabContentPizza" style="display:none;">
-                        <div class="feed-header">
-                            <div>
-                                <h2>Pentagon Pizza Index</h2>
-                                <span class="article-count" id="pizza-status-label">Monitoring Readiness...</span>
-                            </div>
-                        </div>
-                        <div class="news-list" id="pizza-feed"></div>
-                    </div>
+                    <div class="detail-body" id="detailBody"></div>
                 </aside>
-            </div>
 
-            <!-- Bottom Bar -->
-            <footer class="bottom-bar">
-                <!-- Risk Strip — compact horizontal -->
-                <div class="risk-strip">
-                    <span class="risk-strip-label">🌐 Global Risk</span>
-                    <div class="risk-strip-items">
-                        <div class="risk-chip">
-                            <span>🇪🇺 Europe</span>
-                            <div class="risk-badge" id="risk-eu">Low</div>
-                            <span class="risk-meta" id="risk-count-eu">–</span>
-                            <span class="risk-meta risk-critical" id="risk-high-eu">–</span>
+                <!-- Dirette (YouTube caricato solo al click) -->
+                <aside class="live-panel" id="livePanel" aria-labelledby="liveTitle" hidden>
+                    <div class="detail-bar">
+                        <h2 class="detail-bar-t" id="liveTitle">Dirette</h2>
+                        <button class="icon-btn" id="liveClose" type="button" aria-label="Chiudi dirette" title="Chiudi (Esc)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg></button>
+                    </div>
+                    <p class="hint live-hint">Un solo video alla volta: scegli un'anteprima per avviarlo.</p>
+                    <ul class="live-list" id="liveList"></ul>
+                </aside>
+
+                <!-- Diretta ISS -->
+                <aside class="iss-card" id="issCard" hidden>
+                    <div class="iss-head"><strong>ISS — diretta NASA</strong>
+                        <button class="icon-btn tiny" id="issClose" type="button" aria-label="Chiudi diretta ISS">×</button></div>
+                    <div class="iss-frame"></div>
+                </aside>
+            </section>
+
+            <aside class="sidebar" id="sidebar" data-sheet="half" aria-label="Pannello laterale">
+                <button class="sheet-handle" id="sheetHandle" type="button" aria-label="Espandi o riduci il pannello"><span></span></button>
+                <div class="tabs" role="tablist" aria-label="Sezioni">
+                    <button class="tab on" role="tab" id="tab-news" data-tab="news" aria-selected="true" aria-controls="panel-news" type="button">Notizie</button>
+                    <button class="tab" role="tab" id="tab-markets" data-tab="markets" aria-selected="false" aria-controls="panel-markets" tabindex="-1" type="button">Mercati</button>
+                    <button class="tab" role="tab" id="tab-telegram" data-tab="telegram" aria-selected="false" aria-controls="panel-telegram" tabindex="-1" type="button">Telegram</button>
+                    <button class="tab" role="tab" id="tab-report" data-tab="report" aria-selected="false" aria-controls="panel-report" tabindex="-1" type="button">Report</button>
+                </div>
+
+                <!-- Notizie -->
+                <section class="panel" id="panel-news" role="tabpanel" aria-labelledby="tab-news">
+                    <div class="subnav seg" role="group" aria-label="Fonte delle notizie">
+                        <button class="on" data-cat="all" type="button" aria-pressed="true">Tutte</button>
+                        <button data-cat="Mondo" type="button" aria-pressed="false">ANSA Mondo</button>
+                        <button data-cat="Economia" type="button" aria-pressed="false">ANSA Economia</button>
+                    </div>
+
+                    <div class="news-all" id="newsAll">
+                        <div class="filters">
+                            <div class="search">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                                <input type="search" id="newsSearch" placeholder="Cerca titolo, luogo, fonte" autocomplete="off" aria-label="Cerca tra gli eventi" aria-keyshortcuts="/">
+                                <kbd class="kbd-slash" aria-hidden="true">/</kbd>
+                            </div>
+                            <div class="chips-scroll" id="typeChips" role="group" aria-label="Filtra per tipo di evento"></div>
+                            <div class="filters-row">
+                                <span class="muted small" id="newsCount" aria-live="polite"></span>
+                                <button class="link-btn" id="resetFilters" type="button" hidden>Azzera filtri</button>
+                                <span class="spacer"></span>
+                                <span class="seg seg-sm" role="group" aria-label="Ordinamento">
+                                    <button type="button" data-sort="score" class="on" aria-pressed="true">Impatto</button>
+                                    <button type="button" data-sort="recent" aria-pressed="false">Recenti</button>
+                                </span>
+                                <button class="btn btn-sm" id="filtersToggle" type="button" aria-expanded="false" aria-controls="filtersBody">Filtra <span class="count-badge" id="filtersBadge" hidden>0</span></button>
+                            </div>
+                            <div class="filter-grid" id="filtersBody" hidden>
+                                <label class="field"><span>Gravità minima</span>
+                                    <span class="range-row"><input type="range" id="minSev" min="0" max="9" step="0.5" value="0"><output id="minSevOut" for="minSev">Tutte</output></span>
+                                </label>
+                                <label class="field"><span>Regione</span>
+                                    <select id="regionSel"><option value="">Tutte</option></select>
+                                </label>
+                                <label class="field"><span>Settore (impatto ≥ 30)</span>
+                                    <select id="sectorSel"><option value="">Tutti</option></select>
+                                </label>
+                            </div>
                         </div>
-                        <div class="risk-chip">
-                            <span>🌎 Americas</span>
-                            <div class="risk-badge" id="risk-am">Med</div>
-                            <span class="risk-meta" id="risk-count-am">–</span>
-                            <span class="risk-meta risk-critical" id="risk-high-am">–</span>
-                        </div>
-                        <div class="risk-chip">
-                            <span>🌏 Asia</span>
-                            <div class="risk-badge" id="risk-as">Low</div>
-                            <span class="risk-meta" id="risk-count-as">–</span>
-                            <span class="risk-meta risk-critical" id="risk-high-as">–</span>
-                        </div>
-                        <div class="risk-chip">
-                            <span>🕌 Mid-East</span>
-                            <div class="risk-badge" id="risk-me">High</div>
-                            <span class="risk-meta" id="risk-count-me">–</span>
-                            <span class="risk-meta risk-critical" id="risk-high-me">–</span>
+                        <div class="feed" id="newsFeed" aria-label="Elenco eventi"></div>
+                        <p class="kbd-hint"><kbd>J</kbd> <kbd>K</kbd> scorri eventi · <kbd>/</kbd> cerca · <kbd>Esc</kbd> chiudi</p>
+                    </div>
+
+                    <div class="news-ansa" id="newsAnsa" hidden>
+                        <div class="section-head"><span class="badge">Live</span><h2 id="ansaTitle">Ultima ora</h2></div>
+                        <div class="feed" id="ansaFeed"></div>
+                    </div>
+                </section>
+
+                <!-- Mercati -->
+                <section class="panel" id="panel-markets" role="tabpanel" aria-labelledby="tab-markets" hidden>
+                    <div class="scroll">
+                        <section class="block" aria-labelledby="riskTitle">
+                            <div class="mk-head"><h2 id="riskTitle">Rischio per regione</h2></div>
+                            <p class="hint">Seleziona una regione per filtrare le notizie.</p>
+                            <div class="risk-list" id="riskItems"></div>
+                        </section>
+                        <div id="marketsView"></div>
+                        <section class="block" aria-labelledby="chartsTitle">
+                            <div class="mk-head"><h2 id="chartsTitle">Grafici</h2>
+                                <button class="btn btn-sm" id="addWidgetBtn" type="button" aria-expanded="false" aria-controls="chartPicker">Aggiungi grafico</button></div>
+                            <div class="chips-scroll picker-host" id="chartPicker" hidden></div>
+                            <div class="charts" id="chartsRow"></div>
+                            <p class="muted small" id="chartsEmpty" hidden>Nessun grafico attivo. Aggiungine uno per seguire un indice o una materia prima.</p>
+                        </section>
+                    </div>
+                </section>
+
+                <!-- Telegram -->
+                <section class="panel" id="panel-telegram" role="tabpanel" aria-labelledby="tab-telegram" hidden>
+                    <div class="filters">
+                        <div class="section-head"><h2>Feed OSINT</h2><span class="muted small" id="telegramCount"></span></div>
+                        <div class="search">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                            <input type="search" id="telegramSearch" placeholder="Cerca nei messaggi" autocomplete="off" aria-label="Cerca nei messaggi OSINT">
                         </div>
                     </div>
-                </div>
-                <!-- Charts Row — dynamically managed -->
-                <div class="charts-row" id="chartsRow"></div>
-                <button class="add-widget-btn" id="addWidgetBtn" title="Add stock widget">＋</button>
-            </footer>
+                    <div class="feed" id="telegramFeed"></div>
+                </section>
 
+                <!-- Report 24h -->
+                <section class="panel" id="panel-report" role="tabpanel" aria-labelledby="tab-report" hidden>
+                    <div class="report-head">
+                        <div><h2>Report delle ultime 24 ore</h2><p class="muted small" id="reportInlineTs"></p></div>
+                        <button class="btn btn-sm" id="expandReportBtn" type="button">Espandi report</button>
+                    </div>
+                    <div class="scroll report-inline" id="reportView"></div>
+                </section>
+            </aside>
         </main>
-
-        <!-- YouTube Livestreams Row (Scroll down to see) -->
-        <section class="livestreams-wrapper">
-            <h2 class="section-heading">📺 Live Coverage & OSINT Feeds</h2>
-            <div class="livestreams-container" id="livestreamsContainer">
-
-                <div class="stream-card">
-                    <div class="stream-title">Bloomberg Business News</div>
-                    <iframe src="https://www.youtube.com/embed/iEpJwprxDdk?autoplay=1&mute=1"
-                        title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        allowfullscreen></iframe>
-                </div>
-
-                <div class="stream-card">
-                    <div class="stream-title">Iran HD Camera</div>
-                    <iframe src="https://www.youtube.com/embed/-zGuR1qVKrU?autoplay=1&mute=1"
-                        title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        allowfullscreen></iframe>
-                </div>
-
-                <div class="stream-card">
-                    <div class="stream-title">Cameras in Israel, Iran, Syria and Middle East</div>
-                    <iframe src="https://www.youtube.com/embed/gmtlJ_m2r5A?autoplay=1&mute=1"
-                        title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        allowfullscreen></iframe>
-                </div>
-
-                <div class="stream-card">
-                    <div class="stream-title">Middle East real-time cameras</div>
-                    <iframe src="https://www.youtube.com/embed/4E-iFtUM2kk?autoplay=1&mute=1"
-                        title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        allowfullscreen></iframe>
-                </div>
-
-                <div class="stream-card">
-                    <div class="stream-title">CNBC Marathon</div>
-                    <iframe src="https://www.youtube.com/embed/9NyxcX3rhQs?autoplay=1&mute=1"
-                        title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        allowfullscreen></iframe>
-                </div>
-
-                <div class="stream-card">
-                    <div class="stream-title">Al Jazeera English</div>
-                    <iframe src="https://www.youtube.com/embed/gCNeDWCI0vo?autoplay=1&mute=1"
-                        title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        allowfullscreen></iframe>
-                </div>
-
-            </div>
-        </section>
-
     </div>
-    <!-- Daily Report Modal -->
-    <div class="report-modal" id="reportModal" style="display: none;">
-        <div class="report-overlay" id="reportOverlay"></div>
-        <div class="report-container">
-            <div class="report-header">
+
+    <!-- Report 24h a schermo intero -->
+    <div class="modal" id="reportModal" role="dialog" aria-modal="true" aria-labelledby="reportTitle" hidden>
+        <div class="modal-overlay" id="reportOverlay"></div>
+        <div class="modal-card">
+            <div class="modal-head">
                 <div>
-                    <h2>📊 Daily News Report</h2>
-                    <p id="reportTimestamp">Last 24 hours analysis</p>
+                    <h2 id="reportTitle">Report delle ultime 24 ore</h2>
+                    <p class="muted small" id="reportTimestamp"></p>
                 </div>
-                <button class="close-btn" id="closeReportBtn">&times;</button>
+                <button class="icon-btn" id="closeReportBtn" type="button" aria-label="Chiudi il report"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg></button>
             </div>
-            <div class="report-body">
-                <!-- Day at a Glance -->
-                <div class="report-section">
-                    <h3>🌍 Day at a Glance</h3>
-                    <div class="glance-grid" id="glanceGrid">
-                        <!-- Stats cards injected here -->
-                    </div>
-                </div>
-                <!-- Geographic Focus + Categories -->
-                <div class="report-grid">
-                    <div class="report-section">
-                        <h3>📍 Geographic Focus</h3>
-                        <div id="geoFocus"></div>
-                    </div>
-                    <div class="report-section">
-                        <h3>📂 Topic Categories</h3>
-                        <div id="catBreakdown"></div>
-                    </div>
-                </div>
-                <!-- Major Stories -->
-                <div class="report-section">
-                    <h3>🔝 Major Stories</h3>
-                    <div class="report-top-news" id="reportTopNews"></div>
-                </div>
-                <!-- Sources -->
-                <div class="report-section">
-                    <h3>📈 Source Volume</h3>
-                    <div class="volume-chart" id="volumeChart"></div>
-                </div>
-            </div>
+            <div class="modal-body" id="reportBody"></div>
         </div>
     </div>
-
-
-    <script src="js/script.js"></script>
 </body>
 
 </html>

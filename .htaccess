@@ -1,0 +1,42 @@
+# World-Informer — Apache config (served at /investment/)
+
+# --- Deny access to code, secrets, logs and internal data ------------------------------------
+<IfModule mod_authz_core.c>
+  <FilesMatch "(^\.env.*|.*\.(py|pyc|sh|lock|log)|requirements\.txt|\.gitignore|articles_store\.json)$">
+    Require all denied
+  </FilesMatch>
+</IfModule>
+<IfModule !mod_authz_core.c>
+  <FilesMatch "(^\.env.*|.*\.(py|pyc|sh|lock|log)|requirements\.txt|\.gitignore|articles_store\.json)$">
+    Order allow,deny
+    Deny from all
+  </FilesMatch>
+</IfModule>
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteRule ^(logs|collectors|engine|scripts|tests|docs|\.venv|venv|node_modules)(/|$) - [F,L]
+</IfModule>
+
+# no directory listings
+Options -Indexes
+
+# --- Caching: generated data is refreshed every ~10 min ------------------------------------
+<IfModule mod_headers.c>
+  <FilesMatch "^data.*\.json$|^(events|markets|report_daily)\.json$">
+    Header set Cache-Control "public, max-age=60"
+  </FilesMatch>
+  <FilesMatch "\.geojson$">
+    Header set Cache-Control "public, max-age=86400"
+  </FilesMatch>
+</IfModule>
+
+# --- Compression -------------------------------------------------------------------------------
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE application/json application/geo+json application/javascript text/javascript text/css text/html text/plain image/svg+xml
+</IfModule>
+
+<IfModule mod_mime.c>
+  AddType application/json .json
+  AddType application/geo+json .geojson
+</IfModule>
