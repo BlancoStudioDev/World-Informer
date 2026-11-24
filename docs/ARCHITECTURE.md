@@ -32,7 +32,7 @@ scripts/
   10min_update.sh       # wrapper cron (nome invariato: il crontab sul server punta qui)
   daily_update.sh       # wrapper cron (nome invariato)
   deploy.sh             # rsync verso blancostudio:/var/www/blancostudio.dev/public_html/investment
-index.html, js/app.js, css/style.css, lib/   # frontend statico
+web/                    # frontend React (Vite): src/ → build in web/dist (index.html + assets/), servito accanto a data/
 data/                   # output generati (gitignored)
 ```
 

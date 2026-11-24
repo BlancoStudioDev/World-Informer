@@ -25,3 +25,6 @@ media/
 
 # local tooling
 .claude/
+
+# frontend build
+web/dist/
